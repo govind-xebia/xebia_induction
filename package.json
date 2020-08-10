@@ -1,7 +1,8 @@
 {
   "name": "induction",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://govind-xebia.github.io/xebia_induction",
+  "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
