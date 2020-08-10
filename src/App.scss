@@ -1,0 +1,51 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+@import './styles/colors';
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+html{
+  font-size: 16px !important;
+  @media screen and (max-width: 1367px) {
+    font-size: 12px !important;
+  }
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.container-fluid{
+  width: 90% !important;
+  &.complete-width{
+    width: 100% !important;
+  }
+  
+  .btn{
+    font-size: 0.9rem;
+  }
+  text{
+    font-family: 'Poppins', sans-serif !important;
+  }
+}
+
+.carousel-control-prev, .carousel-control-next{
+  display: none;
+}
+
+.carousel-indicators{
+  bottom: -2.5rem;
+  li{
+    height: 0.5rem;
+    width: 0.5rem;
+    border: 2px solid $grey-1;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    transition: none;
+    &.active{
+      background-color: $grey-1;
+    }
+  }
+  
+}

@@ -1,0 +1,42 @@
+@import '../../styles/colors';
+
+.eventsWrapper{
+  margin-top: 10rem;
+  flex-direction: column;
+  margin-bottom: 10rem;
+}
+
+.eventCarousel{
+  padding: 6rem;
+}
+
+.eventImage{
+  max-height: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.contentCol{
+  align-items: center;
+  height: 500px;
+  display: flex;
+}
+
+.eventItemContent{
+  width: 80%;
+  margin: 0 auto;
+  h3{
+    color: $grey-1;
+    line-height: 1.5;
+  }
+  button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: none;
+    border: 1px solid $grey-2;
+    border-radius: 5px;
+    height: 3rem;
+    width: 3rem;
+  }
+}

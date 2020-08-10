@@ -1,0 +1,21 @@
+@import '../../styles/colors';
+
+.h5{
+  font-size: 3.125rem !important;
+  margin-bottom: 0;
+  color: $grey-1;
+  letter-spacing: 2px;
+}
+
+.p{
+  font-size: 1.25rem;
+  margin-bottom: 0;
+  color: $grey-1;
+  letter-spacing: 0.5px;
+}
+
+.cardImage{
+  display: flex;
+  align-items: center;
+  max-width: fit-content !important;
+}

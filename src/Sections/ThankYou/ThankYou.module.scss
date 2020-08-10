@@ -1,0 +1,23 @@
+@import '../../styles/colors';
+
+.thankYouWrapper{
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.thankYouTitle{
+  flex-grow: unset !important;
+  margin-bottom: 2rem;
+  h5{
+    color: $purple;
+    margin-bottom: 2rem;
+  }
+}
+
+.videoWrapper{
+  max-height: calc(100vh - 20rem);
+  width: 80%;
+  margin: 0 auto;
+}

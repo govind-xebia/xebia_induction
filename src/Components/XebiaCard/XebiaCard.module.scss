@@ -1,0 +1,47 @@
+@import '../../styles/colors';
+
+.xebiaCard{
+  height: 22.5rem;
+  max-width: 22.5rem;
+  text-align: center;
+  border-radius: 0.625rem !important;
+  border-color: $grey-3;
+  color: $grey-1;
+  margin: 0 auto;
+  &:hover{
+    cursor: pointer;
+  }
+  
+  img{
+    margin-top: 1.5rem
+  }
+
+  h4{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.41px;
+  }
+
+  p{
+    margin-top: 3.25rem;
+    letter-spacing: 0.29px;
+  }
+}
+.active{
+  &::before, &::after{
+    cursor: pointer;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    box-shadow: 0 0 0.5rem $grey-1;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    border-radius: 100px/10px;
+  }
+}
+
+.bigTitlePara{
+  margin-top: 1.75rem !important;
+}

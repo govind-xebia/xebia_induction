@@ -1,0 +1,54 @@
+@import '../../styles/colors';
+
+.treeWrapper{
+  position: relative;
+  height: 60rem;
+  margin-top: 3rem;
+}
+
+.verticalLine{
+  background-color: $grey-4;
+  width: 1px;
+  position: absolute;
+}
+
+.groupWrapper{
+  flex-direction: column;
+}
+
+.groupCarousel{
+  width: 23rem;
+}
+
+.xebiaGroup{
+  fill: rgb(255,255,255);
+  stroke-width: 1;
+  stroke: $grey-4;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.active{
+  fill: $grey-4;
+  stroke: #fff;
+  text{
+    fill: #fff !important;
+  }
+}
+
+.columnWise{
+  flex-direction: column;
+}
+
+.execPos{
+  justify-content: center;
+  display: flex;
+}
+
+.execWrapper{
+  height: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

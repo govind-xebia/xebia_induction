@@ -1,0 +1,109 @@
+
+@import '../../styles/colors.scss';
+@import '../../styles/mixins.scss';
+
+.policyWrapper{
+  margin-top: 5rem;
+}
+
+.policyImage{
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  h1{
+    font-size: 3.75rem;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    @include positionImageText(false);
+    color: #fff;
+    span{
+      font-size: 3.875rem;
+    }
+  }
+}
+
+.policyContentWrapper{
+  flex-direction: column;
+  margin-right: 10.5% !important;
+  padding-top: 6rem;
+}
+
+.leaveContentWrapper{
+  overflow-y: scroll;
+  flex-direction: column;
+  margin-right: 10.5% !important;
+}
+
+.leavePolicyTitle{
+  position: relative;
+  height: max-content;
+}
+
+.policyItems{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  h1{
+    font-size: 2rem;
+    display: block; 
+  }
+}
+
+.backBtn{
+  @include btn-interaction(#fff);
+  box-shadow: none !important;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 1rem !important;
+  border: 2px solid $grey-1 !important;
+}
+
+.backIcon{
+  color: $grey-1;
+  font-size: 1rem;
+}
+
+.leaveListWrapper{
+  max-height: calc(100vh - 7.125rem);
+}
+
+
+.leaveCard{
+  color: $grey-1;
+  min-height: 8.75rem;
+  margin-bottom: 1.5rem;
+  h5{
+    font-size: 1.4rem;
+  }
+  ul{
+    font-size: 1rem;
+    margin-top: 1.125rem;
+    padding-left: 1.5rem;
+    margin-bottom: 0;
+    max-height: calc(100% - 114px);
+    li{
+      margin-bottom: 0.625rem;
+    }
+  }
+}
+
+.policyCardWrapper{
+  margin-top: 2.5rem;
+}
+
+.policyCard{
+  margin-bottom: 2rem;
+  height: 17rem;
+  .card-body{
+    padding: 2.5rem !important;
+  }
+}

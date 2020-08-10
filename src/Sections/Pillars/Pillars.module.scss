@@ -1,0 +1,44 @@
+@import '../../styles/colors';
+
+.pillarsWrapper{
+  padding: 5rem 0;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardCol{
+  padding: 1.25rem;
+}
+
+.contentCard{
+  height: 47.5rem;
+  padding: 2.6rem 2.2rem;
+  margin-top: 1.25rem;
+  color: $grey-2;
+  border-radius: 0.625rem;
+  h5{
+    font-size: 1.5625rem;
+    letter-spacing: 0.45px;
+    margin-bottom: 2.0625rem;
+  }
+  ul{
+    margin-left: -2.575rem;
+    li::before {
+      content: "•"; 
+      color: $grey-2;
+      display: inline-block; 
+      width: 1rem;
+      margin-left: -1rem;
+    }
+    li{
+      color: $grey-1;
+      font-size: 1.25rem;
+      letter-spacing: 0.36px;
+      margin-bottom: 1.5625rem;
+      list-style: none;
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+}

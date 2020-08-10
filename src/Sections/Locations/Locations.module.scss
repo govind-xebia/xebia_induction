@@ -1,0 +1,46 @@
+@import "../../styles/colors";
+
+.locationsWrapper{
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+.locationName{
+  text-align: center;
+  color: $purple;
+  min-height: 1.7rem;
+  font-size: 1.25rem;
+}
+
+.locationContent{
+  padding-top: 2rem;
+}
+
+.mapWrapper{
+  position: relative;
+}
+
+.mapAsset{
+  width: 100% !important;
+}
+
+.mapMarker{
+  position: absolute;
+  z-index: 2;
+  display: inline-block;
+  flex-direction: column;
+  text-align: center;
+  transition: all 0.15s linear;
+  span{
+    visibility: hidden;
+  }
+  &:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    span{
+      visibility: visible;
+    }
+  }
+}

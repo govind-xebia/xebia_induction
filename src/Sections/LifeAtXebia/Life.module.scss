@@ -1,0 +1,39 @@
+@import '../../styles/mixins';
+
+.lifeImage{
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  background-position: 100% 0;
+  h1{
+    font-size: 3.75rem;
+    color: #fff;
+    position: absolute;
+    @include positionImageText(false);
+    color: #fff;
+    span{
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.lifeWrapper{
+  margin-top: 20rem;
+}
+
+.lifeContentWrapper{
+  flex-direction: column;
+  margin-left: 10.5% !important;
+  align-items: center;
+}
+
+.lifeCardWrapper{
+  margin-top: 4rem;
+}
+
+.lifeCard{
+  p{
+    text-align: left;
+  }
+}

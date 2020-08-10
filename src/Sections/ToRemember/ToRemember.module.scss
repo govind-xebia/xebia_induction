@@ -1,0 +1,73 @@
+@import "../../styles/colors.scss";
+
+.rememberWrapper{
+  height: 100vh;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center left -73%;
+  @media screen and (min-width: 1650px){
+    background-position: center left -65%;
+  }
+  @media screen and (min-width: 1920px){
+    background-position: center left -62%;
+  }
+  @media screen and (min-width: 1366px){
+  background-position: center left -63%;
+  }
+  h1{
+    color: $grey-1;
+    font-size: 6.1875rem;
+    width: max-content;
+    line-height: 0.96;
+    span{
+      font-size: 5.1875rem;
+    }
+  }
+}
+
+.rememberTextWrapper{
+  display: flex;
+  justify-content: center;
+  margin-left: 10.5% !important;
+}
+
+.dropShadow{
+  &::before, &::after{
+    cursor: pointer;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    box-shadow: 0 0 0.5rem $grey-1;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    border-radius: 100px/10px;
+  }
+}
+
+.remCard{
+  background-color: #FBFBFB;
+  color: $grey-1;
+  height: 33rem;
+  padding: 5rem;
+  h5{
+    font-size: 3.125rem;
+    color: $grey-4;
+    margin-bottom: 4rem;
+    letter-spacing: 0.9px;
+    span{
+      font-size: 1rem;
+      vertical-align: middle;
+    }
+  }
+  p{
+    font-size: 1rem;
+    letter-spacing: 0.36px;
+  }
+}
+
+.detailCard{
+  margin-right: 10.5% !important;
+}

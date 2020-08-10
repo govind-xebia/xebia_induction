@@ -1,0 +1,59 @@
+@import './colors';
+
+@mixin xebia-btn{
+  background: $grey-2 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 6px #00000029;
+  border-radius: 4px;
+  width: 11.3125;
+  height: 3.4375rem;
+  font-size: 1rem;
+  color: #fff;
+  letter-spacing: 0.02rem;
+  text-align: center;
+  border-color: $grey-2;
+  display: inline-block;
+  &:hover, &:focus, &:active, &.active {
+    @include btn-interaction($grey-2);
+    box-shadow:0px 1px 6px #00000029 !important;
+  }
+}
+
+@mixin btn-interaction($color){
+  cursor: pointer;
+  transition: none !important;  
+  background: $color 0% 0% no-repeat padding-box !important;
+  border-color: $color !important;
+}
+
+@mixin positionImageText($isRight){
+  top: 21rem;
+  @if ($isRight == true){
+    right: 3.5rem;
+  } @else {
+    left: 3.5rem;
+  }
+  @media (width: 1366px){
+    top: 20rem;
+    @if ($isRight == true){
+      right: 2rem;
+    } @else {
+      left: 2rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    top: 24rem;
+    @if ($isRight == true){
+      right: 5rem;
+    } @else {
+      left: 5rem;
+    }
+  }
+  @media (min-width: 1920px) {
+    top: 28rem;
+    @if ($isRight == true){
+      right: 9rem;
+    } @else {
+      left: 9rem;
+    }
+  }
+}
