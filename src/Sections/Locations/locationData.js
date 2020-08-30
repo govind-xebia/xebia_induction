@@ -19,8 +19,16 @@ export default [
     location: 'Pune',
     office: true,
     pos: {
-      right: '31.3%',
-      top: '40%'
+      right: '31.4%',
+      top: '40.4%'
+    }
+  },
+  {
+    location: 'Mumbai',
+    office: false,
+    pos: {
+      right: '31.4%',
+      top: '38.5%'
     }
   },
   {

@@ -1,11 +1,9 @@
 import madhur from './assets/people/madhur.png';
 import brijesh from './assets/people/brijesh.jpg';
-import ajay from './assets/people/ajaykabra.jpg';
 import vigit from './assets/people/vigit.jpg';
 import anurag from './assets/people/anurag.png';
 import shankar from './assets/people/shankar.jpg';
 import deepak from './assets/people/deepak.jpg';
-import jyotendra from './assets/people/jyot.jpg';
 import vipul from './assets/people/vipul.png';
 import anand from './assets/people/anand.png';
 import ashok from './assets/people/ashok.png';
@@ -148,16 +146,7 @@ export const groupData = {
       }
     ]
   },
-  xuk: {
-    people: [
-      {
-        name: "Jyotendra Thokchom",
-        dept: "Xebia UK",
-        title: "Director - Sales",
-        img: jyotendra
-      }
-    ]
-  },
+  xuk: {},
   xme: {
     people: [
       {
@@ -182,20 +171,15 @@ export const groupData = {
         title: "Head of Operations",
         img: madhur
       }
-    ],
-    hr: {
-      name: "Anwar Khan",
-      contact: "96549 97087",
-      email: "anwarkhan@xebia.com"
-    }
+    ]
   },
   xb: {
     people: [
       {
-        name: "Ajay Kabra",
+        name: "Madhur Arya",
         dept: "Xebia Bengaluru",
-        title: "Senior Director - XACT",
-        img: ajay
+        title: "Head of Operations",
+        img: madhur
       }
     ],
     hr: {
@@ -212,12 +196,7 @@ export const groupData = {
         title: "Head of Operations",
         img: madhur
       }
-    ],
-    hr: {
-      name: "Anwar Khan",
-      contact: "96549 97087",
-      email: "anwarkhan@xebia.com"
-    }
+    ]
   },
   xp: {
     people: [
@@ -233,11 +212,6 @@ export const groupData = {
         title: "Associate Director - Delivery",
         img: deepak
       }
-    ],
-    hr: {
-      name: "Anwar Khan",
-      contact: "96549 97087",
-      email: "anwarkhan@xebia.com"
-    }
+    ]
   }
 }

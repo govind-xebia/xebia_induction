@@ -7,6 +7,7 @@ import party from './assets/party.png';
 import calendar from './assets/calendar.svg';
 import gallery from './assets/gallery.svg';
 import cares from './assets/cares.svg';
+import giveIndia from './assets/giveIndia.svg';
 import { LazyLoadComponent } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
@@ -34,6 +35,11 @@ export default () => {
       icon: cares,
       title: 'Cares',
       desc: 'Xebia has tied up with Nudge Foundation (The /Nudge). The Nudge Foundation has helped 400+ million people in extreme poverty by giving them education and jobs to sustain themselves.'
+    },
+    {
+      icon: giveIndia,
+      title: 'GiveIndia Foundation',
+      desc: 'Xebia worked with give India during the COVID-19 pandemic to help fight the tragic imapct that the pandemic has left behind for the poor.'
     }
   ];
 

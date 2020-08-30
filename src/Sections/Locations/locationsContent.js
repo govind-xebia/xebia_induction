@@ -11,12 +11,12 @@ export default [
     icon: connection,
   },
   {
-    title: `${currentYear.getFullYear() - 2004}+`,
+    title: `${currentYear.getFullYear() - 2001}+`,
     desc: 'Glorious Years and Counting',
     icon: hourglass,
   },
   {
-    title: 17,
+    title: 18,
     desc: 'Global Presence',
     icon: worldwide,
   }

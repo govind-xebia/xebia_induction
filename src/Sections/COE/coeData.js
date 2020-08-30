@@ -1,7 +1,8 @@
-import Ajay from './assets/ajaykabra.jpg';
+import ajay from './assets/ajaykabra.jpg';
 import vikasmittal from './assets/vikasmittal.jpg';
 import ram from './assets/ram.png';
 import shekhargulati from './assets/shekhargulati.jpg';
+import mohan from './assets/mohan.png';
 
 export default [
   {
@@ -26,6 +27,12 @@ export default [
     title: "Ajay Kabra",
     smallDescription: "XACT (Agile Consulting and Transformation)",
     description: "Our Agile Consulting and Transformation (XACT) group was born in 2013 with a vision to bring radical solutions to emergent business problems. With business agility at the epicentre of thought process, it is rooted at the centre of our offerings which comprise of the most known frameworks, techniques and practices. The four core areas of the transformation include- end to end transformation, training and workshop, embracing agile practices at team and organization level and Dojo hyper learning program.",
-    src: Ajay
+    src: ajay
+  },
+  {
+    title: "Mohan Kumar",
+    smallDescription: "BFSI",
+    description: "",
+    src: mohan
   }
 ];

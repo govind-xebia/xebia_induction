@@ -20,7 +20,7 @@ export default () => {
   const renderPeople = loc => {
     if (loc) {
       const { people, hr } = groupData[loc];
-      return (
+      return  (people || hr) && (
         <Row className={styles.columnWise}>
           <Col className={styles.execPos}>
             {
