@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/xebia_induction/static/css/main.8590d1d0.chunk.css",
-    "main.js": "/xebia_induction/static/js/main.6e117b3b.chunk.js",
-    "main.js.map": "/xebia_induction/static/js/main.6e117b3b.chunk.js.map",
+    "main.js": "/xebia_induction/static/js/main.3718c668.chunk.js",
+    "main.js.map": "/xebia_induction/static/js/main.3718c668.chunk.js.map",
     "runtime-main.js": "/xebia_induction/static/js/runtime-main.1be1a2de.js",
     "runtime-main.js.map": "/xebia_induction/static/js/runtime-main.1be1a2de.js.map",
     "static/css/2.15f3cbba.chunk.css": "/xebia_induction/static/css/2.15f3cbba.chunk.css",
     "static/js/2.fdb9baf3.chunk.js": "/xebia_induction/static/js/2.fdb9baf3.chunk.js",
     "static/js/2.fdb9baf3.chunk.js.map": "/xebia_induction/static/js/2.fdb9baf3.chunk.js.map",
     "index.html": "/xebia_induction/index.html",
-    "precache-manifest.92ec461c02a6033586aaadaae9f12aff.js": "/xebia_induction/precache-manifest.92ec461c02a6033586aaadaae9f12aff.js",
+    "precache-manifest.e1cdc31a05dba915376097bf31242989.js": "/xebia_induction/precache-manifest.e1cdc31a05dba915376097bf31242989.js",
     "service-worker.js": "/xebia_induction/service-worker.js",
     "static/css/2.15f3cbba.chunk.css.map": "/xebia_induction/static/css/2.15f3cbba.chunk.css.map",
     "static/css/main.8590d1d0.chunk.css.map": "/xebia_induction/static/css/main.8590d1d0.chunk.css.map",
@@ -120,6 +120,6 @@
     "static/css/2.15f3cbba.chunk.css",
     "static/js/2.fdb9baf3.chunk.js",
     "static/css/main.8590d1d0.chunk.css",
-    "static/js/main.6e117b3b.chunk.js"
+    "static/js/main.3718c668.chunk.js"
   ]
 }

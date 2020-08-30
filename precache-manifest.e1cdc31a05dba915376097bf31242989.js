@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "84fa9f440610113a848adcbe1d18272f",
+    "revision": "34e0b220971f387d106f2f95cc50daf0",
     "url": "/xebia_induction/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xebia_induction/static/css/2.15f3cbba.chunk.css"
   },
   {
-    "revision": "49d7fd0dda045a5f1fc4",
+    "revision": "5115d6a1832fd10433ec",
     "url": "/xebia_induction/static/css/main.8590d1d0.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xebia_induction/static/js/2.fdb9baf3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "49d7fd0dda045a5f1fc4",
-    "url": "/xebia_induction/static/js/main.6e117b3b.chunk.js"
+    "revision": "5115d6a1832fd10433ec",
+    "url": "/xebia_induction/static/js/main.3718c668.chunk.js"
   },
   {
     "revision": "b4b85f978c4065306457",
