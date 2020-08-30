@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8062d8eafee9f9a003a76fce62aede97",
+    "revision": "84fa9f440610113a848adcbe1d18272f",
     "url": "/xebia_induction/index.html"
   },
   {
-    "revision": "f35768db89a6b62f151d",
-    "url": "/xebia_induction/static/css/2.b56a1793.chunk.css"
+    "revision": "46d1a8968b10a59b6751",
+    "url": "/xebia_induction/static/css/2.15f3cbba.chunk.css"
   },
   {
-    "revision": "f8fd298e534e802e59d7",
+    "revision": "49d7fd0dda045a5f1fc4",
     "url": "/xebia_induction/static/css/main.8590d1d0.chunk.css"
   },
   {
-    "revision": "f35768db89a6b62f151d",
-    "url": "/xebia_induction/static/js/2.ceadaf3d.chunk.js"
+    "revision": "46d1a8968b10a59b6751",
+    "url": "/xebia_induction/static/js/2.fdb9baf3.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/xebia_induction/static/js/2.ceadaf3d.chunk.js.LICENSE.txt"
+    "url": "/xebia_induction/static/js/2.fdb9baf3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f8fd298e534e802e59d7",
-    "url": "/xebia_induction/static/js/main.97a0519f.chunk.js"
+    "revision": "49d7fd0dda045a5f1fc4",
+    "url": "/xebia_induction/static/js/main.6e117b3b.chunk.js"
   },
   {
     "revision": "b4b85f978c4065306457",
@@ -34,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ad1cca31b7f374270271cdf849cd1d7d",
     "url": "/xebia_induction/static/media/agile.ad1cca31.png"
-  },
-  {
-    "revision": "da48a56c45ac101361f620a939d24c44",
-    "url": "/xebia_induction/static/media/ajaykabra.da48a56c.jpg"
   },
   {
     "revision": "4490666562fac9725916b79ff29ab293",
@@ -296,6 +292,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xebia_induction/static/media/github.9d98681e.png"
   },
   {
+    "revision": "1b88be4d08ebe6d4e74946725509788d",
+    "url": "/xebia_induction/static/media/giveIndia.1b88be4d.svg"
+  },
+  {
     "revision": "efe84bb276e4bf113f44779cacd1f007",
     "url": "/xebia_induction/static/media/glory.efe84bb2.jpg"
   },
@@ -308,10 +308,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xebia_induction/static/media/jira.6c74aa89.png"
   },
   {
-    "revision": "15dbff583c5ed8f0a5452274fd126b27",
-    "url": "/xebia_induction/static/media/jyot.15dbff58.jpg"
-  },
-  {
     "revision": "fe710dc47134eda118a3abd40beadc65",
     "url": "/xebia_induction/static/media/knowledge.fe710dc4.svg"
   },
@@ -322,6 +318,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "34f2e4f146ea0de7c978e99e8ae1da2d",
     "url": "/xebia_induction/static/media/map.34f2e4f1.svg"
+  },
+  {
+    "revision": "5173d0101a7b3439cc58dc83e4bd70df",
+    "url": "/xebia_induction/static/media/mohan.5173d010.png"
   },
   {
     "revision": "928023ff3989615feaa18362854f1afc",
