@@ -49,9 +49,7 @@ const ThingsToRemember = () => {
                         <h5>
                           {title} <span>{subtitle}</span>
                         </h5>
-                        <p>
-                          {description}
-                        </p>
+                        <p dangerouslySetInnerHTML={{ __html: description }} />
                       </div>
                     </Carousel.Item>
                   )

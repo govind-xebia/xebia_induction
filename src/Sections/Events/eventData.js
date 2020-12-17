@@ -4,7 +4,7 @@ import xebithon from './assets/xebithon.png';
 import xke from './assets/xke.png';
 import agile from './assets/agile.png';
 
-export default [
+const eventData = [
   {
     content: 'AgileNCR is an annual Agile software development conference.',
     image: agile,
@@ -31,3 +31,5 @@ export default [
     videoLink: null
   },
 ];
+
+export default eventData;

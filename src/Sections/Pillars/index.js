@@ -8,7 +8,7 @@ import styles from './Pillars.module.scss';
 import data from './pillarsData';
 
 const { cardContent, sectionData } = data;
-export default () => {
+const Pillars = () => {
 
   const toCamelCase = str => str.replace(/(?:^\w|[A-Z]|\b\w)/g, function(word, index) {
     return index === 0 ? word.toLowerCase() : word.toUpperCase();
@@ -81,3 +81,5 @@ export default () => {
     </Row>
   )
 };
+
+export default Pillars;

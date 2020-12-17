@@ -10,7 +10,7 @@ import sharepoint from './assets/sharepoint.png';
 import adp from './assets/adp.png';
 import tallie from './assets/tallie.jpg';
 
-export default {
+const toolsData = {
   in: [
     {
       logo: outlook,
@@ -35,7 +35,7 @@ export default {
     },
     {
       logo: xenie,
-      desc: "Xenie Desk- Xebia’s Internal HelpDesk - All HR, Admin and Finance related queries can be asked at Xenie- a mobile app for Xebia employees.",
+      desc: "Xenie Desk- Xebia’s Internal HelpDesk - All HR, Admin, Finance and ISMS related queries can be asked at Xenie - a mobile app for Xebia employees.",
       appLinks: {
         ios: 'https://apps.apple.com/in/app/xenie/id1518385987',
         android: 'https://play.google.com/store/apps/details?id=com.xebia.xebia_desk'
@@ -151,3 +151,5 @@ export default {
     }
   ]
 };
+
+export default toolsData;

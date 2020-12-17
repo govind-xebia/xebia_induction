@@ -1,4 +1,4 @@
-export default {
+const toRememberData = {
   in: [
     {
       title: "XFC",
@@ -8,7 +8,7 @@ export default {
     {
       title: "POSH",
       subtitle: null,
-      description: "Xebia commits to provide a workplace free from sexual harassment, and provide a mechanism for redressal of any complaints, without fear or threat of any reprisals in any form or manner."
+      description: "Xebia commits to provide a workplace free from sexual harassment, and provide a mechanism for redressal of any complaints, without fear or threat of any reprisals in any form or manner. <br/> <br/> The POSH policy document is available on Zoho."
     },
     {
       title: "Zoho People Update",
@@ -18,7 +18,7 @@ export default {
     {
       title: "ISMS",
       subtitle: "",
-      description: "Information security and management is one of the top priorities for Xebia. To ensure that all our employees are equipped with any information regarding ISMS"
+      description: "Information security and management is one of the top priorities for Xebia. To ensure that all our employees are equipped with any information regarding ISMS, all departments will talk about their ISMS compliance.. <br/> <br/> The ISMS policy document is available on Zoho."
     },
     {
       title: "Background Verification",
@@ -34,3 +34,5 @@ export default {
     }
   ]
 };
+
+export default toRememberData;

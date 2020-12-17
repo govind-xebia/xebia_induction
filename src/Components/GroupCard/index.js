@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap';
 
 import styles from './GroupCard.module.scss';
 
-export default ({
+const GroupCard = ({
   name,
   dept,
   title,
@@ -26,3 +26,5 @@ export default ({
     </Card.Body>
   </Card>
 );
+
+export default GroupCard;

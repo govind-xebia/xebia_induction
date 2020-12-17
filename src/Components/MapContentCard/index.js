@@ -3,7 +3,7 @@ import { Row, Col, Image } from 'react-bootstrap';
 
 import styles from './MapContentCard.module.scss';
 
-export default ({
+const MapContentCard = ({
   title,
   icon,
   desc
@@ -22,3 +22,5 @@ export default ({
     </Col>
   </Row>
 );
+
+export default MapContentCard;

@@ -9,9 +9,8 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 
 import styles from './Clients.module.scss';
 
-export default () => {
+const Clients = () => {
 
-  // grouping data for grid
   const array = [];
   const size = 5;
   while (clientsData.length > 0) {
@@ -82,3 +81,5 @@ export default () => {
     </Row>
   );
 };
+
+export default Clients;

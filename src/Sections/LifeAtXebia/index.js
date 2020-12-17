@@ -15,7 +15,7 @@ import galleryImages from './galleryImages';
 
 import styles from './Life.module.scss';
 
-export default () => {
+const LifeAtXebia = () => {
   const [showGallery, setShowGallery] = useState(false);
   const galleryData = galleryImages.reduce((state, payload) => {
     return state.concat({
@@ -117,3 +117,6 @@ export default () => {
     </Container>
   )
 };
+
+export default LifeAtXebia;
+

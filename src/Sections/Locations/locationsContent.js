@@ -4,7 +4,7 @@ import connection from './assets/connection.svg';
 
 const currentYear = new Date();
 
-export default [
+const locationContent = [
   {
     title: '2000+',
     desc: 'People Worldwide',
@@ -21,3 +21,5 @@ export default [
     icon: worldwide,
   }
 ];
+
+export default locationContent;

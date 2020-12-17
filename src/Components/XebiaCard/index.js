@@ -6,7 +6,7 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 
 import styles from './XebiaCard.module.scss';
 
-export default ({
+const XebiaCard = ({
   title,
   desc,
   icon,
@@ -40,3 +40,5 @@ export default ({
     </Card>
   )
 };
+
+export default XebiaCard;

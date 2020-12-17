@@ -4,7 +4,7 @@ import ram from './assets/ram.png';
 import shekhargulati from './assets/shekhargulati.jpg';
 import mohan from './assets/mohan.png';
 
-export default [
+const CoeData = [
   {
     title: "Shekhar Gulati",
     smallDescription: "Full Stack",
@@ -36,3 +36,5 @@ export default [
     src: mohan
   }
 ];
+
+export default CoeData;

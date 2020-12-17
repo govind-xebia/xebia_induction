@@ -3,7 +3,7 @@ import { Col } from 'react-bootstrap';
 
 import styles from './SectionTitle.module.scss';
 
-export default ({
+const SectionTitle =  ({
   title
 }) => (
   <Col className={styles.sectionTitle}>
@@ -12,3 +12,5 @@ export default ({
     </h1>
   </Col>
 );
+
+export default SectionTitle;

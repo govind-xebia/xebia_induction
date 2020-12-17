@@ -115,7 +115,7 @@ export const groupData = {
       {
         name: "Madhur Arya",
         dept: "Xebia Global Services",
-        title: "Head of Operations",
+        title: "Head Of Operations and Chief Information Security Officer",
         img: madhur
       },
       {
@@ -168,7 +168,7 @@ export const groupData = {
       {
         name: "Madhur Arya",
         dept: "Xebia Gurugram",
-        title: "Head of Operations",
+        title: "Head Of Operations and Chief Information Security Officer",
         img: madhur
       }
     ]
@@ -178,22 +178,17 @@ export const groupData = {
       {
         name: "Madhur Arya",
         dept: "Xebia Bengaluru",
-        title: "Head of Operations",
+        title: "Head Of Operations and Chief Information Security Officer",
         img: madhur
       }
-    ],
-    hr: {
-      name: "Sahil Bhatnagar",
-      contact: "99533 50705",
-      email: "sahil.bhatnagar@xebia.com"
-    }
+    ]
   },
   xg: {
     people: [
       {
         name: "Madhur Arya",
         dept: "Xebia Gurugram",
-        title: "Head of Operations",
+        title: "Head Of Operations and Chief Information Security Officer",
         img: madhur
       }
     ]

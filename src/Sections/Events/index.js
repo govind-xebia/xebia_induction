@@ -36,7 +36,7 @@ const EventItem = props => {
   );
 }
 
-export default () => {
+const Events = () => {
   return (
     <Row className={styles.eventsWrapper} id="events">
       <Col>
@@ -57,4 +57,6 @@ export default () => {
       </Col>
     </Row>
   );
-}; 
+};
+
+export default Events;

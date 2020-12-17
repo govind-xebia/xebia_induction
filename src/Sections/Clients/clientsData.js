@@ -29,125 +29,127 @@ import client28 from './logos/client-28.jpg';
 import client29 from './logos/client-29.png';
 import client30 from './logos/client-30.jpg';
 
-export default [
-    {
-      name: "HDFC",
-      image: client1
-    },
-    {
-      name: "HDFC",
-      image: client2
-    },
-    {
-      name: "HDFC",
-      image: client3
-    },
-    {
-      name: "HDFC",
-      image: client4
-    },
-    {
-      name: "HDFC",
-      image: client5
-    },
-    {
-      name: "HDFC",
-      image: client6
-    },
-    {
-      name: "HDFC",
-      image: client7
-    },
-    {
-      name: "HDFC",
-      image: client8
-    },
-    {
-      name: "HDFC",
-      image: client9
-    },
-    {
-      name: "HDFC",
-      image: client10
-    },
-    {
-      name: "HDFC",
-      image: client11
-    },
-    {
-      name: "HDFC",
-      image: client12
-    },
-    {
-      name: "HDFC",
-      image: client13
-    },
-    {
-      name: "HDFC",
-      image: client14
-    },
-    {
-      name: "HDFC",
-      image: client15
-    },
-    {
-      name: "HDFC",
-      image: client16
-    },
-    {
-      name: "Bouyban",
-      image: client17
-    },
-    {
-      name: "HDFC",
-      image: client18
-    },
-    {
-      name: "HDFC",
-      image: client19
-    },
-    {
-      name: "HDFC",
-      image: client20
-    },
-    {
-      name: "HDFC",
-      image: client21
-    },
-    {
-      name: "HDFC",
-      image: client22
-    },
-    {
-      name: "HDFC",
-      image: client23
-    },
-    {
-      name: "HDFC",
-      image: client24
-    },
-    {
-      name: "HDFC",
-      image: client25
-    },
-    {
-      name: "HDFC",
-      image: client26
-    },
-    {
-      name: "HDFC",
-      image: client27
-    },
-    {
-      name: "HDFC",
-      image: client28
-    },
-    {
-      name: "HDFC",
-      image: client29
-    },
-    {
-      name: "HDFC",
-      image: client30
-    }
-  ];
+const clientsData = [
+  {
+    name: "HDFC",
+    image: client1
+  },
+  {
+    name: "HDFC",
+    image: client2
+  },
+  {
+    name: "HDFC",
+    image: client3
+  },
+  {
+    name: "HDFC",
+    image: client4
+  },
+  {
+    name: "HDFC",
+    image: client5
+  },
+  {
+    name: "HDFC",
+    image: client6
+  },
+  {
+    name: "HDFC",
+    image: client7
+  },
+  {
+    name: "HDFC",
+    image: client8
+  },
+  {
+    name: "HDFC",
+    image: client9
+  },
+  {
+    name: "HDFC",
+    image: client10
+  },
+  {
+    name: "HDFC",
+    image: client11
+  },
+  {
+    name: "HDFC",
+    image: client12
+  },
+  {
+    name: "HDFC",
+    image: client13
+  },
+  {
+    name: "HDFC",
+    image: client14
+  },
+  {
+    name: "HDFC",
+    image: client15
+  },
+  {
+    name: "HDFC",
+    image: client16
+  },
+  {
+    name: "Bouyban",
+    image: client17
+  },
+  {
+    name: "HDFC",
+    image: client18
+  },
+  {
+    name: "HDFC",
+    image: client19
+  },
+  {
+    name: "HDFC",
+    image: client20
+  },
+  {
+    name: "HDFC",
+    image: client21
+  },
+  {
+    name: "HDFC",
+    image: client22
+  },
+  {
+    name: "HDFC",
+    image: client23
+  },
+  {
+    name: "HDFC",
+    image: client24
+  },
+  {
+    name: "HDFC",
+    image: client25
+  },
+  {
+    name: "HDFC",
+    image: client26
+  },
+  {
+    name: "HDFC",
+    image: client27
+  },
+  {
+    name: "HDFC",
+    image: client28
+  },
+  {
+    name: "HDFC",
+    image: client29
+  },
+  {
+    name: "HDFC",
+    image: client30
+  }
+];
+
+export default clientsData;
