@@ -24,10 +24,12 @@ import gallery23 from "./gallery/gallery-23.jpg";
 import gallery24 from "./gallery/gallery-24.jpg";
 import gallery25 from "./gallery/gallery-25.jpg";
 
-export default [
+const galleryImages = [
     gallery1,gallery2, gallery3,gallery4, gallery5,
     gallery6,gallery7, gallery8, gallery9, gallery10,
     gallery11,gallery12, gallery13, gallery14, gallery15,
     gallery16,gallery17, gallery18, gallery19, gallery20,
     gallery21,gallery22, gallery23, gallery24, gallery25
 ];
+
+export default galleryImages;

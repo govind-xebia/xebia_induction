@@ -1,6 +1,4 @@
-import React from 'react';
-
-export default () => (
+const OriginSvg = () => (
   <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 633.845 610.167">
     <defs>
       <filter id="c" x="41.767" y="21.336" width="570.466" height="485.875" filterUnits="userSpaceOnUse">
@@ -130,5 +128,7 @@ export default () => (
       </g>
     </g>
   </svg>
-
 );
+
+export default OriginSvg;
+

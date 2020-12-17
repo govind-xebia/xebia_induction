@@ -8,7 +8,7 @@ import awardsData from './awardsData';
 
 import styles from './Awards.module.scss';
 
-export default () => (
+const Awards = () => (
   <Row className={styles.awardsWrapper}>
     <Col>
       <SectionTitle
@@ -42,3 +42,5 @@ export default () => (
     </Col>
   </Row>
 );
+
+export default Awards;

@@ -1,8 +1,9 @@
-export default [
+const awardsData = [
   {
     title: "2019 - 2020",
     content: [
-      "Most Innovative Artificial Intelligence (AI) Solution of the Year by TechPlus Media"
+      "Most Innovative Artificial Intelligence (AI) Solution of the Year by TechPlus Media",
+      "Xebia Gurgaon office got certified ISO/IEC 27001:2013 standard"
     ]
   },
   {
@@ -48,3 +49,5 @@ export default [
     ]
   }
 ];
+
+export default awardsData;

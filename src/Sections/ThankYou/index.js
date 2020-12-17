@@ -5,7 +5,7 @@ import smiley from './smiley.svg';
 
 import styles from './ThankYou.module.scss'
 
-export default () => (
+const ThankYou = () => (
   <div className={styles.thankYouWrapper}>
     <div className={styles.thankYouTitle}>
       <SectionTitle
@@ -27,3 +27,5 @@ export default () => (
     </div>
   </div>
 );
+
+export default ThankYou;

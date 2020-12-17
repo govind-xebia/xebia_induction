@@ -14,7 +14,7 @@ import { contentData, policyData } from './policyData';
 
 import styles from './Policy.module.scss';
 
-export default () => {
+const Policy = () => {
   const [content, setContent] = useState('all');
   const { country } = useContext(CountryContext);  
   const policyContent = {
@@ -128,3 +128,5 @@ export default () => {
     </Container>
   )
 };
+
+export default Policy;

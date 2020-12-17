@@ -4,7 +4,7 @@ import { Row, Col, Button } from 'react-bootstrap';
 
 import styles from './Origins.module.scss'
 
-export default () => {
+const Origins = () => {
   const handleScroll = () => {
     document.querySelector('#pillars').scrollIntoView({ 
       behavior: 'smooth' 
@@ -27,3 +27,5 @@ export default () => {
     </Row>
   );
 };
+
+export default Origins;

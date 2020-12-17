@@ -7,8 +7,7 @@ import coeData from './coeData';
 
 import styles from './COE.module.scss';
 
-
-export default () => {
+const CoE = () => {
 
   const [selected, setSelected] = useState({index: 0, ...coeData[0]});
 
@@ -68,3 +67,5 @@ export default () => {
     </Row>
   )
 };
+
+export default CoE;

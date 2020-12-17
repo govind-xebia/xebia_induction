@@ -12,7 +12,7 @@ import styles from './Tools.module.scss';
 
 import toolsData from './toolsData';
 
-export default () => {
+const Tools = () => {
   const { country } = useContext(CountryContext);
   const countryTools = toolsData[country] || [];
   return (
@@ -64,3 +64,5 @@ export default () => {
     </Row>
   )
 };
+
+export default Tools;

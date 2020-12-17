@@ -4,7 +4,7 @@ import xebiaLogo from './xebiaLogo.svg';
 import welcome from './welcome.png';
 import styles from './Welcome.module.scss';
 
-export default () => {
+const Welcome = () => {
   const handleScroll = () => {
     document.querySelector('#origins').scrollIntoView({ 
       behavior: 'smooth' 
@@ -39,3 +39,5 @@ export default () => {
     </Row>
   );
 };
+
+export default Welcome;

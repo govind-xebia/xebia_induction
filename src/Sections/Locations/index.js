@@ -15,7 +15,7 @@ import styles from './Locations.module.scss';
 
 import data from './locationsContent';
 
-export default () => {
+const Locations = () => {
 
   const [hoverLocation, setHoverLocation] = useState(null);
 
@@ -72,4 +72,6 @@ export default () => {
       </Col>
     </Row>
   )
-}
+};
+
+export default Locations;

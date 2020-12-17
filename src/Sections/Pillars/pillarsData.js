@@ -3,7 +3,7 @@ import sharingKnowledge from "./icons/knowledge.svg";
 import customerIntimacy from "./icons/customer.svg";
 import quality from "./icons/quality.svg";
 
-export default {
+const PillarsData = {
   cardContent: [
     {
       title: "People First",
@@ -49,3 +49,5 @@ export default {
     ]
   }
 };
+
+export default PillarsData;

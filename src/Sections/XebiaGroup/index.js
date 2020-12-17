@@ -9,7 +9,7 @@ import styles from './XebiaGroup.module.scss';
 
 import { groupData, treeData, globalData, indiaData } from './groupData';
 
-export default () => {
+const XebiaGroup = () => {
   const [toggleGroup, setGroup] = useState(false);
   const [showLocation, setLocation] = useState(null);
 
@@ -170,3 +170,5 @@ export default () => {
     </Row>
   )
 };
+
+export default XebiaGroup;

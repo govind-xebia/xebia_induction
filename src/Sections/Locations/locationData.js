@@ -1,4 +1,4 @@
-export default [
+const locationData = [
   {
     location: 'Delhi',
     office: true,
@@ -144,3 +144,5 @@ export default [
     }
   }
 ];
+
+export default locationData;

@@ -1,7 +1,7 @@
 import React from 'react';
 import  styles from './HrCard.module.scss';
 
-export default ({
+const HrCard = ({
   name,
   contact,
   email
@@ -17,3 +17,5 @@ export default ({
     </div>
   </div>
 );
+
+export default HrCard;
