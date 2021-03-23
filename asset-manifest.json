@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/xebia_induction/static/css/main.0ec41e34.chunk.css",
-    "main.js": "/xebia_induction/static/js/main.4f47adce.chunk.js",
-    "main.js.map": "/xebia_induction/static/js/main.4f47adce.chunk.js.map",
+    "main.css": "/xebia_induction/static/css/main.10a3cf60.chunk.css",
+    "main.js": "/xebia_induction/static/js/main.4538f6cf.chunk.js",
+    "main.js.map": "/xebia_induction/static/js/main.4538f6cf.chunk.js.map",
     "runtime-main.js": "/xebia_induction/static/js/runtime-main.3c301885.js",
     "runtime-main.js.map": "/xebia_induction/static/js/runtime-main.3c301885.js.map",
-    "static/css/2.0bea6d1f.chunk.css": "/xebia_induction/static/css/2.0bea6d1f.chunk.css",
-    "static/js/2.be06939a.chunk.js": "/xebia_induction/static/js/2.be06939a.chunk.js",
-    "static/js/2.be06939a.chunk.js.map": "/xebia_induction/static/js/2.be06939a.chunk.js.map",
+    "static/css/2.e28927e3.chunk.css": "/xebia_induction/static/css/2.e28927e3.chunk.css",
+    "static/js/2.27565a59.chunk.js": "/xebia_induction/static/js/2.27565a59.chunk.js",
+    "static/js/2.27565a59.chunk.js.map": "/xebia_induction/static/js/2.27565a59.chunk.js.map",
     "index.html": "/xebia_induction/index.html",
-    "static/css/2.0bea6d1f.chunk.css.map": "/xebia_induction/static/css/2.0bea6d1f.chunk.css.map",
-    "static/css/main.0ec41e34.chunk.css.map": "/xebia_induction/static/css/main.0ec41e34.chunk.css.map",
-    "static/js/2.be06939a.chunk.js.LICENSE.txt": "/xebia_induction/static/js/2.be06939a.chunk.js.LICENSE.txt",
+    "static/css/2.e28927e3.chunk.css.map": "/xebia_induction/static/css/2.e28927e3.chunk.css.map",
+    "static/css/main.10a3cf60.chunk.css.map": "/xebia_induction/static/css/main.10a3cf60.chunk.css.map",
+    "static/js/2.27565a59.chunk.js.LICENSE.txt": "/xebia_induction/static/js/2.27565a59.chunk.js.LICENSE.txt",
     "static/media/adp.64f490db.png": "/xebia_induction/static/media/adp.64f490db.png",
     "static/media/agile.3a34d389.png": "/xebia_induction/static/media/agile.3a34d389.png",
     "static/media/anand.f6b09d8e.png": "/xebia_induction/static/media/anand.f6b09d8e.png",
@@ -115,9 +115,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3c301885.js",
-    "static/css/2.0bea6d1f.chunk.css",
-    "static/js/2.be06939a.chunk.js",
-    "static/css/main.0ec41e34.chunk.css",
-    "static/js/main.4f47adce.chunk.js"
+    "static/css/2.e28927e3.chunk.css",
+    "static/js/2.27565a59.chunk.js",
+    "static/css/main.10a3cf60.chunk.css",
+    "static/js/main.4538f6cf.chunk.js"
   ]
 }
