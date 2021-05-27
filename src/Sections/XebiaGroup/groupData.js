@@ -3,11 +3,12 @@ import brijesh from './assets/people/brijesh.jpg';
 import vigit from './assets/people/vigit.jpg';
 import anurag from './assets/people/anurag.png';
 import shankar from './assets/people/shankar.jpg';
-import deepak from './assets/people/deepak.jpg';
 import vipul from './assets/people/vipul.png';
 import anand from './assets/people/anand.png';
 import ashok from './assets/people/ashok.png';
 import glory from './assets/people/glory.jpg';
+import amit from './assets/people/amitsinha.png';
+import amitk from './assets/people/amitkatkar.png';
 
 import binx from './assets/logo/binx.png';
 import dataDriven from './assets/logo/data-driven.svg';
@@ -181,12 +182,7 @@ export const groupData = {
         title: "Head of Operations",
         img: madhur
       }
-    ],
-    hr: {
-      name: "Sahil Bhatnagar",
-      contact: "99533 50705",
-      email: "sahil.bhatnagar@xebia.com"
-    }
+    ]
   },
   xg: {
     people: [
@@ -207,10 +203,16 @@ export const groupData = {
         img: vigit
       },
       {
-        name: "Deepak Sharma",
+        name: "Amit Katkar",
+        dept: "Xebia Pune",
+        title: "Director - Delivery",
+        img: amitk
+      },
+      {
+        name: "Amit Sinha",
         dept: "Xebia Pune",
         title: "Associate Director - Delivery",
-        img: deepak
+        img: amit
       }
     ]
   }
