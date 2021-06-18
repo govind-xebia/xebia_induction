@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/xebia_induction/static/css/main.8590d1d0.chunk.css",
-    "main.js": "/xebia_induction/static/js/main.1462fe20.chunk.js",
-    "main.js.map": "/xebia_induction/static/js/main.1462fe20.chunk.js.map",
+    "main.js": "/xebia_induction/static/js/main.3ad78133.chunk.js",
+    "main.js.map": "/xebia_induction/static/js/main.3ad78133.chunk.js.map",
     "runtime-main.js": "/xebia_induction/static/js/runtime-main.1be1a2de.js",
     "runtime-main.js.map": "/xebia_induction/static/js/runtime-main.1be1a2de.js.map",
     "static/css/2.15f3cbba.chunk.css": "/xebia_induction/static/css/2.15f3cbba.chunk.css",
-    "static/js/2.aec73d8d.chunk.js": "/xebia_induction/static/js/2.aec73d8d.chunk.js",
-    "static/js/2.aec73d8d.chunk.js.map": "/xebia_induction/static/js/2.aec73d8d.chunk.js.map",
+    "static/js/2.c849636c.chunk.js": "/xebia_induction/static/js/2.c849636c.chunk.js",
+    "static/js/2.c849636c.chunk.js.map": "/xebia_induction/static/js/2.c849636c.chunk.js.map",
     "index.html": "/xebia_induction/index.html",
-    "precache-manifest.6b681b450ed33c6b964e18b3d22caaa6.js": "/xebia_induction/precache-manifest.6b681b450ed33c6b964e18b3d22caaa6.js",
+    "precache-manifest.dda6ec9aa60573d9040bc9b3343e3d51.js": "/xebia_induction/precache-manifest.dda6ec9aa60573d9040bc9b3343e3d51.js",
     "service-worker.js": "/xebia_induction/service-worker.js",
     "static/css/2.15f3cbba.chunk.css.map": "/xebia_induction/static/css/2.15f3cbba.chunk.css.map",
     "static/css/main.8590d1d0.chunk.css.map": "/xebia_induction/static/css/main.8590d1d0.chunk.css.map",
-    "static/js/2.aec73d8d.chunk.js.LICENSE.txt": "/xebia_induction/static/js/2.aec73d8d.chunk.js.LICENSE.txt",
+    "static/js/2.c849636c.chunk.js.LICENSE.txt": "/xebia_induction/static/js/2.c849636c.chunk.js.LICENSE.txt",
     "static/media/adp.png": "/xebia_induction/static/media/adp.de99e942.png",
     "static/media/agile.png": "/xebia_induction/static/media/agile.ad1cca31.png",
     "static/media/amitkatkar.png": "/xebia_induction/static/media/amitkatkar.f2a9671b.png",
+    "static/media/amitsinha.png": "/xebia_induction/static/media/amitsinha.234249b9.png",
     "static/media/anand.png": "/xebia_induction/static/media/anand.44906665.png",
     "static/media/anurag.png": "/xebia_induction/static/media/anurag.c17ce72e.png",
     "static/media/ashok.png": "/xebia_induction/static/media/ashok.257df14f.png",
@@ -120,8 +121,8 @@
   "entrypoints": [
     "static/js/runtime-main.1be1a2de.js",
     "static/css/2.15f3cbba.chunk.css",
-    "static/js/2.aec73d8d.chunk.js",
+    "static/js/2.c849636c.chunk.js",
     "static/css/main.8590d1d0.chunk.css",
-    "static/js/main.1462fe20.chunk.js"
+    "static/js/main.3ad78133.chunk.js"
   ]
 }

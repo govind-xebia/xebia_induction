@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/xebia_induction/precache-manifest.6b681b450ed33c6b964e18b3d22caaa6.js"
+  "/xebia_induction/precache-manifest.dda6ec9aa60573d9040bc9b3343e3d51.js"
 );
 
 self.addEventListener('message', (event) => {

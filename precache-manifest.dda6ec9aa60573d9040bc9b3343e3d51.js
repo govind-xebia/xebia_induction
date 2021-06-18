@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d8ffb6d69c79dd75a6758e81fed5dfd3",
+    "revision": "a551722ecfe68aa609b978706dd62946",
     "url": "/xebia_induction/index.html"
   },
   {
-    "revision": "f10adac906deffea76c6",
+    "revision": "9bb664ca5e65d3654cfa",
     "url": "/xebia_induction/static/css/2.15f3cbba.chunk.css"
   },
   {
-    "revision": "5e9f5376d973ba18130e",
+    "revision": "7537e0528b55822a4508",
     "url": "/xebia_induction/static/css/main.8590d1d0.chunk.css"
   },
   {
-    "revision": "f10adac906deffea76c6",
-    "url": "/xebia_induction/static/js/2.aec73d8d.chunk.js"
+    "revision": "9bb664ca5e65d3654cfa",
+    "url": "/xebia_induction/static/js/2.c849636c.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/xebia_induction/static/js/2.aec73d8d.chunk.js.LICENSE.txt"
+    "url": "/xebia_induction/static/js/2.c849636c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5e9f5376d973ba18130e",
-    "url": "/xebia_induction/static/js/main.1462fe20.chunk.js"
+    "revision": "7537e0528b55822a4508",
+    "url": "/xebia_induction/static/js/main.3ad78133.chunk.js"
   },
   {
     "revision": "b4b85f978c4065306457",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f2a9671b89d2622cb82ad0697bb6e6f3",
     "url": "/xebia_induction/static/media/amitkatkar.f2a9671b.png"
+  },
+  {
+    "revision": "234249b98bc7c35518a2e522d85e17d4",
+    "url": "/xebia_induction/static/media/amitsinha.234249b9.png"
   },
   {
     "revision": "4490666562fac9725916b79ff29ab293",
