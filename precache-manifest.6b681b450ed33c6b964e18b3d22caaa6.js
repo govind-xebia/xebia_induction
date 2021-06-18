@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b05b28de7a9518d8f579eb2d8cb83ae7",
+    "revision": "d8ffb6d69c79dd75a6758e81fed5dfd3",
     "url": "/xebia_induction/index.html"
   },
   {
-    "revision": "2bea1ebc19c5317a2196",
+    "revision": "f10adac906deffea76c6",
     "url": "/xebia_induction/static/css/2.15f3cbba.chunk.css"
   },
   {
-    "revision": "6f317b82287eefd4c15c",
+    "revision": "5e9f5376d973ba18130e",
     "url": "/xebia_induction/static/css/main.8590d1d0.chunk.css"
   },
   {
-    "revision": "2bea1ebc19c5317a2196",
-    "url": "/xebia_induction/static/js/2.f4097ae0.chunk.js"
+    "revision": "f10adac906deffea76c6",
+    "url": "/xebia_induction/static/js/2.aec73d8d.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/xebia_induction/static/js/2.f4097ae0.chunk.js.LICENSE.txt"
+    "url": "/xebia_induction/static/js/2.aec73d8d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6f317b82287eefd4c15c",
-    "url": "/xebia_induction/static/js/main.23805b73.chunk.js"
+    "revision": "5e9f5376d973ba18130e",
+    "url": "/xebia_induction/static/js/main.1462fe20.chunk.js"
   },
   {
     "revision": "b4b85f978c4065306457",
@@ -38,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f2a9671b89d2622cb82ad0697bb6e6f3",
     "url": "/xebia_induction/static/media/amitkatkar.f2a9671b.png"
-  },
-  {
-    "revision": "234249b98bc7c35518a2e522d85e17d4",
-    "url": "/xebia_induction/static/media/amitsinha.234249b9.png"
   },
   {
     "revision": "4490666562fac9725916b79ff29ab293",
@@ -352,6 +348,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xebia_induction/static/media/quality.96aa17f8.svg"
   },
   {
+    "revision": "5ffdfc2946be8138465b0d6bfc5b3bec",
+    "url": "/xebia_induction/static/media/rajat.5ffdfc29.jpg"
+  },
+  {
     "revision": "53a7014956adf170c83e44516dd8e741",
     "url": "/xebia_induction/static/media/ram.53a70149.png"
   },
@@ -390,6 +390,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cbf6ead464cf9c8593bf4ec3f1943a73",
     "url": "/xebia_induction/static/media/vigit.cbf6ead4.jpg"
+  },
+  {
+    "revision": "2bd5a6c3c47821e1b08c826c5c1fce5b",
+    "url": "/xebia_induction/static/media/vikasa.2bd5a6c3.png"
   },
   {
     "revision": "58c05502813f3e2614e14c6ca831212e",
