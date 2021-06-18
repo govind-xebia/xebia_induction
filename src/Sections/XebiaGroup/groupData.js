@@ -7,8 +7,8 @@ import vipul from './assets/people/vipul.png';
 import anand from './assets/people/anand.png';
 import ashok from './assets/people/ashok.png';
 import glory from './assets/people/glory.jpg';
-import amit from './assets/people/amitsinha.png';
 import amitk from './assets/people/amitkatkar.png';
+import vikas from './assets/people/vikasa.png';
 
 import binx from './assets/logo/binx.png';
 import dataDriven from './assets/logo/data-driven.svg';
@@ -116,7 +116,7 @@ export const groupData = {
       {
         name: "Madhur Arya",
         dept: "Xebia Global Services",
-        title: "Head of Operations",
+        title: "Head Of Operations and Chief Information Security Officer",
         img: madhur
       },
       {
@@ -169,7 +169,7 @@ export const groupData = {
       {
         name: "Madhur Arya",
         dept: "Xebia Gurugram",
-        title: "Head of Operations",
+        title: "Head Of Operations and Chief Information Security Officer",
         img: madhur
       }
     ]
@@ -179,8 +179,14 @@ export const groupData = {
       {
         name: "Madhur Arya",
         dept: "Xebia Bengaluru",
-        title: "Head of Operations",
+        title: "Head Of Operations and Chief Information Security Officer",
         img: madhur
+      },
+      {
+        name: "Vikas Agarwal",
+        dept: "Xebia Bengaluru",
+        title: "Director - Delivery",
+        img: vikas
       }
     ]
   },
@@ -189,7 +195,7 @@ export const groupData = {
       {
         name: "Madhur Arya",
         dept: "Xebia Gurugram",
-        title: "Head of Operations",
+        title: "Head Of Operations and Chief Information Security Officer",
         img: madhur
       }
     ]
@@ -208,12 +214,6 @@ export const groupData = {
         title: "Director - Delivery",
         img: amitk
       },
-      {
-        name: "Amit Sinha",
-        dept: "Xebia Pune",
-        title: "Associate Director - Delivery",
-        img: amit
-      }
     ]
   }
 }
