@@ -8,6 +8,7 @@ import anand from './assets/people/anand.png';
 import ashok from './assets/people/ashok.png';
 import glory from './assets/people/glory.jpg';
 import amitk from './assets/people/amitkatkar.png';
+import amits from './assets/people/amitsinha.png';
 import vikas from './assets/people/vikasa.png';
 
 import binx from './assets/logo/binx.png';
@@ -213,6 +214,12 @@ export const groupData = {
         dept: "Xebia Pune",
         title: "Director - Delivery",
         img: amitk
+      },
+      {
+        name: "Amit Sinha",
+        dept: "Xebia Pune",
+        title: "Associate Director",
+        img: amits
       },
     ]
   }
