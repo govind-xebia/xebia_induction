@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './SubCard.module.scss';
-import { Row, Col, Image, Card } from 'react-bootstrap';
+import { Image, Card } from 'react-bootstrap';
 
 export default ({
   name,
