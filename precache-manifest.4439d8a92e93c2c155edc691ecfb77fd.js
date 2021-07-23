@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a551722ecfe68aa609b978706dd62946",
+    "revision": "e170de986e959a773726e9dbb13fc1d5",
     "url": "/xebia_induction/index.html"
   },
   {
-    "revision": "9bb664ca5e65d3654cfa",
+    "revision": "79c7841d4d4956699ada",
     "url": "/xebia_induction/static/css/2.15f3cbba.chunk.css"
   },
   {
-    "revision": "7537e0528b55822a4508",
-    "url": "/xebia_induction/static/css/main.8590d1d0.chunk.css"
+    "revision": "ee440c0ab2210f5222dd",
+    "url": "/xebia_induction/static/css/main.fdea6325.chunk.css"
   },
   {
-    "revision": "9bb664ca5e65d3654cfa",
-    "url": "/xebia_induction/static/js/2.c849636c.chunk.js"
+    "revision": "79c7841d4d4956699ada",
+    "url": "/xebia_induction/static/js/2.a097d551.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/xebia_induction/static/js/2.c849636c.chunk.js.LICENSE.txt"
+    "url": "/xebia_induction/static/js/2.a097d551.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7537e0528b55822a4508",
-    "url": "/xebia_induction/static/js/main.3ad78133.chunk.js"
+    "revision": "ee440c0ab2210f5222dd",
+    "url": "/xebia_induction/static/js/main.1aff0aba.chunk.js"
   },
   {
     "revision": "b4b85f978c4065306457",
@@ -348,6 +348,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xebia_induction/static/media/policy.7beeb8ef.png"
   },
   {
+    "revision": "bf1bfb581923bba52fff37c821e00024",
+    "url": "/xebia_induction/static/media/praval.bf1bfb58.png"
+  },
+  {
     "revision": "96aa17f8da82d0809bc72fda1ec6097a",
     "url": "/xebia_induction/static/media/quality.96aa17f8.svg"
   },
@@ -358,6 +362,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "53a7014956adf170c83e44516dd8e741",
     "url": "/xebia_induction/static/media/ram.53a70149.png"
+  },
+  {
+    "revision": "f2c6452a8640ea8ff5886e90ebc5c834",
+    "url": "/xebia_induction/static/media/ratnesh.f2c6452a.png"
   },
   {
     "revision": "7ff75fc026f6f32bcc69cf1fa4d56dc8",

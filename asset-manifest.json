@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/xebia_induction/static/css/main.8590d1d0.chunk.css",
-    "main.js": "/xebia_induction/static/js/main.3ad78133.chunk.js",
-    "main.js.map": "/xebia_induction/static/js/main.3ad78133.chunk.js.map",
+    "main.css": "/xebia_induction/static/css/main.fdea6325.chunk.css",
+    "main.js": "/xebia_induction/static/js/main.1aff0aba.chunk.js",
+    "main.js.map": "/xebia_induction/static/js/main.1aff0aba.chunk.js.map",
     "runtime-main.js": "/xebia_induction/static/js/runtime-main.1be1a2de.js",
     "runtime-main.js.map": "/xebia_induction/static/js/runtime-main.1be1a2de.js.map",
     "static/css/2.15f3cbba.chunk.css": "/xebia_induction/static/css/2.15f3cbba.chunk.css",
-    "static/js/2.c849636c.chunk.js": "/xebia_induction/static/js/2.c849636c.chunk.js",
-    "static/js/2.c849636c.chunk.js.map": "/xebia_induction/static/js/2.c849636c.chunk.js.map",
+    "static/js/2.a097d551.chunk.js": "/xebia_induction/static/js/2.a097d551.chunk.js",
+    "static/js/2.a097d551.chunk.js.map": "/xebia_induction/static/js/2.a097d551.chunk.js.map",
     "index.html": "/xebia_induction/index.html",
-    "precache-manifest.dda6ec9aa60573d9040bc9b3343e3d51.js": "/xebia_induction/precache-manifest.dda6ec9aa60573d9040bc9b3343e3d51.js",
+    "precache-manifest.4439d8a92e93c2c155edc691ecfb77fd.js": "/xebia_induction/precache-manifest.4439d8a92e93c2c155edc691ecfb77fd.js",
     "service-worker.js": "/xebia_induction/service-worker.js",
     "static/css/2.15f3cbba.chunk.css.map": "/xebia_induction/static/css/2.15f3cbba.chunk.css.map",
-    "static/css/main.8590d1d0.chunk.css.map": "/xebia_induction/static/css/main.8590d1d0.chunk.css.map",
-    "static/js/2.c849636c.chunk.js.LICENSE.txt": "/xebia_induction/static/js/2.c849636c.chunk.js.LICENSE.txt",
+    "static/css/main.fdea6325.chunk.css.map": "/xebia_induction/static/css/main.fdea6325.chunk.css.map",
+    "static/js/2.a097d551.chunk.js.LICENSE.txt": "/xebia_induction/static/js/2.a097d551.chunk.js.LICENSE.txt",
     "static/media/adp.png": "/xebia_induction/static/media/adp.de99e942.png",
     "static/media/agile.png": "/xebia_induction/static/media/agile.ad1cca31.png",
     "static/media/amitkatkar.png": "/xebia_induction/static/media/amitkatkar.f2a9671b.png",
@@ -94,9 +94,11 @@
     "static/media/people.svg": "/xebia_induction/static/media/people.f19b7b85.svg",
     "static/media/play.svg": "/xebia_induction/static/media/play.0713eb26.svg",
     "static/media/policy.png": "/xebia_induction/static/media/policy.7beeb8ef.png",
+    "static/media/praval.png": "/xebia_induction/static/media/praval.bf1bfb58.png",
     "static/media/quality.svg": "/xebia_induction/static/media/quality.96aa17f8.svg",
     "static/media/rajat.jpg": "/xebia_induction/static/media/rajat.5ffdfc29.jpg",
     "static/media/ram.png": "/xebia_induction/static/media/ram.53a70149.png",
+    "static/media/ratnesh.png": "/xebia_induction/static/media/ratnesh.f2c6452a.png",
     "static/media/shankar.jpg": "/xebia_induction/static/media/shankar.7ff75fc0.jpg",
     "static/media/shekhargulati.jpg": "/xebia_induction/static/media/shekhargulati.ff44daa5.jpg",
     "static/media/smiley.svg": "/xebia_induction/static/media/smiley.62de991e.svg",
@@ -121,8 +123,8 @@
   "entrypoints": [
     "static/js/runtime-main.1be1a2de.js",
     "static/css/2.15f3cbba.chunk.css",
-    "static/js/2.c849636c.chunk.js",
-    "static/css/main.8590d1d0.chunk.css",
-    "static/js/main.3ad78133.chunk.js"
+    "static/js/2.a097d551.chunk.js",
+    "static/css/main.fdea6325.chunk.css",
+    "static/js/main.1aff0aba.chunk.js"
   ]
 }
