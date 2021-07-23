@@ -2,7 +2,7 @@ import React, { Fragment, useState } from 'react';
 import { Row, Col, Carousel } from 'react-bootstrap';
 import SectionTitle from '../../Components/SectionTitle';
 import GroupCard from '../../Components/GroupCard';
-import HrCard from '../../Components/HrCard';
+import SubCard from '../../Components/SubCard';
 import TreeCard from '../../Components/TreeCard';
 
 import styles from './XebiaGroup.module.scss';
@@ -10,58 +10,34 @@ import styles from './XebiaGroup.module.scss';
 import { groupData, treeData, globalData, indiaData } from './groupData';
 
 export default () => {
-  const [toggleGroup, setGroup] = useState(false);
-  const [showLocation, setLocation] = useState(null);
+  const [toggleGroup, setToggleGroup] = useState(false);
+  const [people, setPeople] = useState([]);
+  const [subPeople, setSubPeople] = useState([]);
 
-  const {title, logo, hasRight} = treeData;
+  const { title, logo, hasRight } = treeData;
 
   const getTopPos = (start, index) => start + (index * 12);
 
-  const renderPeople = loc => {
-    if (loc) {
-      const { people, hr } = groupData[loc];
-      return  (people || hr) && (
-        <Row className={styles.columnWise}>
-          <Col className={styles.execPos}>
-            {
-              people.length > 1 ? (
-                <Carousel
-                  controls={false}
-                  className={styles.groupCarousel}
-                  interval={null}
-                  slide={false}
-                >
-                  {
-                    people.map(person => (
-                      <Carousel.Item key={person}>
-                        <GroupCard 
-                          {...person}
-                        />
-                      </Carousel.Item>
-                    ))
-                  }
-                </Carousel>
-              ) : (
-                <GroupCard
-                  {...people[0]}
-                />
-              )
-            }
-          </Col>
-          {
-            hr && (
-              <Col className={styles.columnWise} style={{marginTop: '3rem'}}>
-                <HrCard
-                  {...hr}
-                />
-              </Col>
-            )
-          }
-        </Row>
-      )
+  const handleSelectItem = (index, people) => {
+    const { sub } = people[index];
+    setSubPeople(null);
+    if (sub && sub.length > 0) {
+      return setSubPeople(sub);
     }
+  };
 
-    return false;
+  const handleRenderCarousel = loc => {
+    setToggleGroup(true);
+    setSubPeople(null);
+    const data = [...groupData[loc].people];
+    if (data) {
+      setPeople(data);
+      if (data.length === 1 && data[0].sub) {
+        setSubPeople([...data[0].sub]);
+      }
+    } else {
+      setPeople([])
+    }
   };
 
   return (
@@ -74,14 +50,14 @@ export default () => {
       <Col>
         <Row>
           <Col sm={6} className={styles.treeWrapper}>
-            <TreeCard 
+            <TreeCard
               title={title}
               logo={logo}
               top={'39%'}
               hasRight={hasRight}
               hasLeft={false}
             />
-            <span 
+            <span
               className={styles.verticalLine}
               style={{
                 height: '43.25rem',
@@ -90,8 +66,9 @@ export default () => {
               }}
             />
             {
-              treeData.children.map(({title, logo, bgSize, hasRight}, index ) => (
+              treeData.children.map(({ title, logo, bgSize, hasRight }, index) => (
                 <TreeCard
+                  key={title}
                   title={title}
                   logo={logo}
                   top={`${getTopPos(3, index)}%`}
@@ -101,8 +78,7 @@ export default () => {
                   bgSize={bgSize}
                   handleClick={() => {
                     if (title.indexOf('Global') > 0) {
-                      setGroup(!toggleGroup); 
-                      setLocation('global');
+                      handleRenderCarousel('global');
                     }
                   }}
                 />
@@ -111,7 +87,7 @@ export default () => {
             {
               toggleGroup && (
                 <Fragment>
-                  <span 
+                  <span
                     className={styles.verticalLine}
                     style={{
                       height: '28.875rem',
@@ -120,8 +96,9 @@ export default () => {
                     }}
                   />
                   {
-                    globalData.map(({title, logo, bgSize, logoText}, index) => (
+                    globalData.map(({ title, logo, bgSize, logoText }, index) => (
                       <TreeCard
+                        key={title}
                         title={title}
                         logo={logo}
                         top={`${getTopPos(21, index)}%`}
@@ -130,11 +107,13 @@ export default () => {
                         logoBg={'#D1C4EF'}
                         bgSize={bgSize}
                         logoText={logoText}
-                        handleClick={() => setLocation(logoText.toLowerCase())}
+                        handleClick={() => {
+                          handleRenderCarousel(logoText.toLowerCase())
+                        }}
                       />
                     ))
                   }
-                  <span 
+                  <span
                     className={styles.verticalLine}
                     style={{
                       height: '14.45rem',
@@ -143,7 +122,7 @@ export default () => {
                     }}
                   />
                   {
-                    indiaData.map(({title, logo, bgSize, logoText}, index) => (
+                    indiaData.map(({ title, logo, bgSize, logoText }, index) => (
                       <TreeCard
                         title={title}
                         logo={logo}
@@ -152,17 +131,77 @@ export default () => {
                         logoBg={'#D1C4EF'}
                         bgSize={bgSize}
                         logoText={logoText}
-                        handleClick={() => setLocation(logoText.toLowerCase())}
+                        handleClick={() => handleRenderCarousel(logoText.toLowerCase())}
                       />
                     ))
-                  }   
-                </Fragment>             
+                  }
+                </Fragment>
               )
             }
           </Col>
           <Col sm={6} className={styles.execWrapper}>
             {
-              renderPeople(showLocation)
+              people.length > 1 ? (
+                <Row className={styles.columnWise}>
+                  <Fragment>
+                    <Col className={styles.execPos}>
+                      <Carousel
+                        className={styles.groupCarousel}
+                        interval={null}
+                        slide={false}
+                        onSelect={i => handleSelectItem(i, people)}
+                        onSlide={i => handleSelectItem(i, people)}
+                      >
+                        {
+                          people.map((person, index) => (
+                            <Carousel.Item key={JSON.stringify(person) + index}>
+                              <GroupCard
+                                {...person}
+                              />
+                            </Carousel.Item>
+                          ))
+                        }
+                      </Carousel>
+                    </Col>
+                    {
+                      subPeople && subPeople.map(subPerson => (
+                        <Col
+                          className={styles.columnWise}
+                          style={{ marginTop: '3rem' }}
+                        >
+                          <SubCard
+                            {...subPerson}
+                          />
+                        </Col>
+                      ))
+                    }
+                  </Fragment>
+                </Row>
+              ) : (
+                people.length === 1 && (
+                  <Row className={styles.columnWise}>
+                    <Fragment>
+                      <Col className={styles.execPos}>
+                        <GroupCard
+                          {...people[0]}
+                        />
+                      </Col>
+                      {
+                        subPeople && subPeople.map(subPerson => (
+                          <Col
+                            className={styles.columnWise}
+                            style={{ marginTop: '3rem' }}
+                          >
+                            <SubCard
+                              {...subPerson}
+                            />
+                          </Col>
+                        ))
+                      }
+                    </Fragment>
+                  </Row>
+                )
+              )
             }
           </Col>
         </Row>

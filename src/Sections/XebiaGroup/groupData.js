@@ -6,6 +6,8 @@ import shankar from './assets/people/shankar.jpg';
 import vipul from './assets/people/vipul.png';
 import anand from './assets/people/anand.png';
 import ashok from './assets/people/ashok.png';
+import praval from './assets/people/praval.png';
+import ratnesh from './assets/people/ratnesh.png';
 import glory from './assets/people/glory.jpg';
 import amitk from './assets/people/amitkatkar.png';
 import amits from './assets/people/amitsinha.png';
@@ -112,7 +114,14 @@ export const groupData = {
         name: "Ashok Fenn",
         dept: "Xebia Global Services",
         title: "Executive Director - Sales",
-        img: ashok
+        img: ashok,
+        sub: [
+          {
+            name: "Praval Sharma",
+            title: "Sales Head",
+            img: praval
+          }
+        ]
       },
       {
         name: "Madhur Arya",
@@ -148,7 +157,9 @@ export const groupData = {
       }
     ]
   },
-  xuk: {},
+  xuk: {
+    people: []
+  },
   xme: {
     people: [
       {
@@ -197,7 +208,14 @@ export const groupData = {
         name: "Madhur Arya",
         dept: "Xebia Gurugram",
         title: "Head Of Operations and Chief Information Security Officer",
-        img: madhur
+        img: madhur,
+        sub: [
+          {
+            name: "Ratnesh Sharma",
+            title: "Directory - Delivery",
+            img: ratnesh
+          }
+        ]
       }
     ]
   },
