@@ -23,7 +23,7 @@ const toRememberData = {
     {
       title: "Background Verification",
       subtitle: null,
-      description: "Xebia has tied up with EY for their Background verification services. Please make sure you complete and submit the forms for a smooth BGV process."
+      description: "Xebia has tied up with Digiverify for their Background verification services. Please make sure you complete and submit the forms for a smooth BGV process."
     }
   ],
   us: [

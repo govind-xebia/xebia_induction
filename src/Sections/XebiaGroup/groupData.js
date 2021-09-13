@@ -3,11 +3,15 @@ import brijesh from './assets/people/brijesh.jpg';
 import vigit from './assets/people/vigit.jpg';
 import anurag from './assets/people/anurag.png';
 import shankar from './assets/people/shankar.jpg';
-import deepak from './assets/people/deepak.jpg';
 import vipul from './assets/people/vipul.png';
 import anand from './assets/people/anand.png';
 import ashok from './assets/people/ashok.png';
+import praval from './assets/people/praval.png';
+import ratnesh from './assets/people/ratnesh.png';
 import glory from './assets/people/glory.jpg';
+import amitk from './assets/people/amitkatkar.png';
+import amits from './assets/people/amitsinha.png';
+import vikas from './assets/people/vikasa.png';
 
 import binx from './assets/logo/binx.png';
 import dataDriven from './assets/logo/data-driven.svg';
@@ -110,7 +114,14 @@ export const groupData = {
         name: "Ashok Fenn",
         dept: "Xebia Global Services",
         title: "Executive Director - Sales",
-        img: ashok
+        img: ashok,
+        sub: [
+          {
+            name: "Praval Sharma",
+            title: "Sales Head",
+            img: praval
+          }
+        ]
       },
       {
         name: "Madhur Arya",
@@ -146,7 +157,9 @@ export const groupData = {
       }
     ]
   },
-  xuk: {},
+  xuk: {
+    people: []
+  },
   xme: {
     people: [
       {
@@ -180,6 +193,12 @@ export const groupData = {
         dept: "Xebia Bengaluru",
         title: "Head Of Operations and Chief Information Security Officer",
         img: madhur
+      },
+      {
+        name: "Vikas Agarwal",
+        dept: "Xebia Bengaluru",
+        title: "Director - Delivery",
+        img: vikas
       }
     ]
   },
@@ -189,7 +208,14 @@ export const groupData = {
         name: "Madhur Arya",
         dept: "Xebia Gurugram",
         title: "Head Of Operations and Chief Information Security Officer",
-        img: madhur
+        img: madhur,
+        sub: [
+          {
+            name: "Ratnesh Sharma",
+            title: "Directory - Delivery",
+            img: ratnesh
+          }
+        ]
       }
     ]
   },
@@ -202,11 +228,17 @@ export const groupData = {
         img: vigit
       },
       {
-        name: "Deepak Sharma",
+        name: "Amit Katkar",
         dept: "Xebia Pune",
-        title: "Associate Director - Delivery",
-        img: deepak
-      }
+        title: "Director - Delivery",
+        img: amitk
+      },
+      {
+        name: "Amit Sinha",
+        dept: "Xebia Pune",
+        title: "Associate Director",
+        img: amits
+      },
     ]
   }
 }

@@ -50,20 +50,6 @@ const CoE = () => {
           }
         </Row>
       </Col>
-      { selected && (
-        <Col className={styles.descCol}>
-          <Card className={styles.descCard}>
-            <Card.Body className={styles.descBody}>
-              <h5>
-                {selected.title}
-              </h5>
-              <p>
-                {selected.description}
-              </p>
-            </Card.Body>
-          </Card>
-        </Col>
-      )}
     </Row>
   )
 };

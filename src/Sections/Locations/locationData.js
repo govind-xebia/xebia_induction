@@ -120,22 +120,6 @@ const locationData = [
     }
   },
   {
-    location: 'Hong Kong',
-    office: false,
-    pos: {
-      right:'20.5%',
-      top: '37.5%'
-    }
-  },
-  {
-    location: 'France',
-    office: true,
-    pos: {
-      left:'48.5%',
-      top: '23%'
-    }
-  },
-  {
     location: 'Netherlands',
     office: true,
     pos: {
