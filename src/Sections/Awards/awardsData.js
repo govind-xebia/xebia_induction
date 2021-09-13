@@ -1,5 +1,11 @@
 const awardsData = [
   {
+    title: "2020 - 2021",
+    content: [
+      "Xebia - Great Place to Work"
+    ]
+  },
+  {
     title: "2019 - 2020",
     content: [
       "Most Innovative Artificial Intelligence (AI) Solution of the Year by TechPlus Media",
@@ -19,8 +25,7 @@ const awardsData = [
     title: "2015 - 2016",
     content: [
       "Featured in IT Market clock for application development",
-      "XebiaLabs named leader in Gartner “Magic Quadrant for application release automation”",
-      "Featured in IT market clock for mobile application development"
+      "XebiaLabs named leader in Gartner “Magic Quadrant for application release automation”"
     ]
   },
   {
