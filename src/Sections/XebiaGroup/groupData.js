@@ -12,6 +12,9 @@ import glory from './assets/people/glory.jpg';
 import amitk from './assets/people/amitkatkar.png';
 import amits from './assets/people/amitsinha.png';
 import vikas from './assets/people/vikasa.png';
+import arvind from './assets/people/arvind.jpg'
+import rajat from './assets/people/rajat.jpg';
+import bharat from './assets/people/bharath.jpg';
 
 import binx from './assets/logo/binx.png';
 import dataDriven from './assets/logo/data-driven.svg';
@@ -134,6 +137,24 @@ export const groupData = {
         dept: "Xebia Global Services",
         title: "Chief People and Stratergy Officer",
         img: glory
+      },
+      {
+        name: "Arvind Sharma",
+        dept: "Xebia Global Services",
+        title: "Chief Financial Officer",
+        img: arvind
+      },
+      {
+        name: "Rajat Gupta",
+        dept: "Xebia Global Services",
+        title: "Chief Digital Officer",
+        img: rajat
+      },
+      {
+        name: "Bharat Srivastava",
+        dept: "Xebia Global Services",
+        title: "Senior Director- Sales & Alliance",
+        img: bharat
       }
     ]
   },

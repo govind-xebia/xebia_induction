@@ -126,6 +126,46 @@ const locationData = [
       left:'49%',
       top: '20.6%'
     }
+  },
+  {
+    location: 'Sydney',
+    office: true,
+    pos: {
+      left:'49%',
+      top: '20.6%'
+    }
+  },
+  {
+    location: 'Vietnam',
+    office: true,
+    pos: {
+      left:'49%',
+      top: '20.6%'
+    }
+  },
+  {
+    location: 'Hyderabad',
+    office: true,
+    pos: {
+      left:'49%',
+      top: '20.6%'
+    }
+  },
+  {
+    location: 'Jaipur',
+    office: true,
+    pos: {
+      left:'49%',
+      top: '20.6%'
+    }
+  },
+  {
+    location: 'Canada',
+    office: true,
+    pos: {
+      left:'49%',
+      top: '20.6%'
+    }
   }
 ];
 
