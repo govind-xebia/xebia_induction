@@ -104,7 +104,7 @@ const locationData = [
     }
   },
   {
-    location: 'Egypt',
+    location: 'Cairo',
     office: false,
     pos: {
       top: '34%',
@@ -124,47 +124,127 @@ const locationData = [
     office: true,
     pos: {
       left:'49%',
-      top: '20.6%'
+      top: '21%'
     }
   },
   {
     location: 'Sydney',
-    office: true,
+    office: false,
     pos: {
-      left:'49%',
-      top: '20.6%'
+      right: '10.3%',
+      bottom: '26.7%'
     }
   },
   {
     location: 'Vietnam',
     office: true,
     pos: {
-      left:'49%',
-      top: '20.6%'
-    }
-  },
-  {
-    location: 'Hyderabad',
-    office: true,
-    pos: {
-      left:'49%',
-      top: '20.6%'
+      right: '21.7%',
+      bottom: '53.7%'
     }
   },
   {
     location: 'Jaipur',
     office: true,
     pos: {
-      left:'49%',
-      top: '20.6%'
+      top: '36.6%',
+      right: '31%'
     }
   },
   {
     location: 'Canada',
     office: true,
     pos: {
-      left:'49%',
+      left:'20%',
+      top: '16.3%'
+    }
+  },
+  {
+    location: 'South Africa',
+    office: false,
+    pos: {
+      left: '55%',
+      top: '70%'
+    }
+  },
+  {
+    location: 'Jakarta',
+    office: false,
+    pos: {
+      left: '43%',
+      top: '22%'
+    }
+  },
+  {
+    location: 'Germany',
+    office: false,
+    pos: {
+      left: '51%',
       top: '20.6%'
+    }
+  },
+  {
+    location: 'New York',
+    office: false,
+    pos: {
+      left: '28%',
+      top: '27.2%'
+    }
+  },
+  {
+    location: 'New York',
+    office: false,
+    pos: {
+      left: '28.8%',
+      top: '26.1%'
+    }
+  },
+  {
+    location: 'Cincinnati',
+    office: false,
+    pos: {
+      top: '27.5%',
+      left: '25%'
+    }
+  },
+  {
+    location: 'Chicago',
+    office: false,
+    pos: {
+      top: '26.6%',
+      left: '24.3%'
+    }
+  },
+  {
+    location: 'Mexico',
+    office: false,
+    pos: {
+      top: '37%',
+      left: '20.3%'
+    }
+  },
+  {
+    location: 'Los Angeles',
+    office: false,
+    pos: {
+      top: '31.5%',
+      left: '16.2%'
+    }
+  },
+  {
+    location: 'San Francisco',
+    office: false,
+    pos: {
+      top: '30.5%',
+      left: '15.3%'
+    }
+  },
+  {
+    location: 'Denver',
+    office: false,
+    pos: {
+      top: '28%',
+      left: '19.1%'
     }
   }
 ];
