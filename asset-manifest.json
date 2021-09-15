@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/xebia_induction/static/css/main.b25b1668.chunk.css",
-    "main.js": "/xebia_induction/static/js/main.835da2bf.chunk.js",
-    "main.js.map": "/xebia_induction/static/js/main.835da2bf.chunk.js.map",
+    "main.js": "/xebia_induction/static/js/main.e471759a.chunk.js",
+    "main.js.map": "/xebia_induction/static/js/main.e471759a.chunk.js.map",
     "runtime-main.js": "/xebia_induction/static/js/runtime-main.490b4d52.js",
     "runtime-main.js.map": "/xebia_induction/static/js/runtime-main.490b4d52.js.map",
     "static/css/2.5e32ad9b.chunk.css": "/xebia_induction/static/css/2.5e32ad9b.chunk.css",
@@ -126,6 +126,6 @@
     "static/css/2.5e32ad9b.chunk.css",
     "static/js/2.68747b2d.chunk.js",
     "static/css/main.b25b1668.chunk.css",
-    "static/js/main.835da2bf.chunk.js"
+    "static/js/main.e471759a.chunk.js"
   ]
 }
