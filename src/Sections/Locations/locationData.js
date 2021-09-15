@@ -99,8 +99,8 @@ const locationData = [
     location: 'Mauritius',
     office: false,
     pos: {
-      right:'37%',
-      bottom: '33.7%'
+      right: '35.7%',
+      bottom: '34.9%'
     }
   },
   {
@@ -171,8 +171,8 @@ const locationData = [
     location: 'Jakarta',
     office: false,
     pos: {
-      left: '43%',
-      top: '22%'
+      right:'22%',
+      bottom: '43%'
     }
   },
   {
@@ -192,7 +192,7 @@ const locationData = [
     }
   },
   {
-    location: 'New York',
+    location: 'Boston',
     office: false,
     pos: {
       left: '28.8%',
