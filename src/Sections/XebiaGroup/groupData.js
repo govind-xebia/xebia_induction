@@ -184,12 +184,6 @@ export const groupData = {
   xme: {
     people: [
       {
-        name: "Anurag Agar",
-        dept: "Xebia Middle East",
-        title: "Director - Delivery",
-        img: anurag
-      },
-      {
         name: "Shankar Garg",
         dept: "Xebia Middle East",
         title: "Associate Director - Sales",
@@ -226,28 +220,15 @@ export const groupData = {
   xg: {
     people: [
       {
-        name: "Madhur Arya",
-        dept: "Xebia Gurugram",
-        title: "Head Of Operations and Chief Information Security Officer",
-        img: madhur,
-        sub: [
-          {
-            name: "Ratnesh Sharma",
-            title: "Directory - Delivery",
-            img: ratnesh
-          }
-        ]
+        name: "Anurag Agar",
+        dept: "Xebia Middle East",
+        title: "Director - Delivery",
+        img: anurag
       }
     ]
   },
   xp: {
     people: [
-      {
-        name: "Vigit Ghatge",
-        dept: "Xebia Pune",
-        title: "Director - Sales",
-        img: vigit
-      },
       {
         name: "Amit Katkar",
         dept: "Xebia Pune",
