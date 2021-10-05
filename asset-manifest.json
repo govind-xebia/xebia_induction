@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/xebia_induction/static/css/main.b25b1668.chunk.css",
-    "main.js": "/xebia_induction/static/js/main.e471759a.chunk.js",
-    "main.js.map": "/xebia_induction/static/js/main.e471759a.chunk.js.map",
+    "main.css": "/xebia_induction/static/css/main.929ebc04.chunk.css",
+    "main.js": "/xebia_induction/static/js/main.5636f578.chunk.js",
+    "main.js.map": "/xebia_induction/static/js/main.5636f578.chunk.js.map",
     "runtime-main.js": "/xebia_induction/static/js/runtime-main.490b4d52.js",
     "runtime-main.js.map": "/xebia_induction/static/js/runtime-main.490b4d52.js.map",
     "static/css/2.5e32ad9b.chunk.css": "/xebia_induction/static/css/2.5e32ad9b.chunk.css",
-    "static/js/2.68747b2d.chunk.js": "/xebia_induction/static/js/2.68747b2d.chunk.js",
-    "static/js/2.68747b2d.chunk.js.map": "/xebia_induction/static/js/2.68747b2d.chunk.js.map",
+    "static/js/2.a96a618e.chunk.js": "/xebia_induction/static/js/2.a96a618e.chunk.js",
+    "static/js/2.a96a618e.chunk.js.map": "/xebia_induction/static/js/2.a96a618e.chunk.js.map",
     "index.html": "/xebia_induction/index.html",
     "static/css/2.5e32ad9b.chunk.css.map": "/xebia_induction/static/css/2.5e32ad9b.chunk.css.map",
-    "static/css/main.b25b1668.chunk.css.map": "/xebia_induction/static/css/main.b25b1668.chunk.css.map",
-    "static/js/2.68747b2d.chunk.js.LICENSE.txt": "/xebia_induction/static/js/2.68747b2d.chunk.js.LICENSE.txt",
+    "static/css/main.929ebc04.chunk.css.map": "/xebia_induction/static/css/main.929ebc04.chunk.css.map",
+    "static/js/2.a96a618e.chunk.js.LICENSE.txt": "/xebia_induction/static/js/2.a96a618e.chunk.js.LICENSE.txt",
     "static/media/adp.64f490db.png": "/xebia_induction/static/media/adp.64f490db.png",
     "static/media/agile.3a34d389.png": "/xebia_induction/static/media/agile.3a34d389.png",
     "static/media/amitkatkar.5b385447.png": "/xebia_induction/static/media/amitkatkar.5b385447.png",
@@ -52,6 +52,8 @@
     "static/media/dev theory.89b0417b.png": "/xebia_induction/static/media/dev theory.89b0417b.png",
     "static/media/diamond.f76b0bfb.svg": "/xebia_induction/static/media/diamond.f76b0bfb.svg",
     "static/media/dkm.1ccc6c74.png": "/xebia_induction/static/media/dkm.1ccc6c74.png",
+    "static/media/donts.846564cd.svg": "/xebia_induction/static/media/donts.846564cd.svg",
+    "static/media/dos.e5e85120.svg": "/xebia_induction/static/media/dos.e5e85120.svg",
     "static/media/dots.12eb6d51.svg": "/xebia_induction/static/media/dots.12eb6d51.svg",
     "static/media/dots.cca844ce.png": "/xebia_induction/static/media/dots.cca844ce.png",
     "static/media/gallery-1.748c46d1.jpg": "/xebia_induction/static/media/gallery-1.748c46d1.jpg",
@@ -99,7 +101,6 @@
     "static/media/rajat.015252c0.jpg": "/xebia_induction/static/media/rajat.015252c0.jpg",
     "static/media/rajat.4755d4fa.jpg": "/xebia_induction/static/media/rajat.4755d4fa.jpg",
     "static/media/ram.edd70250.png": "/xebia_induction/static/media/ram.edd70250.png",
-    "static/media/ratnesh.4911b181.png": "/xebia_induction/static/media/ratnesh.4911b181.png",
     "static/media/shankar.ded44658.jpg": "/xebia_induction/static/media/shankar.ded44658.jpg",
     "static/media/shekhargulati.499292a5.jpg": "/xebia_induction/static/media/shekhargulati.499292a5.jpg",
     "static/media/smiley.98c8ea9d.svg": "/xebia_induction/static/media/smiley.98c8ea9d.svg",
@@ -108,7 +109,6 @@
     "static/media/tallie.dbc91cab.jpg": "/xebia_induction/static/media/tallie.dbc91cab.jpg",
     "static/media/teams.26a03607.png": "/xebia_induction/static/media/teams.26a03607.png",
     "static/media/trophy.0e86ebaa.svg": "/xebia_induction/static/media/trophy.0e86ebaa.svg",
-    "static/media/vigit.b3e7ac14.jpg": "/xebia_induction/static/media/vigit.b3e7ac14.jpg",
     "static/media/vikasa.737147c1.png": "/xebia_induction/static/media/vikasa.737147c1.png",
     "static/media/vikasmittal.39637e01.jpg": "/xebia_induction/static/media/vikasmittal.39637e01.jpg",
     "static/media/vipul.6f66bd9d.png": "/xebia_induction/static/media/vipul.6f66bd9d.png",
@@ -124,8 +124,8 @@
   "entrypoints": [
     "static/js/runtime-main.490b4d52.js",
     "static/css/2.5e32ad9b.chunk.css",
-    "static/js/2.68747b2d.chunk.js",
-    "static/css/main.b25b1668.chunk.css",
-    "static/js/main.e471759a.chunk.js"
+    "static/js/2.a96a618e.chunk.js",
+    "static/css/main.929ebc04.chunk.css",
+    "static/js/main.5636f578.chunk.js"
   ]
 }
