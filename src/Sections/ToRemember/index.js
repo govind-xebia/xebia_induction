@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import { useState, useContext } from 'react';
 import { Container, Row, Col, Carousel } from 'react-bootstrap';
 import { LazyLoadComponent } from 'react-lazy-load-image-component';
 import CountryContext from '../../countryContext';

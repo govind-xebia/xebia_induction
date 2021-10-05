@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Provider } from './countryContext';
 import Welcome from './Sections/Welcome';
@@ -11,6 +10,7 @@ import Awards from './Sections/Awards';
 import Clients from './Sections/Clients';
 import Policy from './Sections/Policy';
 import ThingsToRemember from './Sections/ToRemember';
+import DosAndDonts from './Sections/DosAndDonts';
 import LifeAtXebia from "./Sections/LifeAtXebia";
 import Tools from './Sections/Tools';
 import Events from './Sections/Events';
@@ -44,6 +44,7 @@ function App() {
       </Container>
       <Policy />
       <ThingsToRemember />
+      <DosAndDonts />
       <Container fluid>
         <Tools />
       </Container>
