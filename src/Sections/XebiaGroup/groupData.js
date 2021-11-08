@@ -8,7 +8,6 @@ import ashok from './assets/people/ashok.png';
 import praval from './assets/people/praval.png';
 import glory from './assets/people/glory.jpg';
 import amitk from './assets/people/amitkatkar.png';
-import amits from './assets/people/amitsinha.png';
 import vikas from './assets/people/vikasa.png';
 import arvind from './assets/people/arvind.jpg'
 import rajat from './assets/people/rajat.jpg';
@@ -202,12 +201,6 @@ export const groupData = {
   xb: {
     people: [
       {
-        name: "Madhur Arya",
-        dept: "Xebia Bengaluru",
-        title: "Head Of Operations and Chief Information Security Officer",
-        img: madhur
-      },
-      {
         name: "Vikas Agarwal",
         dept: "Xebia Bengaluru",
         title: "Director - Delivery",
@@ -232,13 +225,7 @@ export const groupData = {
         dept: "Xebia Pune",
         title: "Director - Delivery",
         img: amitk
-      },
-      {
-        name: "Amit Sinha",
-        dept: "Xebia Pune",
-        title: "Associate Director",
-        img: amits
-      },
+      }
     ]
   }
 }

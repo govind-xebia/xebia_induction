@@ -43,5 +43,8 @@
   },
   "devDependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.1"
+  },
+  "volta": {
+    "node": "14.16.1"
   }
 }

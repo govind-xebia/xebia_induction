@@ -3,12 +3,16 @@ const toRememberData = {
     {
       title: "XFC",
       subtitle: "[Xebia Foundation Course]",
-      description: "The aim of Xebia foundation course is to ensure all software engineers hired in Xebia know the vocabulary for building high quality software products. The course covers Agile, TDD, Clean Code, Git Version control, Continuous Integration, DevOps practices, and basic security know how. The course is self-paced consisting of high quality videos and text material. Every Xebians needs to complete this course with in one week of joining. There is an online test at the end to evaluate employee understanding of the concepts."
+      description: "The aim of Xebia foundation course is to ensure all software engineers hired in Xebia know the vocabulary for building high quality software products. The course covers Agile, TDD, Clean Code, Git Version control, Continuous Integration, DevOps practices, and basic security know how. The course is self-paced consisting of high quality videos and text material. Every Xebians needs to complete this course with in one week of joining. There is an online test at the end to evaluate employee understanding of the concepts.",
+      deadline: 'Deadline: <strong>30</strong> Days from the date of joining',
+      attempts: 'Attempts: 3'
     },
     {
       title: "POSH",
       subtitle: null,
-      description: "Xebia commits to provide a workplace free from sexual harassment, and provide a mechanism for redressal of any complaints, without fear or threat of any reprisals in any form or manner. <br/> <br/> The POSH policy document is available on Zoho."
+      description: "Xebia commits to provide a workplace free from sexual harassment, and provide a mechanism for redressal of any complaints, without fear or threat of any reprisals in any form or manner. <br/> <br/> The POSH policy document is available on Zoho.",
+      deadline: 'Deadline: <strong>7</strong> Days from the date of joining',
+      attempts: 'Attempts: 3'
     },
     {
       title: "Zoho People Update",

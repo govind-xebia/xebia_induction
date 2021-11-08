@@ -42,7 +42,7 @@ const ThingsToRemember = () => {
               indicators={countrySpecific.length > 1}
             >
               {
-                countrySpecific.map(({title, subtitle, description}, i) => {
+                countrySpecific.map(({title, subtitle, description, deadline, attempts}, i) => {
                   return (
                     <Carousel.Item key={i}>
                       <div className={styles.remCard}>
@@ -50,6 +50,16 @@ const ThingsToRemember = () => {
                           {title} <span>{subtitle}</span>
                         </h5>
                         <p dangerouslySetInnerHTML={{ __html: description }} />
+                        {
+                          deadline && (
+                            <p dangerouslySetInnerHTML={{ __html: deadline }} />
+                          )
+                        }
+                        {
+                          attempts && (
+                            <p dangerouslySetInnerHTML={{ __html: attempts }} />
+                          )
+                        }
                       </div>
                     </Carousel.Item>
                   )
