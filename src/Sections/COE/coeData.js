@@ -1,4 +1,3 @@
-import ajay from './assets/ajaykabra.jpg';
 import vikasmittal from './assets/vikasmittal.jpg';
 import ram from './assets/ram.png';
 import shekhargulati from './assets/shekhargulati.jpg';
@@ -22,9 +21,9 @@ const CoeData = [
     src: vikasmittal
   },
   {
-    title: "Ajay Kabra",
+    title: " Meetu Singh",
     smallDescription: "XACT (Agile Consulting and Transformation)",
-    src: ajay
+    src: meetu
   },
   {
     title: "Rajat Gupta",

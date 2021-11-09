@@ -80,14 +80,6 @@ const locationData = [
     }
   },
   {
-    location: 'Kuwait',
-    office: false,
-    pos: {
-      top: '33%',
-      right: '38.3%'
-    }
-  },
-  {
     location: 'London',
     office: true,
     pos: {
@@ -120,11 +112,27 @@ const locationData = [
     }
   },
   {
-    location: 'Netherlands',
+    location: 'Amsterdam',
     office: true,
     pos: {
       left:'49%',
       top: '21%'
+    }
+  },
+  {
+    location: 'Hilversum',
+    office: true,
+    pos: {
+      left:'49.6%',
+      top: '21.3%'
+    }
+  },
+  {
+    location: 'Poland',
+    office: true,
+    pos: {
+      left: '52.8%',
+      top: '19.3%'
     }
   },
   {
