@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/xebia_induction/static/css/main.929ebc04.chunk.css",
-    "main.js": "/xebia_induction/static/js/main.5636f578.chunk.js",
-    "main.js.map": "/xebia_induction/static/js/main.5636f578.chunk.js.map",
+    "main.css": "/xebia_induction/static/css/main.fb301ba8.chunk.css",
+    "main.js": "/xebia_induction/static/js/main.982bf718.chunk.js",
+    "main.js.map": "/xebia_induction/static/js/main.982bf718.chunk.js.map",
     "runtime-main.js": "/xebia_induction/static/js/runtime-main.490b4d52.js",
     "runtime-main.js.map": "/xebia_induction/static/js/runtime-main.490b4d52.js.map",
     "static/css/2.5e32ad9b.chunk.css": "/xebia_induction/static/css/2.5e32ad9b.chunk.css",
@@ -10,12 +10,11 @@
     "static/js/2.a96a618e.chunk.js.map": "/xebia_induction/static/js/2.a96a618e.chunk.js.map",
     "index.html": "/xebia_induction/index.html",
     "static/css/2.5e32ad9b.chunk.css.map": "/xebia_induction/static/css/2.5e32ad9b.chunk.css.map",
-    "static/css/main.929ebc04.chunk.css.map": "/xebia_induction/static/css/main.929ebc04.chunk.css.map",
+    "static/css/main.fb301ba8.chunk.css.map": "/xebia_induction/static/css/main.fb301ba8.chunk.css.map",
     "static/js/2.a96a618e.chunk.js.LICENSE.txt": "/xebia_induction/static/js/2.a96a618e.chunk.js.LICENSE.txt",
     "static/media/adp.64f490db.png": "/xebia_induction/static/media/adp.64f490db.png",
     "static/media/agile.3a34d389.png": "/xebia_induction/static/media/agile.3a34d389.png",
     "static/media/amitkatkar.5b385447.png": "/xebia_induction/static/media/amitkatkar.5b385447.png",
-    "static/media/amitsinha.6811c78c.png": "/xebia_induction/static/media/amitsinha.6811c78c.png",
     "static/media/anand.f6b09d8e.png": "/xebia_induction/static/media/anand.f6b09d8e.png",
     "static/media/anurag.5e231f6b.png": "/xebia_induction/static/media/anurag.5e231f6b.png",
     "static/media/arvind.bf178bf1.jpg": "/xebia_induction/static/media/arvind.bf178bf1.jpg",
@@ -90,7 +89,7 @@
     "static/media/knowledge.0c69af70.svg": "/xebia_induction/static/media/knowledge.0c69af70.svg",
     "static/media/madhur.8d6c1303.png": "/xebia_induction/static/media/madhur.8d6c1303.png",
     "static/media/map.a95d2c26.svg": "/xebia_induction/static/media/map.a95d2c26.svg",
-    "static/media/mohan.6cd94f73.png": "/xebia_induction/static/media/mohan.6cd94f73.png",
+    "static/media/meetu.d396fbb7.jpg": "/xebia_induction/static/media/meetu.d396fbb7.jpg",
     "static/media/outlook.6969915a.png": "/xebia_induction/static/media/outlook.6969915a.png",
     "static/media/party.ae2d805f.png": "/xebia_induction/static/media/party.ae2d805f.png",
     "static/media/people.daf8b9fa.svg": "/xebia_induction/static/media/people.daf8b9fa.svg",
@@ -125,7 +124,7 @@
     "static/js/runtime-main.490b4d52.js",
     "static/css/2.5e32ad9b.chunk.css",
     "static/js/2.a96a618e.chunk.js",
-    "static/css/main.929ebc04.chunk.css",
-    "static/js/main.5636f578.chunk.js"
+    "static/css/main.fb301ba8.chunk.css",
+    "static/js/main.982bf718.chunk.js"
   ]
 }
