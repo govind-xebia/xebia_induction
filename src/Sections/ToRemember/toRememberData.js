@@ -3,7 +3,7 @@ const toRememberData = {
     {
       title: "XFC",
       subtitle: "[Xebia Foundation Course]",
-      description: "The aim of Xebia foundation course is to ensure all software engineers hired in Xebia know the vocabulary for building high quality software products. The course covers Agile, TDD, Clean Code, Git Version control, Continuous Integration, DevOps practices, and basic security know how. The course is self-paced consisting of high quality videos and text material. Every Xebians needs to complete this course with in one week of joining. There is an online test at the end to evaluate employee understanding of the concepts.",
+      description: "The aim of Xebia foundation course is to ensure all software engineers hired in Xebia know the vocabulary for building high quality software products. The course covers Agile, TDD, Clean Code, Git Version control, Continuous Integration, DevOps practices, and basic security know how. The course is self-paced consisting of high quality videos and text material.",
       deadline: 'Deadline: <strong>30</strong> Days from the date of joining',
       attempts: 'Attempts: 3'
     },

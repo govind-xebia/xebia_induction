@@ -12,6 +12,7 @@ import vikas from './assets/people/vikasa.png';
 import arvind from './assets/people/arvind.jpg'
 import rajat from './assets/people/rajat.jpg';
 import bharat from './assets/people/bharath.jpg';
+import runki from './assets/people/runki.jpg'
 
 import binx from './assets/logo/binx.png';
 import dataDriven from './assets/logo/data-driven.svg';
@@ -134,6 +135,12 @@ export const groupData = {
         dept: "Xebia Global Services",
         title: "Chief People and Stratergy Officer",
         img: glory
+      },
+      {
+        name: "Runki Goswami",
+        dept: "Xebia Global Services",
+        title: "Chief Marketing Officer",
+        img: runki
       },
       {
         name: "Arvind Sharma",
