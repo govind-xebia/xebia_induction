@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/xebia_induction/static/css/main.fb301ba8.chunk.css",
-    "main.js": "/xebia_induction/static/js/main.982bf718.chunk.js",
-    "main.js.map": "/xebia_induction/static/js/main.982bf718.chunk.js.map",
+    "main.css": "/xebia_induction/static/css/main.81158bd6.chunk.css",
+    "main.js": "/xebia_induction/static/js/main.04a031c3.chunk.js",
+    "main.js.map": "/xebia_induction/static/js/main.04a031c3.chunk.js.map",
     "runtime-main.js": "/xebia_induction/static/js/runtime-main.490b4d52.js",
     "runtime-main.js.map": "/xebia_induction/static/js/runtime-main.490b4d52.js.map",
     "static/css/2.5e32ad9b.chunk.css": "/xebia_induction/static/css/2.5e32ad9b.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.a96a618e.chunk.js.map": "/xebia_induction/static/js/2.a96a618e.chunk.js.map",
     "index.html": "/xebia_induction/index.html",
     "static/css/2.5e32ad9b.chunk.css.map": "/xebia_induction/static/css/2.5e32ad9b.chunk.css.map",
-    "static/css/main.fb301ba8.chunk.css.map": "/xebia_induction/static/css/main.fb301ba8.chunk.css.map",
+    "static/css/main.81158bd6.chunk.css.map": "/xebia_induction/static/css/main.81158bd6.chunk.css.map",
     "static/js/2.a96a618e.chunk.js.LICENSE.txt": "/xebia_induction/static/js/2.a96a618e.chunk.js.LICENSE.txt",
     "static/media/adp.64f490db.png": "/xebia_induction/static/media/adp.64f490db.png",
     "static/media/agile.3a34d389.png": "/xebia_induction/static/media/agile.3a34d389.png",
@@ -100,6 +100,7 @@
     "static/media/rajat.015252c0.jpg": "/xebia_induction/static/media/rajat.015252c0.jpg",
     "static/media/rajat.4755d4fa.jpg": "/xebia_induction/static/media/rajat.4755d4fa.jpg",
     "static/media/ram.edd70250.png": "/xebia_induction/static/media/ram.edd70250.png",
+    "static/media/runki.efdc9f77.jpg": "/xebia_induction/static/media/runki.efdc9f77.jpg",
     "static/media/shankar.ded44658.jpg": "/xebia_induction/static/media/shankar.ded44658.jpg",
     "static/media/shekhargulati.499292a5.jpg": "/xebia_induction/static/media/shekhargulati.499292a5.jpg",
     "static/media/smiley.98c8ea9d.svg": "/xebia_induction/static/media/smiley.98c8ea9d.svg",
@@ -124,7 +125,7 @@
     "static/js/runtime-main.490b4d52.js",
     "static/css/2.5e32ad9b.chunk.css",
     "static/js/2.a96a618e.chunk.js",
-    "static/css/main.fb301ba8.chunk.css",
-    "static/js/main.982bf718.chunk.js"
+    "static/css/main.81158bd6.chunk.css",
+    "static/js/main.04a031c3.chunk.js"
   ]
 }
