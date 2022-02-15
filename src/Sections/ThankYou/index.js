@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
 import SectionTitle from '../../Components/SectionTitle';
-import smiley from './smiley.svg';
+import smiley from './smiley.png';
 
 import styles from './ThankYou.module.scss'
 
@@ -14,9 +14,9 @@ const ThankYou = () => (
       <h5>
         Your goodies are on their way, enjoy this video.
       </h5>
-      <Image src={smiley} fluid />
+      <Image src={smiley} style={{ height: '60px' }} fluid />
     </div>
-    <div className={`${styles.videoWrapper} embed-responsive embed-responsive-21by9`}>
+    <div className={styles.videoContainer}>
       <iframe
         title="intro-vid"
         className="embed-responsive-item"
