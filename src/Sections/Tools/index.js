@@ -15,6 +15,7 @@ import toolsData from './toolsData';
 const Tools = () => {
   const { country } = useContext(CountryContext);
   const countryTools = toolsData[country] || [];
+  console.log(countryTools);
   return (
     <Row className={styles.toolsWrapper} style={{
       backgroundImage: `url("${dotsBg}")`

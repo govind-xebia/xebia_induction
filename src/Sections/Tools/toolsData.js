@@ -9,6 +9,7 @@ import zohopeople from './assets/zohopeoples.png';
 import sharepoint from './assets/sharepoint.png';
 import adp from './assets/adp.png';
 import tallie from './assets/tallie.jpg';
+import advantageclub from './assets/advantageclub.jpg';
 
 const toolsData = {
   in: [
@@ -77,6 +78,14 @@ const toolsData = {
         ios: 'https://apps.apple.com/app/microsoft-sharepoint/id1091505266',
         android: 'https://play.google.com/store/apps/details?id=com.microsoft.sharepoint'
       }
+    },
+    {
+      logo: advantageclub,
+      desc: 'Advantage Club is a platform for Xebians to get discounts on numerous brand and to redeem Xebia points. You can avail benefits and redeem your points on more than 10,000 brands across 12+ categories such as Dining, Shopping, Wellness, Travel & more.',
+      appLinks: {
+        ios: 'https://apps.apple.com/in/app/advantage-club/id1003770310',
+        android: 'https://play.google.com/store/apps/details?id=activity.workadvantage.com.workadvantage'
+      }
     }
   ],
   us: [
@@ -143,7 +152,7 @@ const toolsData = {
     },
     {
       logo: sharepoint,
-      desc: "SharePoint is a web-based platform that integrates with Microsoft Office. SharePoint is primarily sold as a document management and storage system.",
+      desc: 'SharePoint is a web-based platform that integrates with Microsoft Office. SharePoint is primarily sold as a document management and storage system.',
       appLinks: {
         ios: 'https://apps.apple.com/app/microsoft-sharepoint/id1091505266',
         android: 'https://play.google.com/store/apps/details?id=com.microsoft.sharepoint'

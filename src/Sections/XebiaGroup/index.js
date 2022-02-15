@@ -90,8 +90,8 @@ const XebiaGroup = () => {
                   <span
                     className={styles.verticalLine}
                     style={{
-                      height: '28.875rem',
-                      top: '24.6%',
+                      height: '36rem',
+                      top: '12.9%',
                       left: '25.15rem'
                     }}
                   />
@@ -101,7 +101,7 @@ const XebiaGroup = () => {
                         key={title}
                         title={title}
                         logo={logo}
-                        top={`${getTopPos(21, index)}%`}
+                        top={`${getTopPos(9.25, index)}%`}
                         left={'27.525rem'}
                         hasRight={index === 0}
                         logoBg={'#D1C4EF'}
@@ -117,7 +117,7 @@ const XebiaGroup = () => {
                     className={styles.verticalLine}
                     style={{
                       height: '14.45rem',
-                      top: '24.6%',
+                      top: '12.9%',
                       left: '38.425rem'
                     }}
                   />
@@ -126,7 +126,7 @@ const XebiaGroup = () => {
                       <TreeCard
                         title={title}
                         logo={logo}
-                        top={`${getTopPos(21, index)}%`}
+                        top={`${getTopPos(9.25, index)}%`}
                         left={'40.8rem'}
                         logoBg={'#D1C4EF'}
                         bgSize={bgSize}

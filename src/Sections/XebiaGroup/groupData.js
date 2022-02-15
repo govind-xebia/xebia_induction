@@ -12,8 +12,9 @@ import vikas from './assets/people/vikasa.png';
 import arvind from './assets/people/arvind.jpg'
 import rajat from './assets/people/rajat.jpg';
 import bharat from './assets/people/bharath.jpg';
-import runki from './assets/people/runki.jpg'
-
+import runki from './assets/people/runki.jpg';
+import vijit from './assets/people/vijit.png'
+import ashish from './assets/people/ashish.jpg';
 import binx from './assets/logo/binx.png';
 import dataDriven from './assets/logo/data-driven.svg';
 import stackState from './assets/logo/stack-state.svg';
@@ -84,6 +85,10 @@ export const globalData = [
   {
     title: 'Xebia Academy',
     logoText: 'XA'
+  },
+  {
+    title: 'Xebia APAC',
+    logoText: 'APAC'
   }
 ]
 
@@ -157,7 +162,7 @@ export const groupData = {
       {
         name: "Bharat Srivastava",
         dept: "Xebia Global Services",
-        title: "Senior Director- Sales & Alliance",
+        title: "Senior Director- Strategy & Alliance",
         img: bharat
       }
     ]
@@ -183,7 +188,14 @@ export const groupData = {
     ]
   },
   xuk: {
-    people: []
+    people: [
+      {
+        name: "Vijit Ghatge",
+        dept: "Xebia UK",
+        title: "Director - UK Head",
+        img: vijit
+      }
+    ]
   },
   xme: {
     people: [
@@ -232,6 +244,16 @@ export const groupData = {
         dept: "Xebia Pune",
         title: "Director - Delivery",
         img: amitk
+      }
+    ]
+  },
+  apac: {
+    people: [
+      {
+        name: "Ashish Proothi",
+        dept: "Xebia APAC",
+        title: "Director - APAC",
+        img: ashish
       }
     ]
   }
