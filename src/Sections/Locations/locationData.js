@@ -56,11 +56,19 @@ const locationData = [
     }
   },
   {
-    location: 'UAE',
+    location: 'Dubai',
     office: true,
     pos: {
       top: '36%',
       right: '36.2%'
+    }
+  },
+  {
+    location: 'Abu Dhabi',
+    office: false,
+    pos: {
+      top: '35.5%',
+      right: '36.7%'
     }
   },
   {
@@ -138,6 +146,14 @@ const locationData = [
   {
     location: 'Sydney',
     office: false,
+    pos: {
+      right: '10.3%',
+      bottom: '26.7%'
+    }
+  },
+  {
+    location: 'Melbourne',
+    office: true,
     pos: {
       right: '10.3%',
       bottom: '26.7%'
