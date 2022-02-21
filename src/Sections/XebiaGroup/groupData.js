@@ -15,6 +15,7 @@ import bharat from './assets/people/bharath.jpg';
 import runki from './assets/people/runki.jpg';
 import vijit from './assets/people/vijit.png'
 import ashish from './assets/people/ashish.jpg';
+import sanjeev from './assets/people/sanjeev.jpeg';
 import binx from './assets/logo/binx.png';
 import dataDriven from './assets/logo/data-driven.svg';
 import stackState from './assets/logo/stack-state.svg';
@@ -164,6 +165,12 @@ export const groupData = {
         dept: "Xebia Global Services",
         title: "Senior Director- Strategy & Alliance",
         img: bharat
+      },
+      {
+        name: "Sanjeev Sharma",
+        dept: "Xebia Global Services",
+        title: "Chief Delivery Officer",
+        img: sanjeev
       }
     ]
   },

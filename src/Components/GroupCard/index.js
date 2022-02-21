@@ -12,7 +12,7 @@ const GroupCard = ({
   <Card 
     className={styles.groupCard}
   >
-    <Card.Img className={styles.groupCardImg} src={img} />
+    <Card.Img variant='top' className={styles.groupCardImg} src={img} />
     <Card.Body className={styles.groupCardBody}>
       <h4>
         {name}
