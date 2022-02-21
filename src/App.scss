@@ -35,8 +35,8 @@ body{
 }
 
 .carousel-indicators{
-  bottom: -2.5rem;
-  li{
+  bottom: -2.8rem;
+  [data-bs-target]{
     height: 0.5rem;
     width: 0.5rem;
     border: 2px solid $grey-1;
