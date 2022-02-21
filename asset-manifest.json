@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xebia_induction/static/css/main.697692a2.css",
-    "main.js": "/xebia_induction/static/js/main.ab043357.js",
+    "main.js": "/xebia_induction/static/js/main.3e46c276.js",
     "static/media/gallery-7.jpg": "/xebia_induction/static/media/gallery-7.a3d2b7d2f015a6cfbb4d.jpg",
     "static/media/gallery-18.jpg": "/xebia_induction/static/media/gallery-18.745586e9de37eb63a250.jpg",
     "static/media/gallery-16.jpg": "/xebia_induction/static/media/gallery-16.18b8b421b9abf91f9ac5.jpg",
@@ -46,6 +46,7 @@
     "static/media/mcb.jpg": "/xebia_induction/static/media/mcb.80b2f4e00d3046ff31ac.jpg",
     "static/media/unilever.png": "/xebia_induction/static/media/unilever.1ceb9f77a6b1f7bf42db.png",
     "static/media/kotak.png": "/xebia_induction/static/media/kotak.9ab77d0a073659767550.png",
+    "static/media/saakshi.jpg": "/xebia_induction/static/media/saakshi.872a79323229e6f17f31.jpg",
     "static/media/levis.png": "/xebia_induction/static/media/levis.8e6aab79b0dec30154e6.png",
     "static/media/vikasa.png": "/xebia_induction/static/media/vikasa.737147c1cefa8a49a24c.png",
     "static/media/praval.png": "/xebia_induction/static/media/praval.4b1b4215774fd3f4753e.png",
@@ -60,6 +61,7 @@
     "static/media/aspiration.jpg": "/xebia_induction/static/media/aspiration.03fc5e07b496f9e795b6.jpg",
     "static/media/gallery-10.jpg": "/xebia_induction/static/media/gallery-10.e004c2634adac650b27e.jpg",
     "static/media/dunnhumby.jpg": "/xebia_induction/static/media/dunnhumby.0fe769233ffba8d52258.jpg",
+    "static/media/isha.png": "/xebia_induction/static/media/isha.870442477b7f63a2d171.png",
     "static/media/outlook.png": "/xebia_induction/static/media/outlook.6969915a3cd4a82e4ff0.png",
     "static/media/xebiaLogo.svg": "/xebia_induction/static/media/xebiaLogo.9129344936f0882829e294cdebdbd664.svg",
     "static/media/klm.png": "/xebia_induction/static/media/klm.98566666b5cd1c4ce729.png",
@@ -82,15 +84,20 @@
     "static/media/tallie.jpg": "/xebia_induction/static/media/tallie.dbc91cab1d0352d120ee.jpg",
     "static/media/dots.svg": "/xebia_induction/static/media/dots.12eb6d5193fdda5ec5f03c4b64b0b78c.svg",
     "static/media/sanjeev.jpeg": "/xebia_induction/static/media/sanjeev.199ed63a373364d45602.jpeg",
+    "static/media/shivam.jpg": "/xebia_induction/static/media/shivam.b4d8315f93cf0be3b631.jpg",
+    "static/media/sudharshana.jpg": "/xebia_induction/static/media/sudharshana.bf90a82afa223b81c0a9.jpg",
     "static/media/glory.jpg": "/xebia_induction/static/media/glory.13429ed838d02b13cd69.jpg",
     "static/media/brijesh.jpg": "/xebia_induction/static/media/brijesh.482fddb3fa7ccf09b548.jpg",
     "static/media/runki.jpg": "/xebia_induction/static/media/runki.efdc9f7759cedb0c8a14.jpg",
+    "static/media/vishal.jpg": "/xebia_induction/static/media/vishal.1e520c2fdd571daff5e4.jpg",
     "static/media/deutsche.jpg": "/xebia_induction/static/media/deutsche.b64d57d3277f8bc5f125.jpg",
     "static/media/dkm.png": "/xebia_induction/static/media/dkm.1ccc6c743e53c2061993.png",
     "static/media/ram.png": "/xebia_induction/static/media/ram.edd70250a79bb6a95f33.png",
     "static/media/bharath.jpg": "/xebia_induction/static/media/bharath.7026951769f95e5f427f.jpg",
+    "static/media/nancy.jpg": "/xebia_induction/static/media/nancy.b755290e8e56abda6b39.jpg",
     "static/media/rajat.jpg": "/xebia_induction/static/media/rajat.4755d4fa52b0df2798f1.jpg",
     "static/media/yesbank.png": "/xebia_induction/static/media/yesbank.941872cd900788da3ef0.png",
+    "static/media/diksha.jpg": "/xebia_induction/static/media/diksha.c7d9d078e62458f7c9c3.jpg",
     "static/media/ashish.jpg": "/xebia_induction/static/media/ashish.efc81182c619895793ae.jpg",
     "static/media/vijit.png": "/xebia_induction/static/media/vijit.2909baf4f009bb421ff6.png",
     "static/media/adp.png": "/xebia_induction/static/media/adp.64f490db74032a28d1f1.png",
@@ -118,10 +125,10 @@
     "static/media/play.svg": "/xebia_induction/static/media/play.919d6ea349e5edae7949339538179810.svg",
     "index.html": "/xebia_induction/index.html",
     "main.697692a2.css.map": "/xebia_induction/static/css/main.697692a2.css.map",
-    "main.ab043357.js.map": "/xebia_induction/static/js/main.ab043357.js.map"
+    "main.3e46c276.js.map": "/xebia_induction/static/js/main.3e46c276.js.map"
   },
   "entrypoints": [
     "static/css/main.697692a2.css",
-    "static/js/main.ab043357.js"
+    "static/js/main.3e46c276.js"
   ]
 }
