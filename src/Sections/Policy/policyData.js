@@ -96,46 +96,82 @@ export const contentData = {
       ]
     },
     longterm: {
-      title: 'Longterm Service Awards',
+      title: 'Xebia Adores',
       data: [
         {
-          title: 'Hattrick Hero',
+          title: 'Amethyst Club',
           content: [
-            '3 years of service',
-            'Certificate signed by CEO',
-            'Gold Coin weight 3 gm. With Xebia imprinted',
+            '25 Months of service',
+            'Memento + Digital Certificate',
+            '10 gm Silver coin',
+            '10 days of Basic Pay',
+            'Surprise Benefit worth 25,000 INR*',
+            'Thank you note for your family',
+          ]
+        },
+        {
+          title: 'Diamond Club',
+          content: [
+            '50 Months',
+            'Memento + Digital Certificate',
+            '4 gm Gold coin',
             '15 days of Basic Pay',
-            'Experience worth INR 10,000/- from **Assorted Benefits Basket'
+            'Surprise Benefit worth 30,000 INR*',
+            'Thank you note for your family',
+            'Family Dinner with leadership team',
+            'Name added on (Digital) Hall of Fame of Xebia',
           ]
         },
         {
-          title: 'Fabulous Five',
+          title: 'Onyx Club',
           content: [
-            '5 years of service',
-            'Certificate signed by CEO',
-            'Gold Coin weight 5 gm. With Xebia imprinted',
-            'One month of Basic Pay',
-            'Experience worth INR 30,000/- from **Assorted Benefits Basket'
+            '75 Months',
+            'Memento + Digital Certificate',
+            '6 gm Gold coin',
+            '15 days of Basic Pay',
+            'Surprise Benefit worth 50,000 INR*',
+            'Thank you note for your family',
+            'Family Dinner with leadership team',
+            'Name added on (Digital) Hall of Fame of Xebia',
           ]
         },
         {
-          title: 'Terrific Ten',
+          title: 'Ruby Club',
           content: [
-            '10 years of service',
-            'Certificate signed by CEO',
-            'Gold Coin weight 10 gm. With Xebia imprinted',
-            'One month of Basic Pay',
-            'Experience worth INR 50,000/- from **Assorted Benefits Basket'
+            '100 Months',
+            'Memento + Digital Certificate',
+            '8 gm Gold coin',
+            '25 days of Basic Pay',
+            'Surprise Benefit worth 75,000 INR*',
+            'Thank you note for your family',
+            'Family Dinner with leadership team',
+            'Name added on (Digital) Hall of Fame of Xebia',
           ]
         },
         {
-          title: 'Flawless Fifteen',
+          title: 'Emerald Club',
           content: [
-            '15 years of service',
-            'Certificate signed by CEO',
-            'Gold Coin weight 15 gm. With Xebia imprinted',
-            'One month of Basic Pay',
-            'Experience worth INR 100,000/- from **Assorted Benefits Basket'
+            '125 Months',
+            'Memento + Digital Certificate',
+            '10 gm Gold coin',
+            '1 month of Basic Pay',
+            'Surprise Benefit  worth 1,00,000 INR*',
+            'Thank you note for your family',
+            'Family Dinner with leadership team',
+            'Name added on (Digital) Hall of Fame of Xebia',
+          ]
+        },
+        {
+          title: 'Sapphire Club',
+          content: [
+            '200 Months',
+            'Memento + Digital Certificate',
+            '16 gm Gold coin',
+            '1 month of Basic Pay',
+            'Surprise Benefit  worth 1,50,000 INR*',
+            'Thank you note for your family',
+            'Family Dinner with leadership team',
+            'Name added on (Digital) Hall of Fame of Xebia',
           ]
         }
       ]
@@ -218,7 +254,7 @@ export const policyData = {
     },
     {
       icon: awards,
-      title: 'Longterm Service Awards'
+      title: 'Xebia Adores'
     }
   ],
   us: [

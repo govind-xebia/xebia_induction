@@ -10,42 +10,27 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 import styles from './Clients.module.scss';
 
 const Clients = () => {
-
-  const array = [];
-  const size = 5;
-  while (clientsData.length > 0) {
-    array.push(clientsData.splice(0, size));
-  }
-
   const handleScroll = direction => {
     const clientele = document.getElementById('clientele');
-    clientele.scrollBy( (direction === 'right' ? clientele.offsetWidth : -clientele.offsetWidth), 0)
+    clientele.scrollBy((direction === 'right' ? clientele.offsetWidth : -clientele.offsetWidth), 0)
   }
-
+  console.log(clientsData);
   const renderClients = () => {
     return (
       <Row id="clientele" className={styles.logoWrapper}>
         {
-          array.map((clients, index) => (
-            <Col className={styles.clientCol} key={index}>
-              <Row className={styles.clientRow}>
-              {
-                clients.map(({name, image}) => (
-                    <Col key={`${name}-${image}`}>
-                      <LazyLoadComponent
-                        effect="blur"
-                      >
-                        <div
-                          className={styles.imageRow}
-                          style={{
-                            backgroundImage: `url("${image}")`
-                          }}
-                        />
-                      </LazyLoadComponent>
-                    </Col>
-                  ))
-                }
-              </Row>
+          clientsData.map(({ name, image }) => (
+            <Col lg={2} className={styles.clientCol} key={name}>
+              <LazyLoadComponent
+                effect="blur"
+              >
+                <div
+                  className={styles.imageRow}
+                  style={{
+                    backgroundImage: `url("${image}")`
+                  }}
+                />
+              </LazyLoadComponent>
             </Col>
           ))
         }

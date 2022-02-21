@@ -74,7 +74,7 @@ const Policy = () => {
         return renderSectionContent(countryPolicyData.rewards, 12);
       case 'Performance':
         return renderSectionContent(countryPolicyData.performance, 12);
-      case 'Longterm':
+      case 'Xebia':
         return renderSectionContent(countryPolicyData.longterm, 12);
       default:
         return setContent('all');

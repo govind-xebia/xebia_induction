@@ -1,154 +1,139 @@
-import client1 from './logos/client-1.png';
-import client2 from './logos/client-2.png';
-import client3 from './logos/client-3.png';
-import client4 from './logos/client-4.png';
-import client5 from './logos/client-5.png';
-import client6 from './logos/client-6.png';
-import client7 from './logos/client-7.png';
-import client8 from './logos/client-8.png';
-import client9 from './logos/client-9.png';
-import client10 from './logos/client-10.png';
-import client11 from './logos/client-11.png';
-import client12 from './logos/client-12.png';
-import client13 from './logos/client-13.png';
-import client14 from './logos/client-14.png';
-import client15 from './logos/client-15.png';
-import client16 from './logos/client-16.png';
-import client17 from './logos/client-17.png';
-import client18 from './logos/client-18.png';
-import client19 from './logos/client-19.png';
-import client20 from './logos/client-20.png';
-import client21 from './logos/client-21.png';
-import client22 from './logos/client-22.png';
-import client23 from './logos/client-23.png';
-import client24 from './logos/client-24.png';
-import client25 from './logos/client-25.png';
-import client26 from './logos/client-26.png';
-import client27 from './logos/client-27.png';
-import client28 from './logos/client-28.jpg';
-import client29 from './logos/client-29.png';
-import client30 from './logos/client-30.jpg';
+import abn from './logos/abnamro.png'
+import aspiration from './logos/aspiration.jpg'
+import barclays from './logos/barclays.png'
+import beachbody from './logos/beachbody.jpg'
+import brown from './logos/brown.png'
+import cib from './logos/cib.png'
+import delta from './logos/delta.png'
+import deutsche from './logos/deutsche.jpg'
+import dhl from './logos/dhl.png'
+import dunnhumby from './logos/dunnhumby.jpg'
+import emirates from './logos/emirates.png'
+import etihad from './logos/etihad.png'
+import grandvision from './logos/grandvision.jpg'
+import idfc from './logos/idfc.jpg'
+import ing from './logos/ing.png'
+import klm from './logos/klm.png'
+import kotak from './logos/kotak.png'
+import levis from './logos/levis.png'
+import macys from './logos/macys.png'
+import mcb from './logos/mcb.jpg'
+import princesscruises from './logos/princesscruises.png'
+import schipol from './logos/schipol.png'
+import sncf from './logos/sncf.jpg'
+import tesco from './logos/tesco.png'
+import unilever from './logos/unilever.png'
+import waltdisney from './logos/waltdisney.jpg'
+import yesbank from './logos/yesbank.png'
 
 const clientsData = [
   {
-    name: "HDFC",
-    image: client1
+    name: "ING",
+    image: ing
   },
   {
-    name: "HDFC",
-    image: client2
+    name: "IDFC First Bank",
+    image: idfc
   },
   {
-    name: "HDFC",
-    image: client3
+    name: "Barclays",
+    image: barclays
   },
   {
-    name: "HDFC",
-    image: client4
+    name: "Yes Bank",
+    image: yesbank
   },
   {
-    name: "HDFC",
-    image: client5
+    name: "ABN-AMRO",
+    image: abn
   },
   {
-    name: "HDFC",
-    image: client6
+    name: "Kotak Mahindra Bank ",
+    image: kotak
   },
   {
-    name: "HDFC",
-    image: client7
+    name: "Deutsche Bank",
+    image: deutsche
   },
   {
-    name: "HDFC",
-    image: client8
+    name: "MCB",
+    image: mcb
   },
   {
-    name: "HDFC",
-    image: client9
+    name: "Aspiration",
+    image: aspiration
   },
   {
-    name: "HDFC",
-    image: client10
+    name: "Emirates",
+    image: emirates
   },
   {
-    name: "HDFC",
-    image: client11
+    name: "Beachbody",
+    image: beachbody
   },
   {
-    name: "HDFC",
-    image: client12
+    name: "KLM",
+    image: klm
   },
   {
-    name: "HDFC",
-    image: client13
+    name: "Walt Disney",
+    image: waltdisney
   },
   {
-    name: "HDFC",
-    image: client14
+    name: "Delta",
+    image: delta
   },
   {
-    name: "HDFC",
-    image: client15
+    name: "Macy’s",
+    image: macys
   },
   {
-    name: "HDFC",
-    image: client16
+    name: "Princess Cruises",
+    image: princesscruises
   },
   {
-    name: "Bouyban",
-    image: client17
+    name: "Tesco",
+    image: tesco
   },
   {
-    name: "HDFC",
-    image: client18
+    name: "SNCF",
+    image: sncf
   },
   {
-    name: "HDFC",
-    image: client19
+    name: "Unilever",
+    image: unilever
   },
   {
-    name: "HDFC",
-    image: client20
+    name: "Schipol",
+    image: schipol
   },
   {
-    name: "HDFC",
-    image: client21
+    name: "Dunnhumby",
+    image: dunnhumby
   },
   {
-    name: "HDFC",
-    image: client22
+    name: "Levi’s",
+    image: levis
   },
   {
-    name: "HDFC",
-    image: client23
+    name: "Etihad",
+    image: etihad
   },
   {
-    name: "HDFC",
-    image: client24
+    name: "CIB",
+    image: cib
   },
   {
-    name: "HDFC",
-    image: client25
+    name: "Grand Vision",
+    image: grandvision
   },
   {
-    name: "HDFC",
-    image: client26
+    name: "Brown Brothers Harriman",
+    image: brown
   },
   {
-    name: "HDFC",
-    image: client27
-  },
-  {
-    name: "HDFC",
-    image: client28
-  },
-  {
-    name: "HDFC",
-    image: client29
-  },
-  {
-    name: "HDFC",
-    image: client30
+    name: "DHL",
+    image: dhl
   }
 ];
 

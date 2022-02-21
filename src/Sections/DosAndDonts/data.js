@@ -8,11 +8,6 @@ export const dos = [
     link: 'https://people.zoho.com/xebiacom/zp#attendance/entry/listview'
   },
   {
-    text: 'Send Out Your Introduction Mailer to Aarti',
-    linkText: '(aarti.thakur@xebia.com)',
-    link: 'mailto:aarti.thakur@xebia.com'
-  },
-  {
     text: 'Start marking your attendance daily (when working) on Zoho People- either web or mobile app version'
   },
   {
@@ -42,9 +37,6 @@ export const dos = [
 export const donts = [
   {
     text: 'Create profile on your own on Zoho People'
-  },
-  {
-    text: 'Release introduction on your own without sending it to HR team first'
   },
   {
     text: 'Refer to your co-workers as “sir” and “ma’am”'
