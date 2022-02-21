@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/xebia_induction/static/css/main.86d66ae5.css",
-    "main.js": "/xebia_induction/static/js/main.15af34b5.js",
+    "main.css": "/xebia_induction/static/css/main.7017a37d.css",
+    "main.js": "/xebia_induction/static/js/main.abca1a03.js",
     "static/media/gallery-7.jpg": "/xebia_induction/static/media/gallery-7.a3d2b7d2f015a6cfbb4d.jpg",
     "static/media/gallery-18.jpg": "/xebia_induction/static/media/gallery-18.745586e9de37eb63a250.jpg",
     "static/media/gallery-16.jpg": "/xebia_induction/static/media/gallery-16.18b8b421b9abf91f9ac5.jpg",
@@ -70,6 +70,7 @@
     "static/media/dots.svg": "/xebia_induction/static/media/dots.12eb6d5193fdda5ec5f03c4b64b0b78c.svg",
     "static/media/client-24.png": "/xebia_induction/static/media/client-24.55bed986c8316bfb40a3.png",
     "static/media/client-26.png": "/xebia_induction/static/media/client-26.003c7f9d1e38643ee0ee.png",
+    "static/media/sanjeev.jpeg": "/xebia_induction/static/media/sanjeev.199ed63a373364d45602.jpeg",
     "static/media/glory.jpg": "/xebia_induction/static/media/glory.13429ed838d02b13cd69.jpg",
     "static/media/client-28.jpg": "/xebia_induction/static/media/client-28.ecab946bf4a158cc59bc.jpg",
     "static/media/brijesh.jpg": "/xebia_induction/static/media/brijesh.482fddb3fa7ccf09b548.jpg",
@@ -112,11 +113,11 @@
     "static/media/quality.svg": "/xebia_induction/static/media/quality.2db05055b0f9a31733b5ecf11cd55ebb.svg",
     "static/media/play.svg": "/xebia_induction/static/media/play.919d6ea349e5edae7949339538179810.svg",
     "index.html": "/xebia_induction/index.html",
-    "main.86d66ae5.css.map": "/xebia_induction/static/css/main.86d66ae5.css.map",
-    "main.15af34b5.js.map": "/xebia_induction/static/js/main.15af34b5.js.map"
+    "main.7017a37d.css.map": "/xebia_induction/static/css/main.7017a37d.css.map",
+    "main.abca1a03.js.map": "/xebia_induction/static/js/main.abca1a03.js.map"
   },
   "entrypoints": [
-    "static/css/main.86d66ae5.css",
-    "static/js/main.15af34b5.js"
+    "static/css/main.7017a37d.css",
+    "static/js/main.abca1a03.js"
   ]
 }
