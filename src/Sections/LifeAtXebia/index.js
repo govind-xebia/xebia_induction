@@ -74,7 +74,7 @@ const LifeAtXebia = () => {
   }
 
   return (
-    <Container fluid className="complete-width">
+    <Container fluid className="complete-width" style={{ marginBottom: '5rem' }}>
       <Row className={styles.lifeWrapper}>
         <Col>
           <Row className={styles.lifeContentWrapper}>
