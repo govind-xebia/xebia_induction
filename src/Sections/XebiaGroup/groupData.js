@@ -16,6 +16,14 @@ import runki from './assets/people/runki.jpg';
 import vijit from './assets/people/vijit.png'
 import ashish from './assets/people/ashish.jpg';
 import sanjeev from './assets/people/sanjeev.jpeg';
+import shivam from './assets/people/shivam.jpg';
+import nancy from './assets/people/nancy.jpg';
+import sudharshana from './assets/people/sudharshana.jpg';
+import saakshi from './assets/people/saakshi.jpg';
+import isha from './assets/people/isha.png';
+import vishal from './assets/people/vishal.jpg';
+import diksha from './assets/people/diksha.jpg';
+
 import binx from './assets/logo/binx.png';
 import dataDriven from './assets/logo/data-driven.svg';
 import stackState from './assets/logo/stack-state.svg';
@@ -95,16 +103,16 @@ export const globalData = [
 
 export const indiaData = [
   {
-    title: 'Xebia Gurugram',
-    logoText: 'XG',
+    title: 'Xebia North',
+    logoText: 'XN',
   },
   {
-    title: 'Xebia Bengaluru',
-    logoText: 'XB'
+    title: 'Xebia South',
+    logoText: 'XS'
   },
   {
-    title: 'Xebia Pune',
-    logoText: 'XP'
+    title: 'Xebia West',
+    logoText: 'XW'
   }
 ];
 
@@ -190,7 +198,14 @@ export const groupData = {
         name: "Vipul Baijal",
         dept: "Xebia US",
         title: "Managing Director - Delivery",
-        img: vipul
+        img: vipul,
+        sub: [
+          {
+            name: "Sudarshana Mukherjee",
+            title: "HRBP",
+            img: sudharshana
+          }
+        ]
       }
     ]
   },
@@ -200,7 +215,14 @@ export const groupData = {
         name: "Vijit Ghatge",
         dept: "Xebia UK",
         title: "Director - UK Head",
-        img: vijit
+        img: vijit,
+        sub: [
+          {
+            name: "Nancy Sawhney",
+            title: "HRBP",
+            img: nancy
+          }
+        ]
       }
     ]
   },
@@ -210,7 +232,14 @@ export const groupData = {
         name: "Shankar Garg",
         dept: "Xebia Middle East",
         title: "Associate Director - Sales",
-        img: shankar
+        img: shankar,
+        sub: [
+          {
+            name: "Vishal Yadav",
+            title: "HRBP",
+            img: vishal
+          }
+        ]
       }
     ]
   },
@@ -218,39 +247,60 @@ export const groupData = {
     people: [
       {
         name: "Madhur Arya",
-        dept: "Xebia Gurugram",
+        dept: "Xebia India",
         title: "Head Of Operations and Chief Information Security Officer",
         img: madhur
       }
     ]
   },
-  xb: {
+  xs: {
     people: [
       {
         name: "Vikas Agarwal",
-        dept: "Xebia Bengaluru",
+        dept: "Xebia South",
         title: "Director - Delivery",
-        img: vikas
+        img: vikas,
+        sub: [
+          {
+            name: "Diksha Thakuri",
+            title: "HRBP",
+            img: diksha
+          }
+        ]
       }
     ]
   },
-  xg: {
+  xn: {
     people: [
       {
         name: "Anurag Agar",
-        dept: "Xebia Middle East",
+        dept: "Xebia North",
         title: "Director - Delivery",
-        img: anurag
+        img: anurag,
+        sub: [
+          {
+            name: "Shivam Sharma",
+            title: "HRBP",
+            img: shivam
+          }
+        ]
       }
     ]
   },
-  xp: {
+  xw: {
     people: [
       {
         name: "Amit Katkar",
-        dept: "Xebia Pune",
+        dept: "Xebia West",
         title: "Director - Delivery",
-        img: amitk
+        img: amitk,
+        sub: [
+          {
+            name: "Isha Deshmukh",
+            title: "HRBP",
+            img: isha
+          }
+        ]
       }
     ]
   },
@@ -260,7 +310,14 @@ export const groupData = {
         name: "Ashish Proothi",
         dept: "Xebia APAC",
         title: "Director - APAC",
-        img: ashish
+        img: ashish,
+        sub: [
+          {
+            name: "Saakshi Gupta",
+            title: "HRBP",
+            img: saakshi
+          }
+        ]
       }
     ]
   }
