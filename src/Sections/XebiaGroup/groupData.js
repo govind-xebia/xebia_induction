@@ -262,7 +262,7 @@ export const groupData = {
         img: vikas,
         sub: [
           {
-            name: "Diksha Thakuri",
+            name: "Diksha Singh",
             title: "HRBP",
             img: diksha
           }
