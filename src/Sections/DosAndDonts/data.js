@@ -16,11 +16,6 @@ export const dos = [
     link: 'https://teams.microsoft.com/l/team/19%3ac6c394888d1a4d0693f42afe808e8b60%40thread.tacv2/conversations?groupId=41eabe6e-5802-4fdf-a2cd-0f5802778fc1&tenantId=3d4d17ea-1ae4-4705-947e-51369c5a5f79'
   },
   {
-    text: 'Update your Covid-19 vaccination status on MyXebia,',
-    linkText: 'click here',
-    link: 'https://myxebia.web.app/covid-corner'
-  },
-  {
     text: 'Update Your Linkedin Profile'
   },
   {

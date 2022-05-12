@@ -45,6 +45,6 @@
     "@fortawesome/free-brands-svg-icons": "^6.0.0"
   },
   "volta": {
-    "node": "16.14.0"
+    "node": "16.15.0"
   }
 }

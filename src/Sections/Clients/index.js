@@ -14,7 +14,6 @@ const Clients = () => {
     const clientele = document.getElementById('clientele');
     clientele.scrollBy((direction === 'right' ? clientele.offsetWidth : -clientele.offsetWidth), 0)
   }
-  console.log(clientsData);
   const renderClients = () => {
     return (
       <Row id="clientele" className={styles.logoWrapper}>
