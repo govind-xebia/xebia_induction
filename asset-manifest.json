@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xebia_induction/static/css/main.697692a2.css",
-    "main.js": "/xebia_induction/static/js/main.96f7b7b4.js",
+    "main.js": "/xebia_induction/static/js/main.7aee2cbf.js",
     "static/media/gallery-7.jpg": "/xebia_induction/static/media/gallery-7.a3d2b7d2f015a6cfbb4d.jpg",
     "static/media/gallery-18.jpg": "/xebia_induction/static/media/gallery-18.745586e9de37eb63a250.jpg",
     "static/media/gallery-16.jpg": "/xebia_induction/static/media/gallery-16.18b8b421b9abf91f9ac5.jpg",
@@ -83,7 +83,6 @@
     "static/media/anand.png": "/xebia_induction/static/media/anand.f6b09d8ed89c398c8651.png",
     "static/media/tallie.jpg": "/xebia_induction/static/media/tallie.dbc91cab1d0352d120ee.jpg",
     "static/media/dots.svg": "/xebia_induction/static/media/dots.12eb6d5193fdda5ec5f03c4b64b0b78c.svg",
-    "static/media/sanjeev.jpeg": "/xebia_induction/static/media/sanjeev.199ed63a373364d45602.jpeg",
     "static/media/shivam.jpg": "/xebia_induction/static/media/shivam.b4d8315f93cf0be3b631.jpg",
     "static/media/sudharshana.jpg": "/xebia_induction/static/media/sudharshana.bf90a82afa223b81c0a9.jpg",
     "static/media/glory.jpg": "/xebia_induction/static/media/glory.13429ed838d02b13cd69.jpg",
@@ -125,10 +124,10 @@
     "static/media/play.svg": "/xebia_induction/static/media/play.919d6ea349e5edae7949339538179810.svg",
     "index.html": "/xebia_induction/index.html",
     "main.697692a2.css.map": "/xebia_induction/static/css/main.697692a2.css.map",
-    "main.96f7b7b4.js.map": "/xebia_induction/static/js/main.96f7b7b4.js.map"
+    "main.7aee2cbf.js.map": "/xebia_induction/static/js/main.7aee2cbf.js.map"
   },
   "entrypoints": [
     "static/css/main.697692a2.css",
-    "static/js/main.96f7b7b4.js"
+    "static/js/main.7aee2cbf.js"
   ]
 }
