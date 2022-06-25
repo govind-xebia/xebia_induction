@@ -13,8 +13,22 @@ import styles from './Tools.module.scss';
 import toolsData from './toolsData';
 
 const Tools = () => {
-  const { country } = useContext(CountryContext);
-  const countryTools = toolsData[country] || [];
+  const { country, contractorMode } = useContext(CountryContext);
+  const countryTools = toolsData[country].filter(tool => {
+    if (contractorMode) {
+      if (
+        tool.toolId === 'dkm'
+        || tool.toolId === 'jira'
+        || tool.toolId === 'github'
+        || tool.toolId === 'sharepoint'
+        || tool.toolId === 'advantageclub'
+      ) {
+        return false;
+      }
+    }
+    return true;
+  }) || [];
+  
   return (
     <Row className={styles.toolsWrapper} style={{
       backgroundImage: `url("${dotsBg}")`

@@ -18,20 +18,14 @@ import ThankYou from './Sections/ThankYou';
 
 import './App.scss';
 
-function getCountry() {
-  const { search } = window.location;
-  return search 
-    ? search.split('?').join('').trim().split('=')[1].toLowerCase()
-    : '';
-}
-
 function App() {
-  const country = getCountry().length === 0 
-    ? 'in'
-    : getCountry();
-
+  const queryParams = new URLSearchParams(window.location.search);
+  const contractorMode = queryParams.get('contractor')
   return (
-    <Provider value={{ country }}>
+    <Provider value={{
+      country: queryParams.get('country') || 'in',
+      contractorMode
+    }}>
       <Container fluid>
         <Welcome />
         <Origins />
@@ -39,12 +33,21 @@ function App() {
         <Locations />
         <XebiaGroup />
         <COE />
-        <Clients />
-        <Awards />
+        {
+          !contractorMode &&
+          <>
+            <Clients />
+            <Awards />
+          </>
+        }
       </Container>
-      <Policy />
+      {
+        !contractorMode && <Policy />
+      }
       <ThingsToRemember />
-      <DosAndDonts />
+      {
+        !contractorMode && <DosAndDonts />
+      }
       <Container fluid>
         <Tools />
       </Container>

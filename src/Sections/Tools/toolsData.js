@@ -15,6 +15,7 @@ import greenhouse from './assets/greenhouse.png';
 const toolsData = {
   in: [
     {
+      toolId: 'outlook',
       logo: outlook,
       desc: 'Outlook is our official email provider. Keep yourself updated by accessing your emails on outlook desktop app, mobile app or web.',
       appLinks: {
@@ -23,11 +24,13 @@ const toolsData = {
       }
     },
     {
+      toolId: 'zoho',
       logo: zoho,
       desc: 'A one stop shop for all our employees. Zoho is our complete HR solution. Automate and simplify operations like Leave, company policies & attendance.',
       appLinks: null
     },
     {
+      toolId: 'zohopeople',
       logo: zohopeople,
       desc: 'Zoho People take care of your HR processes. From onboarding and attendance management to time tracking and appraisals.',
       appLinks: {
@@ -36,6 +39,7 @@ const toolsData = {
       }
     },
     {
+      toolId: 'xenie',
       logo: xenie,
       desc: "Xenie Desk- Xebia’s Internal HelpDesk - All HR, Admin, Finance and ISMS related queries can be asked at Xenie - a mobile app for Xebia employees.",
       appLinks: {
@@ -44,6 +48,7 @@ const toolsData = {
       }
     },
     {
+      toolId: 'teams',
       logo: teams,
       desc: "Microsoft Teams is Xebia's internal chat application. You are always connected with Xebians through this easy and user friendly app.",
       appLinks: {
@@ -52,11 +57,13 @@ const toolsData = {
       }
     },
     {
+      toolId: 'dkm',
       logo: dkm,
       desc: "Struggling with queries related to payroll? DKM is the place to go! It is our payroll management system. Access your salary slips, investment details and FBP details.",
       appLinks: null
     },
     {
+      toolId: 'github',
       logo: github,
       desc: "GitHub is a Git repository hosting service which is used by Xebia as an official code repository.",
       appLinks: {
@@ -65,6 +72,7 @@ const toolsData = {
       }
     },
     {
+      toolId: 'jira',
       logo: jira,
       desc: "Jira is our offical tool for bug tracking, issue tracking, and project management.",
       appLinks: {
@@ -73,6 +81,7 @@ const toolsData = {
       }
     },
     {
+      toolId: 'sharepoint',
       logo: sharepoint,
       desc: "SharePoint is a web-based platform that integrates with Microsoft Office. SharePoint is primarily sold as a document management and storage system.",
       appLinks: {
@@ -81,6 +90,7 @@ const toolsData = {
       }
     },
     {
+      toolId: 'advantageclub',
       logo: advantageclub,
       desc: 'Advantage Club is a platform for Xebians to get discounts on numerous brand and to redeem Xebia points. You can avail benefits and redeem your points on more than 10,000 brands across 12+ categories such as Dining, Shopping, Wellness, Travel & more.',
       appLinks: {
@@ -89,6 +99,7 @@ const toolsData = {
       }
     },
     {
+      toolId: 'greenhouse',
       logo: greenhouse,
       desc: 'Recruitment tool which be the common platform for all employees to post their referrals, apply for Internal Job Postings and know about the open positions in Xebia.',
       appLinks: null
@@ -96,6 +107,7 @@ const toolsData = {
   ],
   us: [
     {
+      toolId: 'outlook',
       logo: outlook,
       desc: 'Outlook is our official email provider. Keep yourself updated by accessing your emails on outlook desktop app, mobile app or web.',
       appLinks: {
@@ -104,11 +116,13 @@ const toolsData = {
       }
     },
     {
+      toolId: 'zoho',
       logo: zoho,
       desc: 'A one stop shop for all our employees. Zoho is our complete HR solution. Automate and simplify operations like Leave, company policies & attendance.',
       appLinks: null
     },
     {
+      toolId: 'zohopeople',
       logo: zohopeople,
       desc: 'Zoho People take care of your HR processes. From onboarding and attendance management to time tracking and appraisals.',
       appLinks: {
@@ -117,6 +131,7 @@ const toolsData = {
       }
     },
     {
+      toolId: 'adp',
       logo: adp,
       desc: "ADP is the place to  enroll for Health Benefits, look at your Pay stubs. It is our payroll management system.",
       appLinks: {
@@ -125,6 +140,7 @@ const toolsData = {
       }
     },
     {
+      toolId: 'teams',
       logo: teams,
       desc: "Microsoft Teams is Xebia's internal chat application. You are always connected with Xebians through this easy and user friendly app.",
       appLinks: {
@@ -133,6 +149,7 @@ const toolsData = {
       }
     },
     {
+      toolId: 'tallie',
       logo: tallie,
       desc: "Have any reimbursements to be filled. Go to Tallie and raise the same.",
       appLinks: {
@@ -141,6 +158,7 @@ const toolsData = {
       }
     },
     {
+      toolId: 'github',
       logo: github,
       desc: "GitHub is a Git repository hosting service which is used by Xebia as an official code repository.",
       appLinks: {
@@ -149,6 +167,7 @@ const toolsData = {
       }
     },
     {
+      toolId: 'jira',
       logo: jira,
       desc: "Jira is our offical tool for bug tracking, issue tracking, and project management.",
       appLinks: {
@@ -157,6 +176,7 @@ const toolsData = {
       }
     },
     {
+      toolId: 'sharepoint',
       logo: sharepoint,
       desc: 'SharePoint is a web-based platform that integrates with Microsoft Office. SharePoint is primarily sold as a document management and storage system.',
       appLinks: {
@@ -165,6 +185,7 @@ const toolsData = {
       }
     },
     {
+      toolId: 'greenhouse',
       logo: greenhouse,
       desc: 'Recruitment tool which be the common platform for all employees to post their referrals, apply for Internal Job Postings and know about the open positions in Xebia.',
       appLinks: null
