@@ -18,10 +18,10 @@ const XebiaGroup = () => {
 
   const getTopPos = (start, index) => start + (index * 12);
 
-  const handleSelectItem = (index, people) => {
+  const handleSelectItem = (index, people, type = 'people') => {
     const { sub } = people[index];
-    setSubPeople(null);
-    if (sub && sub.length > 0) {
+    if (type === 'people' && sub && sub.length > 0) {
+      setSubPeople(null);
       return setSubPeople(sub);
     }
   };
@@ -39,6 +39,46 @@ const XebiaGroup = () => {
       setPeople([])
     }
   };
+
+  const handleRenderSubPeople = subPeople => {
+    if (!subPeople) {
+      return null;
+    }
+    return (
+      subPeople.length === 1
+        ? (
+          <Col
+            className={styles.columnWise}
+            style={{ marginTop: '3rem' }}
+          >
+            <SubCard
+              {...subPeople[0]}
+            />
+          </Col>
+        ) : (
+          <Col
+            className={styles.columnWise}
+            style={{ marginTop: '3rem' }}
+          >
+            <Carousel
+              className={styles.groupCarousel}
+              interval={null}
+              slide={false}
+              onSelect={i => handleSelectItem(i, subPeople, 'subPeople')}
+              onSlide={i => handleSelectItem(i, subPeople, 'subPeople')}
+            >
+              {subPeople.map((subPerson, index) => (
+                <Carousel.Item key={JSON.stringify(subPerson) + index}>
+                  <SubCard
+                    {...subPerson}
+                  />
+                </Carousel.Item>
+              ))}
+            </Carousel>
+          </Col>
+        )
+    );
+  }
 
   return (
     <Row className={styles.groupWrapper}>
@@ -163,18 +203,7 @@ const XebiaGroup = () => {
                         }
                       </Carousel>
                     </Col>
-                    {
-                      subPeople && subPeople.map(subPerson => (
-                        <Col
-                          className={styles.columnWise}
-                          style={{ marginTop: '3rem' }}
-                        >
-                          <SubCard
-                            {...subPerson}
-                          />
-                        </Col>
-                      ))
-                    }
+                    { handleRenderSubPeople(subPeople) }
                   </Fragment>
                 </Row>
               ) : (
@@ -186,7 +215,8 @@ const XebiaGroup = () => {
                           {...people[0]}
                         />
                       </Col>
-                      {
+                      { handleRenderSubPeople(subPeople) }
+                      {/* {
                         subPeople && subPeople.map(subPerson => (
                           <Col
                             className={styles.columnWise}
@@ -197,7 +227,7 @@ const XebiaGroup = () => {
                             />
                           </Col>
                         ))
-                      }
+                      } */}
                     </Fragment>
                   </Row>
                 )
