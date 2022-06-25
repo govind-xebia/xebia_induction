@@ -16,12 +16,14 @@ import runki from './assets/people/runki.jpg';
 import vijit from './assets/people/vijit.png'
 import ashish from './assets/people/ashish.jpg';
 import shivam from './assets/people/shivam.jpg';
-import nancy from './assets/people/nancy.jpg';
+import seema from './assets/people/seema.png';
 import sudharshana from './assets/people/sudharshana.jpg';
-import saakshi from './assets/people/saakshi.jpg';
+import nirali from './assets/people/nirali.jpg';
+import archna from './assets/people/archna.jpg';
 import isha from './assets/people/isha.png';
-import vishal from './assets/people/vishal.jpg';
 import diksha from './assets/people/diksha.jpg';
+import meghas from './assets/people/meghas.jpg';
+import lokesh from './assets/people/lokeshc.jpg';
 
 import binx from './assets/logo/binx.png';
 import dataDriven from './assets/logo/data-driven.svg';
@@ -80,7 +82,7 @@ export const globalData = [
   },
   {
     title: 'Xebia Middle East',
-    logoText: 'XME'
+    logoText: 'XMEA'
   },
   {
     title: 'Xebia US',
@@ -181,7 +183,14 @@ export const groupData = {
         name: "Brijesh Kohli",
         dept: "Xebia Academy",
         title: "Director - Academy",
-        img: brijesh
+        img: brijesh,
+        sub: [
+          {
+            name: "Lokesh Chauhan",
+            title: "PBP",
+            img: lokesh
+          }
+        ]
       }
     ]
   },
@@ -211,15 +220,15 @@ export const groupData = {
         img: vijit,
         sub: [
           {
-            name: "Nancy Sawhney",
+            name: "Seema Bhatia",
             title: "PBP",
-            img: nancy
+            img: seema
           }
         ]
       }
     ]
   },
-  xme: {
+  xmea: {
     people: [
       {
         name: "Shankar Garg",
@@ -228,9 +237,9 @@ export const groupData = {
         img: shankar,
         sub: [
           {
-            name: "Vishal Yadav",
+            name: "Megha S",
             title: "PBP",
-            img: vishal
+            img: meghas
           }
         ]
       }
@@ -275,6 +284,11 @@ export const groupData = {
             name: "Shivam Sharma",
             title: "PBP",
             img: shivam
+          },
+          {
+            name: "Archna Thakur",
+            title: "PBP",
+            img: archna
           }
         ]
       }
@@ -306,9 +320,9 @@ export const groupData = {
         img: ashish,
         sub: [
           {
-            name: "Saakshi Gupta",
+            name: "Nirali Sutaria",
             title: "PBP",
-            img: saakshi
+            img: nirali
           }
         ]
       }
