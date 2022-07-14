@@ -9,7 +9,7 @@ const SubCard = ({
 }) => (
   <Card>
     <div className={styles.subCard}>
-      <div class="img-square-wrapper">
+      <div className="img-square-wrapper">
         <Image
           src={img}
           style={{
