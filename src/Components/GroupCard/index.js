@@ -7,6 +7,7 @@ const GroupCard = ({
   name,
   dept,
   title,
+  subtitle,
   img
 }) => (
   <Card 
@@ -22,6 +23,9 @@ const GroupCard = ({
       </h5>
       <p>
         {title}
+      </p>
+      <p>
+        {subtitle}
       </p>
     </Card.Body>
   </Card>

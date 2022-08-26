@@ -6,7 +6,7 @@ const currentYear = new Date();
 
 const locationContent = [
   {
-    title: '2000+',
+    title: '4500+',
     desc: 'People Worldwide',
     icon: connection,
   },
@@ -16,7 +16,7 @@ const locationContent = [
     icon: hourglass,
   },
   {
-    title: 18,
+    title: 30,
     desc: 'Global Presence',
     icon: worldwide,
   }

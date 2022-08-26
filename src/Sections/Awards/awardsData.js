@@ -1,8 +1,19 @@
 const awardsData = [
   {
+    title: "2021 - 2022",
+    content: [
+      "Xebia - Great Place to Work certified for a second consecutive time",
+      "Xebia recognized amongst The Best BFSI Brands of 2021 by ‘The Economic Times’",
+      "Xebia recognized as one of the ‘Best Digital IT Consultancy’ companies by Emerce",
+
+    ]
+  },
+  {
     title: "2020 - 2021",
     content: [
-      "Xebia - Great Place to Work"
+      "Xebia - Great Place to Work",
+      "Economic Times best training organization in IT sector (For Xebia academy) 2020",
+      "Business Connect 25 most trusted IT enterprise in India with certificate of recognition and appreciation 2020"
     ]
   },
   {

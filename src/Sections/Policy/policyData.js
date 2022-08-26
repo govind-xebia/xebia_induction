@@ -9,6 +9,12 @@ export const contentData = {
       title: 'Leave',
       data: [
         {
+          title: 'General Shift',
+          content: [
+            '9:30 am - 6:30 pm'
+          ]
+        },
+        {
           title: 'Earned Leaves',
           content: [
             '15 in a year',
@@ -78,6 +84,13 @@ export const contentData = {
             'Monthly R&R to recognise the outstanding efforts of our employees as individual contributor or in a team setting',
             'Managers across all regions nominate Xebians who have met the criteria',
             'Winners will announced and published across different platforms'
+          ]
+        },
+        {
+          title: 'Galaxy Awards',
+          content: [
+            'Every quarter, Xebians are felicitated for their exceptional performance for that quarter. This felicitation is given by reward points and trophies.',
+            'A centralized panel collects nominations from every department and decides on the most deserving candidates for each category.',
           ]
         }
       ]

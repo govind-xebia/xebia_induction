@@ -24,6 +24,9 @@ import isha from './assets/people/isha.png';
 import diksha from './assets/people/diksha.jpg';
 import meghas from './assets/people/meghas.jpg';
 import lokesh from './assets/people/lokeshc.jpg';
+import sanjeev from "./assets/people/sanjeevbora.jpg";
+import manu from "./assets/people/manugoel.jpg";
+import shankard from "./assets/people/shankardastidar.jpg";
 
 import binx from './assets/logo/binx.png';
 import dataDriven from './assets/logo/data-driven.svg';
@@ -89,7 +92,7 @@ export const globalData = [
     logoText: 'XUS'
   },
   {
-    title: 'Xebia UK',
+    title: 'Xebia UK/Europe',
     logoText: 'XUK'
   },
   {
@@ -208,14 +211,28 @@ export const groupData = {
             img: sudharshana
           }
         ]
+      },
+      {
+        name: "Manu Goel",
+        dept: "Xebia US",
+        title: "Chief Operations Officer",
+        subtitle: "Regional Ops Head - US",
+        img: manu,
       }
     ]
   },
   xuk: {
     people: [
       {
+        name: "Shankar Dastidar",
+        dept: "Xebia UK/Europe",
+        title: "Chief Operations Officer",
+        subtitle: "Regional Ops Head: UK / Europe",
+        img: shankard
+      },
+      {
         name: "Vijit Ghatge",
-        dept: "Xebia UK",
+        dept: "Xebia UK/Europe",
         title: "Director - UK Head",
         img: vijit,
         sub: [
@@ -230,6 +247,20 @@ export const groupData = {
   },
   xmea: {
     people: [
+      {
+        name: "Anurag Agar",
+        dept: "Xebia Middle East",
+        title: "Senior Vice President",
+        subtitle: "Regional Ops Head- XMEA",
+        img: anurag,
+        sub: [
+          {
+            name: "Megha S",
+            title: "PBP",
+            img: meghas
+          }
+        ]
+      },
       {
         name: "Shankar Garg",
         dept: "Xebia Middle East",
@@ -250,7 +281,8 @@ export const groupData = {
       {
         name: "Madhur Arya",
         dept: "Xebia India",
-        title: "Head Of Operations and Chief Information Security Officer",
+        title: "Head Of Operations",
+        subtitle: "Chief Information Security Officer",
         img: madhur
       }
     ]
@@ -277,8 +309,15 @@ export const groupData = {
       {
         name: "Anurag Agar",
         dept: "Xebia North",
-        title: "Director - Delivery",
+        title: "Senior Vice President",
         img: anurag,
+      },
+      {
+        name: "Sanjeev Bora",
+        dept: "Xebia North",
+        title: "Senior Vice President",
+        subtitle: "Regional Ops Head- North",
+        img: sanjeev,
         sub: [
           {
             name: "Shivam Sharma",
@@ -313,6 +352,13 @@ export const groupData = {
   },
   apac: {
     people: [
+      {
+        name: "Shankar Dastidar",
+        dept: "Xebia UK/Europe",
+        title: "Chief Operations Officer",
+        subtitle: "Regional Ops Head: APAC",
+        img: shankard
+      },
       {
         name: "Ashish Proothi",
         dept: "Xebia APAC",

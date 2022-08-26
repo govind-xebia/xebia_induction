@@ -33,8 +33,8 @@ function App() {
         <Pillars />
         <Locations />
         <XebiaGroup />
-        <COE />
         <Chapters />
+        <COE />
         {
           !contractorMode &&
           <>

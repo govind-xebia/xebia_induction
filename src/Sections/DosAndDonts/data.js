@@ -19,9 +19,6 @@ export const dos = [
     text: 'Update Your Linkedin Profile'
   },
   {
-    text: 'Attend XEBIC session as per the invitation sent'
-  },
-  {
     text: 'Be active and responsive on all channels of communication (MS Teams, Outlook etc)'
   },
   {
