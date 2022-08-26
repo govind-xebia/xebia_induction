@@ -1,0 +1,49 @@
+@import "../../styles/colors.scss";
+
+
+.acquisitionCard{
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  padding: 1rem;
+  height: 500px;
+  background-color: #FBFBFB;
+  box-shadow: 0px 1px 6px #00000029;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // height: 300px !important;
+  margin-bottom: 1rem;
+  h5 {
+    font-weight: bold;
+    font-size: 3.125rem;
+    color: $grey-4;
+    margin-bottom: 1rem;
+    letter-spacing: 0.9px;
+    span {
+      font-size: 1rem;
+      vertical-align: middle;
+    }
+  }
+  ul {
+    li {
+      font-weight: bold;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      color: $grey-1;
+      a,
+      a:active {
+        color: purple;
+      }
+    }
+  }
+}
+
+.acquisitionLogo{
+  max-width: 150px;
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+.acquisitionContent{
+  height: 150px;
+}

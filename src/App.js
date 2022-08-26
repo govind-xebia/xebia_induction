@@ -3,10 +3,11 @@ import { Provider } from './countryContext';
 import Welcome from './Sections/Welcome';
 import Origins from './Sections/Origins';
 import Pillars from './Sections/Pillars';
+import Chapters from './Sections/Chapters';
 import Locations from './Sections/Locations';
 import XebiaGroup from './Sections/XebiaGroup';
 import COE from './Sections/COE';
-import Chapters from './Sections/Chapters';
+import RecentAcquisitions from './Sections/RecentAcquisitions';
 import Awards from './Sections/Awards';
 import Clients from './Sections/Clients';
 import Policy from './Sections/Policy';
@@ -31,15 +32,16 @@ function App() {
         <Welcome />
         <Origins />
         <Pillars />
+        <Chapters />
         <Locations />
         <XebiaGroup />
-        <Chapters />
         <COE />
         {
           !contractorMode &&
           <>
             <Clients />
             <Awards />
+            <RecentAcquisitions />
           </>
         }
       </Container>

@@ -7,7 +7,7 @@ import dontSvg from './assets/donts.svg';
 const DosAndDonts = () => {
   return (
     <Container fluid>
-      <Row  className={styles.dosAndDontsWrapper}>
+      <Row className={styles.dosAndDontsWrapper}>
         <Col>
           <div className={styles.dosDontsContent}>
             <h5>
