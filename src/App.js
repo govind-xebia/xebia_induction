@@ -6,6 +6,7 @@ import Pillars from './Sections/Pillars';
 import Locations from './Sections/Locations';
 import XebiaGroup from './Sections/XebiaGroup';
 import COE from './Sections/COE';
+import Chapters from './Sections/Chapters';
 import Awards from './Sections/Awards';
 import Clients from './Sections/Clients';
 import Policy from './Sections/Policy';
@@ -33,6 +34,7 @@ function App() {
         <Locations />
         <XebiaGroup />
         <COE />
+        <Chapters />
         {
           !contractorMode &&
           <>
