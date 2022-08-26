@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/xebia_induction/static/css/main.4f99a295.css",
-    "main.js": "/xebia_induction/static/js/main.94e1c618.js",
+    "main.css": "/xebia_induction/static/css/main.ed136981.css",
+    "main.js": "/xebia_induction/static/js/main.86765aa2.js",
     "static/media/gallery-7.jpg": "/xebia_induction/static/media/gallery-7.a3d2b7d2f015a6cfbb4d.jpg",
     "static/media/gallery-18.jpg": "/xebia_induction/static/media/gallery-18.745586e9de37eb63a250.jpg",
     "static/media/gallery-16.jpg": "/xebia_induction/static/media/gallery-16.18b8b421b9abf91f9ac5.jpg",
@@ -25,7 +25,9 @@
     "static/media/gallery-12.jpg": "/xebia_induction/static/media/gallery-12.1ec01d70d061d7a84d01.jpg",
     "static/media/policy.png": "/xebia_induction/static/media/policy.7f8ba07abcae05322d05.png",
     "static/media/gallery-23.jpg": "/xebia_induction/static/media/gallery-23.79826516409b3765f7b8.jpg",
+    "static/media/chapters.png": "/xebia_induction/static/media/chapters.72124ba9f73c8e9ad58b.png",
     "static/media/shankar.jpg": "/xebia_induction/static/media/shankar.ded44658c7ebc08362da.jpg",
+    "static/media/locations.png": "/xebia_induction/static/media/locations.efd64870a592d8e90189.png",
     "static/media/gallery-24.jpg": "/xebia_induction/static/media/gallery-24.da3977afaf47037a8bb9.jpg",
     "static/media/seema.png": "/xebia_induction/static/media/seema.998d6b571fa79dbd0800.png",
     "static/media/gallery-22.jpg": "/xebia_induction/static/media/gallery-22.727ce8a972295ae47c7a.jpg",
@@ -56,7 +58,6 @@
     "static/media/amitkatkar.png": "/xebia_induction/static/media/amitkatkar.5b385447e4b43fa334de.png",
     "static/media/ing.png": "/xebia_induction/static/media/ing.af425eec69bca22563ea.png",
     "static/media/etihad.png": "/xebia_induction/static/media/etihad.3b8328e2004755d2264a.png",
-    "static/media/map.svg": "/xebia_induction/static/media/map.a95d2c269e45518056a1be17799c25b1.svg",
     "static/media/schipol.png": "/xebia_induction/static/media/schipol.635ed69963a90e2ed776.png",
     "static/media/aspiration.jpg": "/xebia_induction/static/media/aspiration.03fc5e07b496f9e795b6.jpg",
     "static/media/gallery-10.jpg": "/xebia_induction/static/media/gallery-10.e004c2634adac650b27e.jpg",
@@ -125,11 +126,11 @@
     "static/media/quality.svg": "/xebia_induction/static/media/quality.2db05055b0f9a31733b5ecf11cd55ebb.svg",
     "static/media/play.svg": "/xebia_induction/static/media/play.919d6ea349e5edae7949339538179810.svg",
     "index.html": "/xebia_induction/index.html",
-    "main.4f99a295.css.map": "/xebia_induction/static/css/main.4f99a295.css.map",
-    "main.94e1c618.js.map": "/xebia_induction/static/js/main.94e1c618.js.map"
+    "main.ed136981.css.map": "/xebia_induction/static/css/main.ed136981.css.map",
+    "main.86765aa2.js.map": "/xebia_induction/static/js/main.86765aa2.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f99a295.css",
-    "static/js/main.94e1c618.js"
+    "static/css/main.ed136981.css",
+    "static/js/main.86765aa2.js"
   ]
 }
