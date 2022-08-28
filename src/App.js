@@ -41,10 +41,10 @@ function App() {
           <>
             <Clients />
             <Awards />
-            <RecentAcquisitions />
           </>
         }
       </Container>
+      <RecentAcquisitions />
       {
         !contractorMode && <Policy />
       }

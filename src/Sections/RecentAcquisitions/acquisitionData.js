@@ -2,7 +2,7 @@ import appcino from "./logos/appcino.jpg";
 import pgs from "./logos/pgs.jpg";
 import oblivion from "./logos/oblivion.jpg";
 import gcompany from "./logos/gcompany.jpg";
-import comakeit from "./logos/gcompany.jpg";
+import comakeit from "./logos/comakeit.jpg";
 import swissq from "./logos/swissq.jpg";
 
 export default [
