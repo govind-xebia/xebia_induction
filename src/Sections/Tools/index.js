@@ -13,8 +13,8 @@ import styles from './Tools.module.scss';
 import toolsData from './toolsData';
 
 const Tools = () => {
-  const { country, contractorMode } = useContext(CountryContext);
-  const countryTools = toolsData[country].filter(tool => {
+  const { region, contractorMode } = useContext(CountryContext);
+  const countryTools = toolsData[region]?.filter(tool => {
     if (contractorMode) {
       if (
         tool.toolId === 'dkm'

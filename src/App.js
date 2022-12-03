@@ -25,7 +25,7 @@ function App() {
   const contractorMode = queryParams.get('contractor')
   return (
     <Provider value={{
-      country: queryParams.get('country') || 'in',
+      region: queryParams.get('region') || 'in',
       contractorMode
     }}>
       <Container fluid>

@@ -11,9 +11,9 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const ThingsToRemember = () => {
   const [index, setIndex] = useState(0);
-  const { country } = useContext(CountryContext);
+  const { region } = useContext(CountryContext);
 
-  const countrySpecific = toRememberData[country] || [];
+  const countrySpecific = toRememberData[region] ?? toRememberData.default ;
   const handleSelect = selectedIndex => setIndex(selectedIndex);
 
   return (

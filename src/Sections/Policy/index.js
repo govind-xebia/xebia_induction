@@ -16,10 +16,10 @@ import styles from './Policy.module.scss';
 
 const Policy = () => {
   const [content, setContent] = useState('all');
-  const { country } = useContext(CountryContext);  
+  const { region } = useContext(CountryContext);  
   const policyContent = {
-    countryPolicy: policyData[country] || [],
-    countryPolicyData: contentData[country] || []
+    countryPolicy: policyData[region] || [],
+    countryPolicyData: contentData[region] || []
   }
 
   const renderSectionContent = (sectionData, col) => (
@@ -69,7 +69,7 @@ const Policy = () => {
     const { countryPolicyData } = policyContent;
     switch(title){
       case 'Leave':
-        return renderSectionContent(countryPolicyData.leave, country === 'in' ? 6 : 12);
+        return renderSectionContent(countryPolicyData.leave, region === 'in' ? 6 : 12);
       case 'Rewards':
         return renderSectionContent(countryPolicyData.rewards, 12);
       case 'Performance':
