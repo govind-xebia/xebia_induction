@@ -260,19 +260,6 @@ export const groupData = {
             img: meghas
           }
         ]
-      },
-      {
-        name: "Shankar Garg",
-        dept: "Xebia Middle East",
-        title: "Associate Director - Sales",
-        img: shankar,
-        sub: [
-          {
-            name: "Megha S",
-            title: "PBP",
-            img: meghas
-          }
-        ]
       }
     ]
   },
@@ -290,10 +277,10 @@ export const groupData = {
   xs: {
     people: [
       {
-        name: "Vikas Agarwal",
+        name: "Madhur Arya",
         dept: "Xebia South",
         title: "Director - Delivery",
-        img: vikas,
+        img: madhur,
         sub: [
           {
             name: "Diksha Singh",
@@ -323,11 +310,6 @@ export const groupData = {
             name: "Shivam Sharma",
             title: "PBP",
             img: shivam
-          },
-          {
-            name: "Archna Thakur",
-            title: "PBP",
-            img: archna
           }
         ]
       }

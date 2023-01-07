@@ -14,7 +14,6 @@ import Policy from './Sections/Policy';
 import ThingsToRemember from './Sections/ToRemember';
 import DosAndDonts from './Sections/DosAndDonts';
 import LifeAtXebia from "./Sections/LifeAtXebia";
-import Tools from './Sections/Tools';
 import Events from './Sections/Events';
 import ThankYou from './Sections/ThankYou';
 
@@ -52,9 +51,8 @@ function App() {
       {
         !contractorMode && <DosAndDonts />
       }
-      <Container fluid>
-        <Tools />
-      </Container>
+      {/* <Container fluid>
+      </Container> */}
       <LifeAtXebia />
       <Container fluid>
         <Events />

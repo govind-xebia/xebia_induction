@@ -17,15 +17,23 @@ export const contentData = {
         },
         {
           title: "Casual/Sick Leaves",
-          content: ["11 in a year", "Lapse at the end of the year"],
+          content: ["12 in a year", "Lapse at the end of the year"],
         },
         {
           title: "Xebia Holidays",
           content: ["10 Festive Holidays", "2 Optional Holidays"],
         },
         {
-          title: "Birthday/Anniversary",
-          content: ["1 in a year", "For Birthday or Anniversary"],
+          title: "Employee Volunteering Leave",
+          content: ["1 in a year", "Lapse at the end of the year"],
+        },
+        {
+          title: "Skill Development Leave",
+          content: ["2 Leaves in a year", "Lapse at the end of the year"],
+        },
+        {
+          title: "Bereavement Leave",
+          content: ["3 Days in a year", "Lapse at the end of the year"],
         },
         {
           title: "Gift a leave",
