@@ -4,6 +4,9 @@ import oblivion from "./logos/oblivion.jpg";
 import gcompany from "./logos/gcompany.jpg";
 import comakeit from "./logos/comakeit.jpg";
 import swissq from "./logos/swissq.jpg";
+import _47deg from "./logos/47degrees.jpg";
+import getindata from "./logos/getindata.png";
+import netlink from "./logos/netlink.jpg";
 
 export default [
   {
@@ -42,6 +45,24 @@ export default [
     content: [
       "SwissQ is switzerland’s leading niche player for Agile transformation, digital product engineering, and software quality.",
       "Founded in 2006, SwissQ provides consultancy and helps in enabling customers to improve their ways of working and transform into better performing organizations. ",
+    ],
+  },
+  {
+    logo: netlink,
+    content: [
+      "Netlink Digital Solutions we are a team of low-code experts addicted to providing uncommon digital transformation solutions that enhance business processes and drive success."
+    ],
+  },
+  {
+    logo: _47deg,
+    content: [
+      "47 Degrees is a technology consultancy that unlocks business growth for clients by creating assured solutions for complex, mission-critical software."
+    ],
+  },
+  {
+    logo: getindata,
+    content: [
+      "GetInData implements a wide range of Big Data solutions, from Machine Learning Platform, through Google Analytics Bootcamp, to Complex Event Processing Platform."
     ],
   },
 ];
