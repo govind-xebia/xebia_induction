@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xebia_induction/static/css/main.aa730b14.css",
-    "main.js": "/xebia_induction/static/js/main.50343cdc.js",
+    "main.js": "/xebia_induction/static/js/main.fdf6ee14.js",
     "static/media/gallery-7.jpg": "/xebia_induction/static/media/gallery-7.a3d2b7d2f015a6cfbb4d.jpg",
     "static/media/gallery-18.jpg": "/xebia_induction/static/media/gallery-18.745586e9de37eb63a250.jpg",
     "static/media/gallery-16.jpg": "/xebia_induction/static/media/gallery-16.18b8b421b9abf91f9ac5.jpg",
@@ -25,13 +25,13 @@
     "static/media/gallery-12.jpg": "/xebia_induction/static/media/gallery-12.1ec01d70d061d7a84d01.jpg",
     "static/media/policy.png": "/xebia_induction/static/media/policy.7f8ba07abcae05322d05.png",
     "static/media/gallery-23.jpg": "/xebia_induction/static/media/gallery-23.79826516409b3765f7b8.jpg",
-    "static/media/chapters.png": "/xebia_induction/static/media/chapters.72124ba9f73c8e9ad58b.png",
     "static/media/shankar.jpg": "/xebia_induction/static/media/shankar.ded44658c7ebc08362da.jpg",
-    "static/media/locations.png": "/xebia_induction/static/media/locations.efd64870a592d8e90189.png",
     "static/media/gallery-24.jpg": "/xebia_induction/static/media/gallery-24.da3977afaf47037a8bb9.jpg",
     "static/media/seema.png": "/xebia_induction/static/media/seema.998d6b571fa79dbd0800.png",
+    "static/media/locations.png": "/xebia_induction/static/media/locations.95d07d90c4745fc98389.png",
     "static/media/gallery-22.jpg": "/xebia_induction/static/media/gallery-22.727ce8a972295ae47c7a.jpg",
     "static/media/welcome.png": "/xebia_induction/static/media/welcome.352d4d596c555dfac4c9.png",
+    "static/media/chapters.png": "/xebia_induction/static/media/chapters.8e7b9ffdb2ee3d0c721c.png",
     "static/media/dev theory.png": "/xebia_induction/static/media/dev theory.89b0417bdce94c07a13e.png",
     "static/media/xke.png": "/xebia_induction/static/media/xke.7a4990d826aa04c01c02.png",
     "static/media/xebithon.png": "/xebia_induction/static/media/xebithon.83906965d19d67f420b0.png",
@@ -130,10 +130,10 @@
     "static/media/play.svg": "/xebia_induction/static/media/play.919d6ea349e5edae7949339538179810.svg",
     "index.html": "/xebia_induction/index.html",
     "main.aa730b14.css.map": "/xebia_induction/static/css/main.aa730b14.css.map",
-    "main.50343cdc.js.map": "/xebia_induction/static/js/main.50343cdc.js.map"
+    "main.fdf6ee14.js.map": "/xebia_induction/static/js/main.fdf6ee14.js.map"
   },
   "entrypoints": [
     "static/css/main.aa730b14.css",
-    "static/js/main.50343cdc.js"
+    "static/js/main.fdf6ee14.js"
   ]
 }
