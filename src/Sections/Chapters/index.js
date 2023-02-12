@@ -10,7 +10,7 @@ const Chapters = () => (
   <Row className={styles.chaptersWrapper}>
   <Col>
     <SectionTitle
-      title="Our Chapters"
+      title="Service Lines"
     />
   </Col>
   <Col>
