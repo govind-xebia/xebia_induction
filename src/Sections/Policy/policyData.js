@@ -33,7 +33,7 @@ export const contentData = {
         },
         {
           title: "Bereavement Leave",
-          content: ["3 Days in a year", "Lapse at the end of the year"],
+          content: ["3 Days in a year"],
         },
         {
           title: "Gift a leave",

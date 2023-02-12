@@ -10,7 +10,6 @@ import sharepoint from './assets/sharepoint.png';
 import adp from './assets/adp.png';
 import tallie from './assets/tallie.jpg';
 import advantageclub from './assets/advantageclub.jpg';
-import greenhouse from './assets/greenhouse.png';
 
 const toolsData = {
   in: [
@@ -97,12 +96,6 @@ const toolsData = {
         ios: 'https://apps.apple.com/in/app/advantage-club/id1003770310',
         android: 'https://play.google.com/store/apps/details?id=activity.workadvantage.com.workadvantage'
       }
-    },
-    {
-      toolId: 'greenhouse',
-      logo: greenhouse,
-      desc: 'Recruitment tool which be the common platform for all employees to post their referrals, apply for Internal Job Postings and know about the open positions in Xebia.',
-      appLinks: null
     }
   ],
   us: [
@@ -183,12 +176,6 @@ const toolsData = {
         ios: 'https://apps.apple.com/app/microsoft-sharepoint/id1091505266',
         android: 'https://play.google.com/store/apps/details?id=com.microsoft.sharepoint'
       }
-    },
-    {
-      toolId: 'greenhouse',
-      logo: greenhouse,
-      desc: 'Recruitment tool which be the common platform for all employees to post their referrals, apply for Internal Job Postings and know about the open positions in Xebia.',
-      appLinks: null
     }
   ]
 };
