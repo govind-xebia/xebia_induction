@@ -26,7 +26,6 @@ import shankard from "./assets/people/shankardastidar.jpg";
 import taha from "./assets/people/taha.jpg";
 import abhishek from "./assets/people/abhishek.jpg";
 import gaurav from "./assets/people/gaurav.png";
-import andrew from "./assets/people/andrew.jpg";
 
 import binx from "./assets/logo/binx.png";
 import dataDriven from "./assets/logo/data-driven.svg";
@@ -171,13 +170,7 @@ export const groupData = {
         dept: "Xebia Global Services",
         title: "Chief Digital Officer",
         img: rajat,
-      },
-      {
-        name: "Andrew Greenwood",
-        dept: "Xebia Global Services",
-        title: "Chielf Marketing Officer",
-        img: andrew,
-      },
+      }
     ],
   },
   xa: {
@@ -290,7 +283,7 @@ export const groupData = {
         name: "Gaurav Kundra",
         dept: "Xebia India",
         title: "Head Of Operations",
-        subtitle: "Chief Information Security Officer",
+        subtitle: "",
         img: gaurav,
       },
     ],
