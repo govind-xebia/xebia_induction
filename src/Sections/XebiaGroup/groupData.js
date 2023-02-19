@@ -283,7 +283,7 @@ export const groupData = {
         name: "Gaurav Kundra",
         dept: "Xebia India",
         title: "Head Of Operations",
-        subtitle: "",
+        subtitle: null,
         img: gaurav,
       },
     ],
