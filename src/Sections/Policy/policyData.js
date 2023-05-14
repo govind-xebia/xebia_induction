@@ -92,7 +92,7 @@ export const contentData = {
           ],
         },
       ],
-    }
+    },
   },
   us: {
     leave: {
@@ -249,6 +249,23 @@ export const contentData = {
         },
       ],
     },
+    benefits: {
+      title: "Benefits",
+      data: [
+        {
+          title: "Life Insurance",
+          content: [
+            "Group Life insurance provides peace of mind to employees by ensuring their loved ones will be supported by providing a tax-free lump sum in the event of an untimely death. 4X salary .Salary definition/scheme earnings definition -  ‘Basic Annual Salary pre-salary sacrifice",
+          ],
+        },
+        {
+          title: "BUPA",
+          content: [
+            "Perks or fringe benefits that are given by employers but are not included in the employee's salary.",
+          ],
+        },
+      ],
+    },
   },
 };
 
@@ -301,6 +318,10 @@ export const policyData = {
     {
       icon: leaves,
       title: "Leave",
-    }
+    },
+    {
+      icon: awards,
+      title: "Benefits",
+    },
   ],
 };
