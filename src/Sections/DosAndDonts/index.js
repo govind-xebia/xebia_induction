@@ -1,10 +1,15 @@
+import { useContext } from "react";
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import { dos, donts } from './data';
+import { dosData, donts } from './data';
+import CountryContext from '../../countryContext';
 import styles from './styles.module.scss';
 import doSvg from './assets/dos.svg';
 import dontSvg from './assets/donts.svg';
 
 const DosAndDonts = () => {
+  const { region } = useContext(CountryContext);  
+  console.log(region);
+  const dos = dosData[region]
   return (
     <Container fluid>
       <Row className={styles.dosAndDontsWrapper}>

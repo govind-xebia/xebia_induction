@@ -92,88 +92,7 @@ export const contentData = {
           ],
         },
       ],
-    },
-    longterm: {
-      title: "Xebia Adores",
-      data: [
-        {
-          title: "Amethyst Club",
-          content: [
-            "25 Months of service",
-            "Memento + Digital Certificate",
-            "10 gm Silver coin",
-            "10 days of Basic Pay",
-            "Surprise Benefit worth 25,000 INR*",
-            "Thank you note for your family",
-          ],
-        },
-        {
-          title: "Diamond Club",
-          content: [
-            "50 Months",
-            "Memento + Digital Certificate",
-            "4 gm Gold coin",
-            "15 days of Basic Pay",
-            "Surprise Benefit worth 30,000 INR*",
-            "Thank you note for your family",
-            "Family Dinner with leadership team",
-            "Name added on (Digital) Hall of Fame of Xebia",
-          ],
-        },
-        {
-          title: "Onyx Club",
-          content: [
-            "75 Months",
-            "Memento + Digital Certificate",
-            "6 gm Gold coin",
-            "15 days of Basic Pay",
-            "Surprise Benefit worth 50,000 INR*",
-            "Thank you note for your family",
-            "Family Dinner with leadership team",
-            "Name added on (Digital) Hall of Fame of Xebia",
-          ],
-        },
-        {
-          title: "Ruby Club",
-          content: [
-            "100 Months",
-            "Memento + Digital Certificate",
-            "8 gm Gold coin",
-            "25 days of Basic Pay",
-            "Surprise Benefit worth 75,000 INR*",
-            "Thank you note for your family",
-            "Family Dinner with leadership team",
-            "Name added on (Digital) Hall of Fame of Xebia",
-          ],
-        },
-        {
-          title: "Emerald Club",
-          content: [
-            "125 Months",
-            "Memento + Digital Certificate",
-            "10 gm Gold coin",
-            "1 month of Basic Pay",
-            "Surprise Benefit  worth 1,00,000 INR*",
-            "Thank you note for your family",
-            "Family Dinner with leadership team",
-            "Name added on (Digital) Hall of Fame of Xebia",
-          ],
-        },
-        {
-          title: "Sapphire Club",
-          content: [
-            "200 Months",
-            "Memento + Digital Certificate",
-            "16 gm Gold coin",
-            "1 month of Basic Pay",
-            "Surprise Benefit  worth 1,50,000 INR*",
-            "Thank you note for your family",
-            "Family Dinner with leadership team",
-            "Name added on (Digital) Hall of Fame of Xebia",
-          ],
-        },
-      ],
-    },
+    }
   },
   us: {
     leave: {
@@ -326,7 +245,7 @@ export const contentData = {
         },
         {
           title: "Annual Leave",
-          content: ["Post probation: 20 days"],
+          content: ["Post probation: 25 + 1 (Birthday Leave)"],
         },
       ],
     },
@@ -346,10 +265,6 @@ export const policyData = {
     {
       icon: performance,
       title: "Performance Management",
-    },
-    {
-      icon: awards,
-      title: "Xebia Adores",
     },
   ],
   us: [
