@@ -125,35 +125,12 @@ const XebiaGroup = () => {
                     logo={logo}
                     top={`${getTopPos(9.25, index)}%`}
                     left={"27.525rem"}
-                    hasRight={index === 0}
                     logoBg={"#D1C4EF"}
                     bgSize={bgSize}
                     logoText={logoText}
                     handleClick={() => {
                       handleRenderCarousel(logoText.toLowerCase());
                     }}
-                  />
-                ))}
-                <span
-                  className={styles.verticalLine}
-                  style={{
-                    height: "14.45rem",
-                    top: "12.9%",
-                    left: "38.425rem",
-                  }}
-                />
-                {indiaData.map(({ title, logo, bgSize, logoText }, index) => (
-                  <TreeCard
-                    title={title}
-                    logo={logo}
-                    top={`${getTopPos(9.25, index)}%`}
-                    left={"40.8rem"}
-                    logoBg={"#D1C4EF"}
-                    bgSize={bgSize}
-                    logoText={logoText}
-                    handleClick={() =>
-                      handleRenderCarousel(logoText.toLowerCase())
-                    }
                   />
                 ))}
               </Fragment>

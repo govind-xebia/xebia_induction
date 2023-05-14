@@ -1,4 +1,4 @@
-import madhur from "./assets/people/madhur.png";
+import madhur from "./assets/people/madhur.jpg";
 import brijesh from "./assets/people/brijesh.jpg";
 import anurag from "./assets/people/anurag.png";
 import vipul from "./assets/people/vipul.png";
@@ -10,11 +10,11 @@ import amitk from "./assets/people/amitkatkar.png";
 import arvind from "./assets/people/arvind.jpg";
 import rajat from "./assets/people/rajat.jpg";
 import runki from "./assets/people/runki.jpg";
-import vijit from "./assets/people/vijit.png";
+import ajay from "./assets/people/ajay.jpg";
 import ashish from "./assets/people/ashish.jpg";
 import shivam from "./assets/people/shivam.jpg";
 import seema from "./assets/people/seema.png";
-import sudharshana from "./assets/people/sudharshana.jpg";
+import david from "./assets/people/david.jpg";
 import nirali from "./assets/people/nirali.jpg";
 import isha from "./assets/people/isha.png";
 import diksha from "./assets/people/diksha.jpg";
@@ -23,8 +23,11 @@ import lokesh from "./assets/people/lokeshc.jpg";
 import sanjeev from "./assets/people/sanjeevbora.jpg";
 import manu from "./assets/people/manugoel.jpg";
 import shankard from "./assets/people/shankardastidar.jpg";
+import bartosz from "./assets/people/bartosz.jpg";
+import jyotendra from "./assets/people/jyotendra.jpg";
 import taha from "./assets/people/taha.jpg";
 import abhishek from "./assets/people/abhishek.jpg";
+import sachin from "./assets/people/sachin.jpg";
 import gaurav from "./assets/people/gaurav.png";
 
 import binx from "./assets/logo/binx.png";
@@ -131,26 +134,19 @@ export const groupData = {
       {
         name: "Ashok Fenn",
         dept: "Xebia Global Services",
-        title: "Executive Director - Sales",
+        title: "Head Strategic Growth",
         img: ashok,
-        sub: [
-          {
-            name: "Praval Sharma",
-            title: "Sales Head",
-            img: praval,
-          },
-        ],
       },
       {
         name: "Madhur Arya",
         dept: "Xebia Global Services",
-        title: "Head Of Operations and Chief Information Security Officer",
+        title: "Chief People Officer & Innovation",
         img: madhur,
       },
       {
         name: "Glory Nelson",
         dept: "Xebia Global Services",
-        title: "Chief People and Stratergy Officer",
+        title: "Chief People Officer & Innovation",
         img: glory,
       },
       {
@@ -170,7 +166,13 @@ export const groupData = {
         dept: "Xebia Global Services",
         title: "Chief Digital Officer",
         img: rajat,
-      }
+      },
+      {
+        name: "Sachin Gambhir",
+        dept: "Xebia Global Services",
+        title: "Global Head Presales",
+        img: sachin,
+      },
     ],
   },
   xa: {
@@ -195,13 +197,13 @@ export const groupData = {
       {
         name: "Vipul Baijal",
         dept: "Xebia US",
-        title: "Managing Director - Delivery",
+        title: "Head-Americas",
         img: vipul,
         sub: [
           {
-            name: "Sudarshana Mukherjee",
+            name: "Nirali Sutaria",
             title: "PBP",
-            img: sudharshana,
+            img: nirali,
           },
         ],
       },
@@ -209,25 +211,29 @@ export const groupData = {
         name: "Manu Goel",
         dept: "Xebia US",
         title: "Chief Operations Officer",
-        subtitle: "Regional Ops Head - US",
         img: manu,
+      },
+      {
+        name: "David Richards",
+        dept: "Xebia US",
+        title: "David Richards",
+        img: david,
       },
     ],
   },
   xuk: {
     people: [
       {
-        name: "Shankar Dastidar",
+        name: "Bartosz Jabłoński",
         dept: "Xebia UK/Europe",
-        title: "Chief Operations Officer",
-        subtitle: "Regional Ops Head: UK / Europe",
-        img: shankard,
+        title: "Chief Growth Officer",
+        img: bartosz,
       },
       {
-        name: "Vijit Ghatge",
+        name: "Madhur Arya",
         dept: "Xebia UK/Europe",
-        title: "Director - UK Head",
-        img: vijit,
+        title: "Chief Operations Officer",
+        img: madhur,
         sub: [
           {
             name: "Seema Bhatia",
@@ -235,6 +241,18 @@ export const groupData = {
             img: seema,
           },
         ],
+      },
+      {
+        name: "Jyotendra Thockhom",
+        dept: "Xebia UK/Europe",
+        title: "Country Sales Head",
+        img: jyotendra,
+      },
+      {
+        name: "Ajay John",
+        dept: "Xebia UK/Europe",
+        title: "Account Manager",
+        img: ajay,
       },
     ],
   },
@@ -273,18 +291,17 @@ export const groupData = {
   xi: {
     people: [
       {
-        name: "Madhur Arya",
-        dept: "Xebia India",
-        title: "Head Of Operations",
-        subtitle: "Chief Information Security Officer",
-        img: madhur,
-      },
-      {
         name: "Gaurav Kundra",
         dept: "Xebia India",
         title: "Head Of Operations",
         subtitle: null,
         img: gaurav,
+      },
+      {
+        name: "Praval Sharma",
+        dept: "Xebia India",
+        title: "Country Head Sales",
+        img: praval,
       },
     ],
   },
