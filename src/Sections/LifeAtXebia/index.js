@@ -4,8 +4,6 @@ import Carousel, { Modal, ModalGateway } from 'react-images';
 import SectionTitle from '../../Components/SectionTitle';
 import XebiaCard from '../../Components/XebiaCard';
 import party from './assets/party.png';
-import calendar from './assets/calendar.svg';
-import gallery from './assets/gallery.svg';
 import cares from './assets/cares.svg';
 import giveIndia from './assets/giveIndia.svg';
 import { LazyLoadComponent } from 'react-lazy-load-image-component';
@@ -23,14 +21,6 @@ const LifeAtXebia = () => {
     });
   } ,[])
   const lifeData = [
-    {
-      icon: calendar,
-      title: 'Events'
-    },
-    {
-      icon: gallery,
-      title: 'Gallery'
-    },
     {
       icon: cares,
       title: 'Cares',

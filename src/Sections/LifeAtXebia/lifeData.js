@@ -4,10 +4,6 @@ import cares from './assets/cares.svg';
 
 const lifeData = [
   {
-    icon: calendar,
-    title: 'Events'
-  },
-  {
     icon: gallery,
     title: 'Gallery'
   },
