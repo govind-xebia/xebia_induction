@@ -7,7 +7,7 @@ import TreeCard from "../../Components/TreeCard";
 
 import styles from "./XebiaGroup.module.scss";
 
-import { groupData, treeData, globalData, indiaData } from "./groupData";
+import { groupData, treeData, globalData } from "./groupData";
 
 const XebiaGroup = () => {
   const [toggleGroup, setToggleGroup] = useState(false);

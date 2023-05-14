@@ -1,4 +1,4 @@
-import vikasmittal from './assets/vikasmittal.jpg';
+import amit from './assets/amit.jpg';
 import ram from './assets/ram.png';
 import shekhargulati from './assets/shekhargulati.jpg';
 import meetu from './assets/meetu.jpg';
@@ -16,9 +16,9 @@ const CoeData = [
     src: ram
   },
   {
-    title: "Vikas Mittal",
+    title: "Amit Sikka",
     smallDescription: "Digital Assurance",
-    src: vikasmittal
+    src: amit
   },
   {
     title: " Meetu Singh",

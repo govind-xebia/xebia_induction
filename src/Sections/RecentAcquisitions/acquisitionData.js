@@ -12,7 +12,7 @@ export default [
   {
     logo: appcino,
     content: [
-      "Appcino is a low-code consulting and technology firm with a decade of experience in delivering business applications on low-code platforms enabling effective and accelerated digital transformation. Appcino is an Appian Trusted & Elite solutions partner and Salesforce Silver Consulting partner.",
+      "Appcino, a low code arm of the Xebia group, headquartered in Jaipur , the Pink City of India,  with its decade-long experience, is working with numerous global clients enriching their low-code journey on Appian & Salesforce from ideation to delivery & post-delivery.",
     ],
   },
   {
@@ -24,13 +24,13 @@ export default [
   {
     logo: oblivion,
     content: [
-      "Oblivion is AWS Premier Consulting Partner and specializing in cloud engineering, DevOps, and IOT Oblivion’s extensive AWS know-how strengthens Xebia’s position as a leading cloud consultancy firm worldwide.",
+      "Oblivion headquartered in Netherlands,  is an AWS Premier Consulting Partner and specializing in cloud engineering, DevOps, and IOT Oblivion’s extensive AWS know-how strengthens Xebia’s position as a leading cloud consultancy firm worldwide.",
     ],
   },
   {
     logo: gcompany,
     content: [
-      "g-company is a Google Cloud Premier Partner and Google Cloud Authorized Trainer. g-company is a four-time Google Partner of the year, and a partner of Salesforce, Monday.com and Freshworks.",
+      "g-company headquartered in Netherlands,  is a Google Cloud Premier Partner and Google Cloud Authorized Trainer. g-company is a four-time Google Partner of the year, and a partner of Salesforce, Monday.com and Freshworks.",
     ],
   },
   {
@@ -50,19 +50,19 @@ export default [
   {
     logo: netlink,
     content: [
-      "Netlink Digital Solutions we are a team of low-code experts addicted to providing uncommon digital transformation solutions that enhance business processes and drive success."
+      "Netlink Digital Solutions , located in Chennai & Bhopal , are a team of low-code experts addicted to providing uncommon digital transformation solutions that enhance business processes and drive success.",
     ],
   },
   {
     logo: _47deg,
     content: [
-      "47 Degrees is a technology consultancy that unlocks business growth for clients by creating assured solutions for complex, mission-critical software."
+      "47 Degrees is US-based technology consultancy that unlocks business growth for clients by creating assured solutions for complex, mission-critical software.",
     ],
   },
   {
     logo: getindata,
     content: [
-      "GetInData implements a wide range of Big Data solutions, from Machine Learning Platform, through Google Analytics Bootcamp, to Complex Event Processing Platform."
+      "Poland based GetInData implements a wide range of Big Data solutions, from Machine Learning Platform, through Google Analytics Bootcamp, to Complex Event Processing Platform.",
     ],
   },
 ];
