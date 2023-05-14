@@ -1,4 +1,3 @@
-import worldwide from "./assets/worldwide.svg";
 import hourglass from "./assets/hourglass.svg";
 import connection from "./assets/connection.svg";
 
@@ -6,7 +5,7 @@ const currentYear = new Date();
 
 const locationContent = [
   {
-    title: "5500+",
+    title: "6000+",
     desc: "People Worldwide",
     icon: connection,
   },
@@ -14,11 +13,6 @@ const locationContent = [
     title: `${currentYear.getFullYear() - 2001}+`,
     desc: "Glorious Years and Counting",
     icon: hourglass,
-  },
-  {
-    title: "400+",
-    desc: "Clients",
-    icon: worldwide,
   },
 ];
 

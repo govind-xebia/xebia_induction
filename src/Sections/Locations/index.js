@@ -26,7 +26,7 @@ const Locations = () => (
         />
       </Col>
       <Col className={styles.locationContent}>
-        <Row className={`${styles.locationDataWrapper} justify-content-md-center`}>
+        <Row className={`${styles.locationDataWrapper} justify-content-center`}>
           {
             data.map((cardProps, index) => (
               <Col key={cardProps.title} lg={index === 1 ? 4 : 3}>
