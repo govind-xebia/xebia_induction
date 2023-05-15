@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xebia_induction/static/css/main.15dbf8b9.css",
-    "main.js": "/xebia_induction/static/js/main.18eb2b5c.js",
+    "main.js": "/xebia_induction/static/js/main.8db53562.js",
     "static/media/gallery-7.jpg": "/xebia_induction/static/media/gallery-7.a3d2b7d2f015a6cfbb4d.jpg",
     "static/media/gallery-18.jpg": "/xebia_induction/static/media/gallery-18.745586e9de37eb63a250.jpg",
     "static/media/gallery-16.jpg": "/xebia_induction/static/media/gallery-16.18b8b421b9abf91f9ac5.jpg",
@@ -61,7 +61,6 @@
     "static/media/nirali.jpg": "/xebia_induction/static/media/nirali.764a1cd4dd73e737885f.jpg",
     "static/media/amit.jpg": "/xebia_induction/static/media/amit.227a0a5c26198a83d127.jpg",
     "static/media/brijesh.jpg": "/xebia_induction/static/media/brijesh.482fddb3fa7ccf09b548.jpg",
-    "static/media/runki.jpg": "/xebia_induction/static/media/runki.efdc9f7759cedb0c8a14.jpg",
     "static/media/ram.png": "/xebia_induction/static/media/ram.edd70250a79bb6a95f33.png",
     "static/media/sanjeevbora.jpg": "/xebia_induction/static/media/sanjeevbora.f8202cae74bae0a5448a.jpg",
     "static/media/rajat.jpg": "/xebia_induction/static/media/rajat.4755d4fa52b0df2798f1.jpg",
@@ -86,10 +85,10 @@
     "static/media/quality.svg": "/xebia_induction/static/media/quality.2db05055b0f9a31733b5ecf11cd55ebb.svg",
     "index.html": "/xebia_induction/index.html",
     "main.15dbf8b9.css.map": "/xebia_induction/static/css/main.15dbf8b9.css.map",
-    "main.18eb2b5c.js.map": "/xebia_induction/static/js/main.18eb2b5c.js.map"
+    "main.8db53562.js.map": "/xebia_induction/static/js/main.8db53562.js.map"
   },
   "entrypoints": [
     "static/css/main.15dbf8b9.css",
-    "static/js/main.18eb2b5c.js"
+    "static/js/main.8db53562.js"
   ]
 }
