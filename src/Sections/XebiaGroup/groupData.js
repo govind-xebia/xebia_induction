@@ -9,7 +9,6 @@ import glory from "./assets/people/glory.jpg";
 import amitk from "./assets/people/amitkatkar.png";
 import arvind from "./assets/people/arvind.jpg";
 import rajat from "./assets/people/rajat.jpg";
-import runki from "./assets/people/runki.jpg";
 import ajay from "./assets/people/ajay.jpg";
 import ashish from "./assets/people/ashish.jpg";
 import shivam from "./assets/people/shivam.jpg";
@@ -140,7 +139,7 @@ export const groupData = {
       {
         name: "Madhur Arya",
         dept: "Xebia Global Services",
-        title: "Chief People Officer & Innovation",
+        title: "Chief Operations Officer",
         img: madhur,
       },
       {
@@ -148,12 +147,6 @@ export const groupData = {
         dept: "Xebia Global Services",
         title: "Chief People Officer & Innovation",
         img: glory,
-      },
-      {
-        name: "Runki Goswami",
-        dept: "Xebia Global Services",
-        title: "Chief Marketing Officer",
-        img: runki,
       },
       {
         name: "Arvind Sharma",

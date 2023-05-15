@@ -245,7 +245,7 @@ export const contentData = {
         },
         {
           title: "Annual Leave",
-          content: ["Post probation: 25 + 1 (Birthday Leave)"],
+          content: ["25 + 1 (Birthday Leave)"],
         },
       ],
     },
