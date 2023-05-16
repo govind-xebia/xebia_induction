@@ -28,6 +28,7 @@ import taha from "./assets/people/taha.jpg";
 import abhishek from "./assets/people/abhishek.jpg";
 import sachin from "./assets/people/sachin.jpg";
 import gaurav from "./assets/people/gaurav.png";
+import shankar from "./assets/people/shankardastidar.jpg";
 
 import binx from "./assets/logo/binx.png";
 import dataDriven from "./assets/logo/data-driven.svg";
@@ -242,10 +243,10 @@ export const groupData = {
         img: jyotendra,
       },
       {
-        name: "Ajay John",
+        name: "Shankar Dastidar",
         dept: "Xebia UK/Europe",
-        title: "Account Manager",
-        img: ajay,
+        title: "Regional Ops Head",
+        img: shankar,
       },
     ],
   },

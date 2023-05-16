@@ -28,7 +28,7 @@ export const dosData = {
   ],
   eu: [
     {
-      text: "Start marking your attendance daily (when working) on Zoho People- either web or mobile app version",
+      text: "Please mark your Leave/Holiday on ZOHO without fail",
     },
     {
       text: "Join #Askhr on teams, click",
